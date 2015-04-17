@@ -14,57 +14,6 @@ body {font:;}
   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
   <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 
-
-
-<!-- SLIDERS -->
-<script>
-
-var budget_vals=[75,300];
-var profit_vals=[75,300];
-var rating_vals=[75,300];
-
-  $(function() {
-    $( "#budget-range" ).slider({
-      range: true,
-      min: 0,
-      max: 500,
-      values: budget_vals,
-      slide: function( event, ui ) {
-        $( "#budget" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
-      }
-    });
-    $( "#budget" ).val( "$" + $( "#budget-range" ).slider( "values", 0 ) +
-      " - $" + $( "#budget-range" ).slider( "values", 1 ) );
-  });
-
-    $(function() {
-    $( "#profit-range" ).slider({
-      range: true,
-      min: 0,
-      max: 500,
-      values: profit_vals,
-      slide: function( event, ui ) {
-        $( "#profit" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
-      }
-    });
-    $( "#profit" ).val( "$" + $( "#profit-range" ).slider( "values", 0 ) +
-      " - $" + $( "#profit-range" ).slider( "values", 1 ) );
-  });
-
-      $(function() {
-    $( "#rating-range" ).slider({
-      range: true,
-      min: 0,
-      max: 500,
-      values: rating_vals,
-      slide: function( event, ui ) {
-        $( "#rating" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
-      }
-    });
-    $( "#rating" ).val( "$" + $( "#rating-range" ).slider( "values", 0 ) +
-      " - $" + $( "#rating-range" ).slider( "values", 1 ) );
-  });
-  </script>
 </head>
 <body>
  
@@ -97,3 +46,52 @@ var rating_vals=[75,300];
  
 </body>
 </html>
+
+<!-- SLIDERS -->
+<script>
+
+var budget_vals=[75,100];
+var profit_vals=[75,300];
+var rating_vals=[23,300];
+
+
+function makeSlider(slider_div, text_div, values){
+ 
+  $(slider_div).slider({
+      range: true,
+      min: 0,
+      max: 500,
+      values: values,
+      slide: function( event, ui ) {
+        $( text_div ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+        budget_vals=[ui.values[0], ui.values[1]]
+        updateGraph();
+      }
+    });
+    $( text_div).val( "$" + $( slider_div ).slider( "values", 0 ) +
+      " - $" + $( slider_div ).slider( "values", 1 ) );
+
+ 
+
+}
+makeSlider("#budget-range", "#budget",budget_vals);
+makeSlider("#profit-range", "#profit",profit_vals);
+makeSlider("#rating-range", "#rating",rating_vals);
+
+
+function updateGraph(){
+  //get updated values from sliders
+var budget_vals = $( "#budget-range" ).slider( "values" );
+var profit_vals = $( "#profit-range" ).slider( "values" );
+var rating_vals = $( "#rating-range" ).slider( "values" );
+
+
+
+
+
+
+
+}
+
+
+  </script>
