@@ -40,6 +40,20 @@ body {font:;}
 </p>
 <div class="slider"  id="rating-range"></div>
 
+
+<p>
+  <label for="rating">Genre</label><br>
+ <input checked type="checkbox" name="genre" value="action" >Action<br>
+ <input checked type="checkbox" name="genre" value="animation" >Animation<br>
+ <input checked type="checkbox" name="genre" value="comedy" >Comedy<br>
+ <input checked type="checkbox" name="genre" value="drama" >Drama<br>
+ <input checked type="checkbox" name="genre" value="fantasy" >Fantasy<br>
+ <input checked type="checkbox" name="genre" value="horror" >Horror<br>
+ <input checked type="checkbox" name="genre" value="romance" >Romance<br>
+ <input checked type="checkbox" name="genre" value="thriller" >Thriller<br>
+
+
+</p>
  
 </div>
 
@@ -53,6 +67,8 @@ body {font:;}
 var budget_vals=[75,100];
 var profit_vals=[75,300];
 var rating_vals=[23,300];
+var years=[];
+var genres = [];
 
 
 function makeSlider(slider_div, text_div, values){
@@ -70,22 +86,25 @@ function makeSlider(slider_div, text_div, values){
     });
     $( text_div).val( "$" + $( slider_div ).slider( "values", 0 ) +
       " - $" + $( slider_div ).slider( "values", 1 ) );
-
- 
-
 }
+
+
 makeSlider("#budget-range", "#budget",budget_vals);
 makeSlider("#profit-range", "#profit",profit_vals);
 makeSlider("#rating-range", "#rating",rating_vals);
 
 
 function updateGraph(){
-  //get updated values from sliders
+  //get updated values from sliders and checkboxes
 var budget_vals = $( "#budget-range" ).slider( "values" );
 var profit_vals = $( "#profit-range" ).slider( "values" );
 var rating_vals = $( "#rating-range" ).slider( "values" );
+var genres = $('input:checkbox:checked').map(function() {
+    return this.value;
+}).get();
 
 
+//TODO: update graph here:
 
 
 
