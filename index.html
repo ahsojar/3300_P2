@@ -5,6 +5,19 @@
 body {font:;}
 .slider{width:40%;}
 
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.tooltip {
+  position: absolute;
+  width: 200px;
+  height: 28px;
+  pointer-events: none;
+}
+
 </style>
 
 <body>
@@ -56,6 +69,7 @@ body {font:;}
 </p>
  
 </div>
+<div id="scatterplot"></div>
 
  
 </body>
@@ -92,6 +106,98 @@ function makeSlider(slider_div, text_div, values){
 makeSlider("#budget-range", "#budget",budget_vals);
 makeSlider("#profit-range", "#profit",profit_vals);
 makeSlider("#rating-range", "#rating",rating_vals);
+
+//set up margins
+var margin = {top: 20, right: 20, bottom: 30, left: 40},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+// setup svg
+var svg = d3.select("#scatterplot").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+// setup x scale and axis
+var xScale = d3.scale.linear().range([0, width]),
+    xAxis = d3.svg.axis().scale(xScale).orient("bottom");
+
+// setup y scale and axis
+var yScale = d3.scale.linear().range([height, 0]),
+    yAxis = d3.svg.axis().scale(yScale).orient("left");
+
+// setup fill color
+var color = d3.scale.category10();
+
+// add the tooltip area to the webpage
+var tooltip = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0)
+
+// parse movie csv
+d3.csv("movies2011.csv",
+        function(d) {
+          return {
+            title: d.Film,
+            rating: +d.Rotten_Tomatoes,
+            genre: d.Genre,
+            budget: +d.Budget,
+            profitability: +d.Profitability
+          };
+        },
+        function(error, data) {
+          // don't want dots overlapping axis, so add in buffer to data domain
+            xScale.domain([d3.min(data, function(d) {return d.budget}), d3.max(data, function(d) { return d.budget})]);
+            yScale.domain([d3.min(data, function(d) {return d.rating}), d3.max(data, function(d) {return d.rating})]);
+
+            // x-axis
+            svg.append("g")
+                .attr("class", "x axis")
+                .attr("transform", "translate(0," + height + ")")
+                .call(xAxis)
+              .append("text")
+                .attr("class", "label")
+                .attr("x", width)
+                .attr("y", -6)
+                .style("text-anchor", "end")
+                .text("Budget (Millions)");
+
+            // y-axis
+            svg.append("g")
+                .attr("class", "y axis")
+                .call(yAxis)
+              .append("text")
+                .attr("class", "label")
+                .attr("transform", "rotate(-90)")
+                .attr("y", 6)
+                .attr("dy", ".71em")
+                .style("text-anchor", "end")
+                .text("Rating (%)");
+
+            // draw dots
+            svg.selectAll(".dot")
+                .data(data)
+              .enter().append("circle")
+                .attr("class", "dot")
+                .attr("r", 3.5)
+                .attr("cx", function(d) {return xScale(d.budget)})
+                .attr("cy", function(d) {return yScale(d.rating)})
+                .style("fill", function(d) { return color(d.genre);})
+                .on("mouseover", function(d) {
+                    tooltip.transition()
+                         .duration(500)
+                         .style("opacity", .9);
+                    tooltip.html(d.title)
+                         .style("left", (d3.event.pageX + 5) + "px")
+                         .style("top", (d3.event.pageY - 28) + "px");
+                })
+                .on("mouseout", function(d) {
+                    tooltip.transition()
+                         .duration(500)
+                         .style("opacity", 0);
+                });
+        });
 
 
 function updateGraph(){
