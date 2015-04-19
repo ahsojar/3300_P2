@@ -2,13 +2,42 @@
 <meta charset="utf-8">
 <style>
 
-body {font:;}
-.slider{width:40%;}
+body {font-family:'Open Sans';}
+
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.tooltip {
+  position: absolute;
+  width: auto;
+  padding:5px;
+  height: auto;
+  text-align: center;
+  font-weight: bold;
+  background-color: #D9D6BF;
+  border:1px solid #CCC;
+  pointer-events: none;
+}
+
+.dot{
+  fill-opacity: 0.7;
+  stroke-width: 2;
+}
+
+.choose{float:left;
+width:46%;
+padding: 2%;
+}
 
 </style>
 
 <body>
 <script src="http://d3js.org/d3.v3.min.js"></script>
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
@@ -18,7 +47,7 @@ body {font:;}
 <body>
  
 <div class="filter">
-
+<div class="choose">
 <p>
   <label for="budget">Budget range:</label>
   <input type="text" id="budget" readonly style="border:0; color:#f6931f; font-weight:bold;">
@@ -39,8 +68,9 @@ body {font:;}
   <input type="text" id="rating" readonly style="border:0; color:#f6931f; font-weight:bold;">
 </p>
 <div class="slider"  id="rating-range"></div>
+</div>
 
-
+<div class="choose">
 <p>
   <label for="rating">Genre</label><br>
  <input checked type="checkbox" name="genre" value="action" >Action<br>
@@ -54,9 +84,10 @@ body {font:;}
 
 
 </p>
- 
+ </div>
 </div>
 
+<div id="scatterplot"></div>
  
 </body>
 </html>
@@ -64,34 +95,92 @@ body {font:;}
 <!-- SLIDERS -->
 <script>
 
-var budget_vals=[75,100];
-var profit_vals=[75,300];
-var rating_vals=[23,300];
+var budget_vals=[0,300];
+var profit_vals=[0,10000];
+var rating_vals=[0,300];
 var years=[];
 var genres = [];
 
 
-function makeSlider(slider_div, text_div, values){
+function makeSlider(slider_div, text_div, values, max){
  
   $(slider_div).slider({
       range: true,
       min: 0,
-      max: 500,
+      max: max,
       values: values,
       slide: function( event, ui ) {
-        $( text_div ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+        $( text_div ).val( "" + ui.values[ 0 ] + " - " + ui.values[ 1 ] );
         budget_vals=[ui.values[0], ui.values[1]]
+      },
+      stop: function( event, ui){
         updateGraph();
       }
+     
     });
-    $( text_div).val( "$" + $( slider_div ).slider( "values", 0 ) +
-      " - $" + $( slider_div ).slider( "values", 1 ) );
+    $( text_div).val( "" + $( slider_div ).slider( "values", 0 ) +
+      " - " + $( slider_div ).slider( "values", 1 ) );
 }
 
 
-makeSlider("#budget-range", "#budget",budget_vals);
-makeSlider("#profit-range", "#profit",profit_vals);
-makeSlider("#rating-range", "#rating",rating_vals);
+makeSlider("#budget-range", "#budget",budget_vals, 400);
+makeSlider("#profit-range", "#profit",profit_vals, 8000);
+makeSlider("#rating-range", "#rating",rating_vals, 100);
+
+//set up margins
+var margin = {top: 20, right: 20, bottom: 30, left: 40},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+// setup svg
+var svg = d3.select("#scatterplot").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+// setup x scale and axis
+var xScale = d3.scale.linear().range([0, width]),
+    xAxis = d3.svg.axis().scale(xScale).orient("bottom");
+
+// setup y scale and axis
+var yScale = d3.scale.linear().range([height, 0]),
+    yAxis = d3.svg.axis().scale(yScale).orient("left");
+
+// setup fill color
+var color = d3.scale.category10();
+
+// add the tooltip area to the webpage
+var tooltip = d3.select("body").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 0)
+
+
+// x-axis
+svg.append("g")
+  .attr("class", "x axis")
+  .attr("transform", "translate(0," + height + ")")
+  .call(xAxis)
+  .append("text")
+  .attr("class", "label")
+  .attr("x", width)
+  .attr("y", -6)
+  .style("text-anchor", "end")
+  .text("Budget (Millions)");
+
+// y-axis
+svg.append("g")
+  .attr("class", "y axis")
+  .call(yAxis)
+  .append("text")
+  .attr("class", "label")
+  .attr("transform", "rotate(-90)")
+  .attr("y", 6)
+  .attr("dy", ".71em")
+  .style("text-anchor", "end")
+  .text("Rating (%)");
+
+  updateGraph();          
 
 $("input:checkbox").change(function() {
    updateGraph();
@@ -99,6 +188,7 @@ $("input:checkbox").change(function() {
 
 function updateGraph(){
 
+console.log("update called;")
   //get updated values from sliders and checkboxes
 var budget_vals = $( "#budget-range" ).slider( "values" );
 var profit_vals = $( "#profit-range" ).slider( "values" );
@@ -108,7 +198,114 @@ var genres = $('input:checkbox:checked').map(function() {
 }).get();
 
 
-//TODO: update graph here:
+
+//update graph
+d3.csv("movies2011.csv",
+        function(d) {
+          return {
+            title: d.Film,
+            rating: +d.Rotten_Tomatoes,
+            genre: d.Genre,
+            budget: +d.Budget,
+            profitability: +d.Profitability
+          };
+        },
+        function(error, data) {
+
+          //filter data
+          var newdata = data.filter(function(d){
+            if (d.budget > budget_vals[0] && d.budget < budget_vals[1]
+              && d.rating > rating_vals[0] && d.rating < rating_vals[1]
+              && d.profitability > profit_vals[0] && d.profitability < profit_vals[1]){
+              //console.log(d.title + ", " + d.budget);
+            return d;
+          }
+          })
+          // don't want dots overlapping axis, so add in buffer to data domain
+            xScale.domain([d3.min(newdata, function(d) {return d.budget}), d3.max(newdata, function(d) { return d.budget})]);
+            yScale.domain([d3.min(newdata, function(d) {return d.rating}), d3.max(newdata, function(d) {return d.rating})]);
+
+            // Update X Axis
+                        svg.select(".x.axis")
+                            .transition()
+                            .duration(1000)
+                            .call(xAxis);
+            // Update X Axis
+                        svg.select(".y.axis")
+                            .transition()
+                            .duration(1000)
+                            .call(yAxis);
+            //sort data so small bubbles on top                
+            newdata.sort(function (a, b) {
+              if (a.profitability < b.profitability) {
+                return 1;
+              }
+              if (a.profitability > b.profitability) {
+                return -1;
+              }
+              // a must be equal to b
+              return 0;
+            });
+
+                //Update all circles
+                    var circles = svg.selectAll("circle")
+                       .data(newdata);
+                    circles.transition()
+                       .duration(1000)
+                       .attr("r", function(d) {return Math.pow(d.profitability,0.42);})
+                       .attr("cx", function(d) {
+                            return xScale(d.budget);
+                       })
+                       .attr("cy", function(d) {
+                            return yScale(d.rating);
+                       });
+                       circles.style("fill", function(d) { return color(d.genre);})
+                       .style("stroke", function(d) { return color(d.genre);})
+                      .on("mouseover", function(d) {
+                          d3.select(this).style("fill-opacity" ,1);
+                          tooltip.transition()
+                            .duration(500)
+                            .style("opacity", .9);
+                          tooltip.html("<strong>"+d.title+"</strong>")
+                            .style("left", (d3.event.pageX + 5) + "px")
+                            .style("top", (d3.event.pageY - 28) + "px");
+                      })
+                       .on("mouseout", function(d) {
+                        d3.select(this).style("fill-opacity" ,0.7);
+                          tooltip.transition()
+                            .duration(500)
+                            .style("opacity", 0);
+                });
+
+            //Enter new circles
+           
+                circles.enter().append("circle")
+                .attr("class", "dot")
+                .attr("r", function(d) {return Math.pow(d.profitability,0.42);})
+                .attr("cx", function(d) {return xScale(d.budget)})
+                .attr("cy", function(d) {return yScale(d.rating)})
+                .style("fill", function(d) { return color(d.genre);})
+                .style("stroke", function(d) { return color(d.genre);})
+                .on("mouseover", function(d) {
+                  d3.select(this).style("fill-opacity" ,1);
+                    tooltip.transition()
+                         .duration(500)
+                         .style("opacity", .9);
+                    tooltip.html(d.title)
+                         .style("left", (d3.event.pageX + 5) + "px")
+                         .style("top", (d3.event.pageY - 28) + "px");
+                })
+                .on("mouseout", function(d) {
+                    d3.select(this).style("fill-opacity" ,0.7);
+                    tooltip.transition()
+                         .duration(500)
+                         .style("opacity", 0);
+                });
+
+                    // Remove old
+                   circles.exit().remove();
+        });
+
 
 
 }
