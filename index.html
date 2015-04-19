@@ -69,8 +69,8 @@ body {font:;}
 </p>
  
 </div>
-<div id="scatterplot"></div>
 
+<div id="scatterplot"></div>
  
 </body>
 </html>
@@ -78,9 +78,9 @@ body {font:;}
 <!-- SLIDERS -->
 <script>
 
-var budget_vals=[75,100];
-var profit_vals=[75,300];
-var rating_vals=[23,300];
+var budget_vals=[0,300];
+var profit_vals=[0,300];
+var rating_vals=[0,300];
 var years=[];
 var genres = [];
 
@@ -95,8 +95,11 @@ function makeSlider(slider_div, text_div, values){
       slide: function( event, ui ) {
         $( text_div ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
         budget_vals=[ui.values[0], ui.values[1]]
+      },
+      stop: function( event, ui){
         updateGraph();
       }
+     
     });
     $( text_div).val( "$" + $( slider_div ).slider( "values", 0 ) +
       " - $" + $( slider_div ).slider( "values", 1 ) );
@@ -135,7 +138,47 @@ var tooltip = d3.select("body").append("div")
     .attr("class", "tooltip")
     .style("opacity", 0)
 
-// parse movie csv
+
+// x-axis
+svg.append("g")
+  .attr("class", "x axis")
+  .attr("transform", "translate(0," + height + ")")
+  .call(xAxis)
+  .append("text")
+  .attr("class", "label")
+  .attr("x", width)
+  .attr("y", -6)
+  .style("text-anchor", "end")
+  .text("Budget (Millions)");
+
+// y-axis
+svg.append("g")
+  .attr("class", "y axis")
+  .call(yAxis)
+  .append("text")
+  .attr("class", "label")
+  .attr("transform", "rotate(-90)")
+  .attr("y", 6)
+  .attr("dy", ".71em")
+  .style("text-anchor", "end")
+  .text("Rating (%)");
+
+  updateGraph();          
+
+
+function updateGraph(){
+  //get updated values from sliders and checkboxes
+var budget_vals = $( "#budget-range" ).slider( "values" );
+var profit_vals = $( "#profit-range" ).slider( "values" );
+var rating_vals = $( "#rating-range" ).slider( "values" );
+var genres = $('input:checkbox:checked').map(function() {
+    return this.value;
+}).get();
+
+
+//TODO: update graph here:
+console.log(budget_vals);
+
 d3.csv("movies2011.csv",
         function(d) {
           return {
@@ -147,40 +190,61 @@ d3.csv("movies2011.csv",
           };
         },
         function(error, data) {
+
+          var newdata = data.filter(function(d){
+            if (d.budget > budget_vals[0] && d.budget < budget_vals[1]
+              && d.rating > rating_vals[0] && d.rating < rating_vals[1]){
+              //console.log(d.title + ", " + d.budget);
+            return d;
+          }
+          })
           // don't want dots overlapping axis, so add in buffer to data domain
-            xScale.domain([d3.min(data, function(d) {return d.budget}), d3.max(data, function(d) { return d.budget})]);
-            yScale.domain([d3.min(data, function(d) {return d.rating}), d3.max(data, function(d) {return d.rating})]);
+            xScale.domain([d3.min(newdata, function(d) {return d.budget}), d3.max(newdata, function(d) { return d.budget})]);
+            yScale.domain([d3.min(newdata, function(d) {return d.rating}), d3.max(newdata, function(d) {return d.rating})]);
 
-            // x-axis
-            svg.append("g")
-                .attr("class", "x axis")
-                .attr("transform", "translate(0," + height + ")")
-                .call(xAxis)
-              .append("text")
-                .attr("class", "label")
-                .attr("x", width)
-                .attr("y", -6)
-                .style("text-anchor", "end")
-                .text("Budget (Millions)");
+            // Update X Axis
+                        svg.select(".x.axis")
+                            .transition()
+                            .duration(1000)
+                            .call(xAxis);
+            // Update X Axis
+                        svg.select(".y.axis")
+                            .transition()
+                            .duration(1000)
+                            .call(yAxis);
 
-            // y-axis
-            svg.append("g")
-                .attr("class", "y axis")
-                .call(yAxis)
-              .append("text")
-                .attr("class", "label")
-                .attr("transform", "rotate(-90)")
-                .attr("y", 6)
-                .attr("dy", ".71em")
-                .style("text-anchor", "end")
-                .text("Rating (%)");
+                //Update all circles
+                    var circles = svg.selectAll("circle")
+                       .data(newdata);
+                    circles.transition()
+                       .duration(1000)
+                       .attr("r", function(d) {return Math.pow(d.profitability,0.42);})
+                       .attr("cx", function(d) {
+                            return xScale(d.budget);
+                       })
+                       .attr("cy", function(d) {
+                            return yScale(d.rating);
+                       });
+                       circles.style("fill", function(d) { return color(d.genre);})
+                      .on("mouseover", function(d) {
+                          tooltip.transition()
+                            .duration(500)
+                            .style("opacity", .9);
+                          tooltip.html(d.title)
+                            .style("left", (d3.event.pageX + 5) + "px")
+                            .style("top", (d3.event.pageY - 28) + "px");
+                      })
+                       .on("mouseout", function(d) {
+                          tooltip.transition()
+                            .duration(500)
+                            .style("opacity", 0);
+                });
 
-            // draw dots
-            svg.selectAll(".dot")
-                .data(data)
-              .enter().append("circle")
+            //Enter new circles
+           
+                circles.enter().append("circle")
                 .attr("class", "dot")
-                .attr("r", 3.5)
+                .attr("r", function(d) {return Math.pow(d.profitability,0.42);})
                 .attr("cx", function(d) {return xScale(d.budget)})
                 .attr("cy", function(d) {return yScale(d.rating)})
                 .style("fill", function(d) { return color(d.genre);})
@@ -197,23 +261,10 @@ d3.csv("movies2011.csv",
                          .duration(500)
                          .style("opacity", 0);
                 });
+
+                    // Remove old
+                   circles.exit().remove();
         });
-
-
-function updateGraph(){
-  //get updated values from sliders and checkboxes
-var budget_vals = $( "#budget-range" ).slider( "values" );
-var profit_vals = $( "#profit-range" ).slider( "values" );
-var rating_vals = $( "#rating-range" ).slider( "values" );
-var genres = $('input:checkbox:checked').map(function() {
-    return this.value;
-}).get();
-
-
-//TODO: update graph here:
-
-
-
 
 
 }
