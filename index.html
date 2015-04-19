@@ -84,21 +84,21 @@ body {font:;}
 <script>
 
 var budget_vals=[0,300];
-var profit_vals=[0,300];
+var profit_vals=[0,10000];
 var rating_vals=[0,300];
 var years=[];
 var genres = [];
 
 
-function makeSlider(slider_div, text_div, values){
+function makeSlider(slider_div, text_div, values, max){
  
   $(slider_div).slider({
       range: true,
       min: 0,
-      max: 500,
+      max: max,
       values: values,
       slide: function( event, ui ) {
-        $( text_div ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+        $( text_div ).val( "" + ui.values[ 0 ] + " - " + ui.values[ 1 ] );
         budget_vals=[ui.values[0], ui.values[1]]
       },
       stop: function( event, ui){
@@ -106,14 +106,14 @@ function makeSlider(slider_div, text_div, values){
       }
      
     });
-    $( text_div).val( "$" + $( slider_div ).slider( "values", 0 ) +
-      " - $" + $( slider_div ).slider( "values", 1 ) );
+    $( text_div).val( "" + $( slider_div ).slider( "values", 0 ) +
+      " - " + $( slider_div ).slider( "values", 1 ) );
 }
 
 
-makeSlider("#budget-range", "#budget",budget_vals);
-makeSlider("#profit-range", "#profit",profit_vals);
-makeSlider("#rating-range", "#rating",rating_vals);
+makeSlider("#budget-range", "#budget",budget_vals, 400);
+makeSlider("#profit-range", "#profit",profit_vals, 8000);
+makeSlider("#rating-range", "#rating",rating_vals, 100);
 
 //set up margins
 var margin = {top: 20, right: 20, bottom: 30, left: 40},
@@ -193,7 +193,7 @@ d3.csv("movies2011.csv",
           };
         },
         function(error, data) {
-          
+
           //filter data
           var newdata = data.filter(function(d){
             if (d.budget > budget_vals[0] && d.budget < budget_vals[1]
