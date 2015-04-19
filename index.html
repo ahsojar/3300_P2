@@ -93,8 +93,12 @@ makeSlider("#budget-range", "#budget",budget_vals);
 makeSlider("#profit-range", "#profit",profit_vals);
 makeSlider("#rating-range", "#rating",rating_vals);
 
+$("input:checkbox").change(function() {
+   updateGraph();
+});
 
 function updateGraph(){
+
   //get updated values from sliders and checkboxes
 var budget_vals = $( "#budget-range" ).slider( "values" );
 var profit_vals = $( "#profit-range" ).slider( "values" );
@@ -105,9 +109,6 @@ var genres = $('input:checkbox:checked').map(function() {
 
 
 //TODO: update graph here:
-
-
-
 
 
 }
