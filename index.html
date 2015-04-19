@@ -1,63 +1,30 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<style>
-
-body {font-family:'Open Sans';}
-
-
-.axis path, .axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}
-
-.tooltip {
-  position: absolute;
-  width: auto;
-  padding:5px;
-  height: auto;
-  text-align: center;
-  font-weight: bold;
-  background-color: #D9D6BF;
-  border:1px solid #CCC;
-  pointer-events: none;
-}
-
-.dot{
-  fill-opacity: 0.7;
-  stroke-width: 2;
-}
-
-.choose{float:left;
-width:46%;
-padding: 2%;
-}
-
-</style>
 
 <body>
 <script src="http://d3js.org/d3.v3.min.js"></script>
-      <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" href="style.css">
   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
   <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 
 </head>
 <body>
- 
+ <div class="container">
 <div class="filter">
 <div class="choose">
 <p>
   <label for="budget">Budget range:</label>
-  <input type="text" id="budget" readonly style="border:0; color:#f6931f; font-weight:bold;">
+  <input class="text-label" type="text" id="budget" readonly>
 </p>
  
 <div class="slider" id="budget-range"></div>
 
 <p>
   <label for="profit">Profit range:</label>
-  <input type="text" id="profit" readonly style="border:0; color:#f6931f; font-weight:bold;">
+  <input class="text-label"  type="text" id="profit" readonly >
 </p>
 
 
@@ -65,7 +32,7 @@ padding: 2%;
 
 <p>
   <label for="rating">Rating range:</label>
-  <input type="text" id="rating" readonly style="border:0; color:#f6931f; font-weight:bold;">
+  <input class="text-label"  type="text" id="rating" readonly >
 </p>
 <div class="slider"  id="rating-range"></div>
 </div>
@@ -73,14 +40,14 @@ padding: 2%;
 <div class="choose">
 <p>
   <label for="rating">Genre</label><br>
- <input checked type="checkbox" name="genre" value="action" >Action<br>
- <input checked type="checkbox" name="genre" value="animation" >Animation<br>
- <input checked type="checkbox" name="genre" value="comedy" >Comedy<br>
- <input checked type="checkbox" name="genre" value="drama" >Drama<br>
- <input checked type="checkbox" name="genre" value="fantasy" >Fantasy<br>
- <input checked type="checkbox" name="genre" value="horror" >Horror<br>
- <input checked type="checkbox" name="genre" value="romance" >Romance<br>
- <input checked type="checkbox" name="genre" value="thriller" >Thriller<br>
+ <input checked type="checkbox" name="genre" value="Action" >Action<br>
+ <input checked type="checkbox" name="genre" value="Animation" >Animation<br>
+ <input checked type="checkbox" name="genre" value="Comedy" >Comedy<br>
+ <input checked type="checkbox" name="genre" value="Drama" >Drama<br>
+ <input checked type="checkbox" name="genre" value="Fantasy" >Fantasy<br>
+ <input checked type="checkbox" name="genre" value="Horror" >Horror<br>
+ <input checked type="checkbox" name="genre" value="Romance" >Romance<br>
+ <input checked type="checkbox" name="genre" value="Thriller" >Thriller<br>
 
 
 </p>
@@ -88,7 +55,7 @@ padding: 2%;
 </div>
 
 <div id="scatterplot"></div>
- 
+ </div>
 </body>
 </html>
 
@@ -99,10 +66,11 @@ var budget_vals=[0,300];
 var profit_vals=[0,10000];
 var rating_vals=[0,300];
 var years=[];
-var genres = [];
+var genres = ["Action", "Animation", "Comedy", "Drama", "Fantasy", "Horror", "Romance", "Thriller"];
 
 
-function makeSlider(slider_div, text_div, values, max){
+
+function makeSlider(slider_div, text_div, values, max, unit){
  
   $(slider_div).slider({
       range: true,
@@ -110,7 +78,7 @@ function makeSlider(slider_div, text_div, values, max){
       max: max,
       values: values,
       slide: function( event, ui ) {
-        $( text_div ).val( "" + ui.values[ 0 ] + " - " + ui.values[ 1 ] );
+        $( text_div ).val( "" + ui.values[ 0 ] + unit+ " - " + ui.values[ 1 ] + unit);
         budget_vals=[ui.values[0], ui.values[1]]
       },
       stop: function( event, ui){
@@ -118,14 +86,14 @@ function makeSlider(slider_div, text_div, values, max){
       }
      
     });
-    $( text_div).val( "" + $( slider_div ).slider( "values", 0 ) +
-      " - " + $( slider_div ).slider( "values", 1 ) );
+    $( text_div).val( "" + $( slider_div ).slider( "values", 0 ) + unit+
+      " - " + $( slider_div ).slider( "values", 1 )+ unit );
 }
 
 
-makeSlider("#budget-range", "#budget",budget_vals, 400);
-makeSlider("#profit-range", "#profit",profit_vals, 8000);
-makeSlider("#rating-range", "#rating",rating_vals, 100);
+makeSlider("#budget-range", "#budget",budget_vals, 400, 'M');
+makeSlider("#profit-range", "#profit",profit_vals, 8000, '%');
+makeSlider("#rating-range", "#rating",rating_vals, 100, '%');
 
 //set up margins
 var margin = {top: 20, right: 20, bottom: 30, left: 40},
@@ -216,8 +184,8 @@ d3.csv("movies2011.csv",
           var newdata = data.filter(function(d){
             if (d.budget > budget_vals[0] && d.budget < budget_vals[1]
               && d.rating > rating_vals[0] && d.rating < rating_vals[1]
-              && d.profitability > profit_vals[0] && d.profitability < profit_vals[1]){
-              //console.log(d.title + ", " + d.budget);
+              && d.profitability > profit_vals[0] && d.profitability < profit_vals[1] && genres.indexOf(d.genre)!=-1){
+       
             return d;
           }
           })
