@@ -1,0 +1,47 @@
+
+
+body {font-family:'Open Sans';
+
+}
+
+.container{
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.tooltip {
+  position: absolute;
+  width: auto;
+  padding:5px;
+  height: auto;
+  text-align: center;
+  font-weight: bold;
+  background-color: #D9D6BF;
+  border:1px solid #CCC;
+  pointer-events: none;
+}
+
+.dot{
+  fill-opacity: 0.7;
+  stroke-width: 2;
+}
+
+.choose{float:left;
+width:46%;
+padding: 2%;
+}
+
+.text-label{
+  border:none;
+  font-size:12pt;
+  color: orange;
+}
+
+.ui-slider-horizontal {
+  height: .4em;
+}
+
