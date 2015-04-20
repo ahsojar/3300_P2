@@ -13,6 +13,7 @@
 </head>
 <body>
  <div class="container">
+  <div id="scatterplot"></div>
 <div class="filter">
 <div class="choose">
 <p>
@@ -38,7 +39,7 @@
 </div>
 
 <div class="choose">
-<p>
+<p class="checkbox-list">
   <label for="rating">Genre</label><br>
  <input checked type="checkbox" name="genre" value="Action" >Action<br>
  <input checked type="checkbox" name="genre" value="Animation" >Animation<br>
@@ -48,13 +49,21 @@
  <input checked type="checkbox" name="genre" value="Horror" >Horror<br>
  <input checked type="checkbox" name="genre" value="Romance" >Romance<br>
  <input checked type="checkbox" name="genre" value="Thriller" >Thriller<br>
+</p>
 
+
+<p class="checkbox-list">
+  <label for="rating">Year</label><br>
+ <input checked type="checkbox" name="year" value="2011" >2011<br>
+ <input checked type="checkbox" name="year" value="2012" >2012<br>
+ <input checked type="checkbox" name="year" value="2013" >2013<br>
 
 </p>
- </div>
+
+</div>
 </div>
 
-<div id="scatterplot"></div>
+
  </div>
 </body>
 </html>
@@ -97,7 +106,7 @@ makeSlider("#rating-range", "#rating",rating_vals, 100, '%');
 
 //set up margins
 var margin = {top: 20, right: 20, bottom: 30, left: 40},
-    width = 960 - margin.left - margin.right,
+    width = 860 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
 // setup svg
@@ -234,7 +243,7 @@ d3.csv("movies2011.csv",
                           tooltip.transition()
                             .duration(500)
                             .style("opacity", .9);
-                          tooltip.html("<strong>"+d.title+"</strong>")
+                          tooltip.html("<div><div class='title'><strong>"+d.title+"</strong></div><div class='genre'>Genre:<span class='label'> "+d.genre+"</span></div><div class='rating'>Rating: <span class='label'>"+d.rating+"% </span></div><div class='budget'>Budget: <span class='label'>$"+d.budget+"M</div><div class='profit'>Profitibility: <span class='label'> "+d.profitability+"%</span></div></div>")
                             .style("left", (d3.event.pageX + 5) + "px")
                             .style("top", (d3.event.pageY - 28) + "px");
                       })
@@ -259,7 +268,7 @@ d3.csv("movies2011.csv",
                     tooltip.transition()
                          .duration(500)
                          .style("opacity", .9);
-                    tooltip.html(d.title)
+                    tooltip.html("<div><div class='title'><strong>"+d.title+"</strong></div><div class='genre'>Genre:<span class='label'> "+d.genre+"</span></div><div class='rating'>Rating: <span class='label'>"+d.rating+"% </span></div><div class='budget'>Budget: <span class='label'>$"+d.budget+"M</div><div class='profit'>Profitibility: <span class='label'> "+d.profitability+"%</span></div></div>")
                          .style("left", (d3.event.pageX + 5) + "px")
                          .style("top", (d3.event.pageY - 28) + "px");
                 })

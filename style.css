@@ -7,6 +7,16 @@ body {font-family:'Open Sans';
 .container{
 }
 
+.scatterplot{
+  width:100%;
+  float:left;
+}
+
+.filter{
+  width:100%;
+  float:left;
+}
+
 .axis path, .axis line {
   fill: none;
   stroke: #000;
@@ -16,14 +26,22 @@ body {font-family:'Open Sans';
 .tooltip {
   position: absolute;
   width: auto;
-  padding:5px;
+  padding:10px;
   height: auto;
-  text-align: center;
+  text-align: left;
   font-weight: bold;
   background-color: #D9D6BF;
   border:1px solid #CCC;
   pointer-events: none;
 }
+
+
+.title{font-size: 14pt;}
+
+.label{font-weight: bold;
+color:blue;
+}
+
 
 .dot{
   fill-opacity: 0.7;
@@ -31,8 +49,13 @@ body {font-family:'Open Sans';
 }
 
 .choose{float:left;
-width:46%;
-padding: 2%;
+width:40%;
+padding: 5%;
+}
+
+.checkbox-list{
+  float:left;
+  width:50%;
 }
 
 .text-label{
