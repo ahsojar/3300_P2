@@ -7,7 +7,7 @@
 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 <link rel="stylesheet" href="style.css">
-  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
   <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 
 </head>
@@ -41,14 +41,14 @@
 <div class="choose">
 <p class="checkbox-list">
   <label for="rating">Genre</label><br>
- <input checked type="checkbox" name="genre" value="Action" >Action<br>
- <input checked type="checkbox" name="genre" value="Animation" >Animation<br>
- <input checked type="checkbox" name="genre" value="Comedy" >Comedy<br>
- <input checked type="checkbox" name="genre" value="Drama" >Drama<br>
- <input checked type="checkbox" name="genre" value="Fantasy" >Fantasy<br>
- <input checked type="checkbox" name="genre" value="Horror" >Horror<br>
- <input checked type="checkbox" name="genre" value="Romance" >Romance<br>
- <input checked type="checkbox" name="genre" value="Thriller" >Thriller<br>
+ <input checked type="checkbox" name="genre" value="Action" ><span class="circle">&#9679; </span>Action <br> 
+ <input checked type="checkbox" name="genre" value="Animation" ><span class="circle">&#9679; </span>Animation <br>
+ <input checked type="checkbox" name="genre" value="Comedy" ><span class="circle">&#9679; </span>Comedy <br>
+ <input checked type="checkbox" name="genre" value="Drama" ><span class="circle">&#9679; </span>Drama <br>
+ <input checked type="checkbox" name="genre" value="Fantasy" ><span class="circle">&#9679; </span>Fantasy <br>
+ <input checked type="checkbox" name="genre" value="Horror" ><span class="circle">&#9679; </span>Horror <br>
+ <input checked type="checkbox" name="genre" value="Romance" ><span class="circle">&#9679; </span>Romance <br>
+ <input checked type="checkbox" name="genre" value="Thriller" ><span class="circle">&#9679; </span>Thriller<br>
 </p>
 
 
@@ -77,6 +77,9 @@ var rating_vals=[0,300];
 var years=[];
 var genres = ["Action", "Animation", "Comedy", "Drama", "Fantasy", "Horror", "Romance", "Thriller"];
 
+
+
+ 
 
 
 function makeSlider(slider_div, text_div, values, max, unit){
@@ -126,6 +129,13 @@ var yScale = d3.scale.linear().range([height, 0]),
 
 // setup fill color
 var color = d3.scale.category10();
+
+//set legend colors
+var i=0; 
+$( ".circle" ).each(function() {
+  $( this ).css( 'color',color(genres[i]));
+  i++
+});
 
 // add the tooltip area to the webpage
 var tooltip = d3.select("body").append("div")
