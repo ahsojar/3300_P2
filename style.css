@@ -19,7 +19,8 @@ body {font-family:'Open Sans';
 
 .axis path, .axis line {
   fill: none;
-  stroke: #000;
+  stroke-width:2px;
+  stroke: #555;
   shape-rendering: crispEdges;
 }
 
