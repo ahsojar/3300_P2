@@ -85,15 +85,18 @@ font-weight: 700
 
 .checkbox-list{
   float:left;
-  width:50%;
+  width:30%;
   text-align: left;
 }
 
-.years{line-height:32px;}
+.years{
+  line-height: 32px;
+ margin-left:10%;}
 
 input[type='checkbox']{
   height:18px;
   width:18px;
+
 }
 
 circle{cursor: pointer;}
@@ -134,4 +137,5 @@ background-color: black;
 border-radius: 5px;
 }
 
-.circle{font-size:20pt;}
+
+.circle, .circle2{font-size:20pt;}
