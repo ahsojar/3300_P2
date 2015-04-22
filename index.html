@@ -7,12 +7,15 @@
 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 <link rel="stylesheet" href="style.css">
-  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
   <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 
 </head>
 <body>
  <div class="container">
+  <h1>Hollywood Movie Budgets</h1>
+   <!--  <p class="subtitle">Dollars spent, Rating, Profitibility,  </p> -->
+  <div id="scatterplot"></div>
 <div class="filter">
 <div class="choose">
 <p>
@@ -38,23 +41,31 @@
 </div>
 
 <div class="choose">
-<p>
+<p class="checkbox-list">
   <label for="rating">Genre</label><br>
- <input checked type="checkbox" name="genre" value="Action" >Action<br>
- <input checked type="checkbox" name="genre" value="Animation" >Animation<br>
- <input checked type="checkbox" name="genre" value="Comedy" >Comedy<br>
- <input checked type="checkbox" name="genre" value="Drama" >Drama<br>
- <input checked type="checkbox" name="genre" value="Fantasy" >Fantasy<br>
- <input checked type="checkbox" name="genre" value="Horror" >Horror<br>
- <input checked type="checkbox" name="genre" value="Romance" >Romance<br>
- <input checked type="checkbox" name="genre" value="Thriller" >Thriller<br>
+ <input checked type="checkbox" name="genre" value="Action" ><span class="circle">&#9679; </span>Action <br> 
+ <input checked type="checkbox" name="genre" value="Animation" ><span class="circle">&#9679; </span>Animation <br>
+ <input checked type="checkbox" name="genre" value="Comedy" ><span class="circle">&#9679; </span>Comedy <br>
+ <input checked type="checkbox" name="genre" value="Drama" ><span class="circle">&#9679; </span>Drama <br>
+ <input checked type="checkbox" name="genre" value="Fantasy" ><span class="circle">&#9679; </span>Fantasy <br>
+ <input checked type="checkbox" name="genre" value="Horror" ><span class="circle">&#9679; </span>Horror <br>
+ <input checked type="checkbox" name="genre" value="Romance" ><span class="circle">&#9679; </span>Romance <br>
+ <input checked type="checkbox" name="genre" value="Thriller" ><span class="circle">&#9679; </span>Thriller<br>
+</p>
 
+
+<p class="checkbox-list">
+  <label for="rating">Year</label><br>
+ <input checked type="checkbox" name="year" value="2011" >2011<br>
+ <input checked type="checkbox" name="year" value="2012" >2012<br>
+ <input checked type="checkbox" name="year" value="2013" >2013<br>
 
 </p>
- </div>
+
+</div>
 </div>
 
-<div id="scatterplot"></div>
+
  </div>
 </body>
 </html>
@@ -68,6 +79,9 @@ var rating_vals=[0,300];
 var years=[];
 var genres = ["Action", "Animation", "Comedy", "Drama", "Fantasy", "Horror", "Romance", "Thriller"];
 
+
+
+ 
 
 
 function makeSlider(slider_div, text_div, values, max, unit){
@@ -97,7 +111,7 @@ makeSlider("#rating-range", "#rating",rating_vals, 100, '%');
 
 //set up margins
 var margin = {top: 20, right: 20, bottom: 30, left: 40},
-    width = 960 - margin.left - margin.right,
+    width = 860 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
 // setup svg
@@ -117,6 +131,13 @@ var yScale = d3.scale.linear().range([height, 0]),
 
 // setup fill color
 var color = d3.scale.category10();
+
+//set legend colors
+var i=0; 
+$( ".circle" ).each(function() {
+  $( this ).css( 'color',color(genres[i]));
+  i++
+});
 
 // add the tooltip area to the webpage
 var tooltip = d3.select("body").append("div")
@@ -234,7 +255,7 @@ d3.csv("movies2011.csv",
                           tooltip.transition()
                             .duration(500)
                             .style("opacity", .9);
-                          tooltip.html("<strong>"+d.title+"</strong>")
+                          tooltip.html("<div><div class='title'><strong>"+d.title+"</strong></div><div class='genre'>Genre:<span class='label'> "+d.genre+"</span></div><div class='rating'>Rating: <span class='label'>"+d.rating+"% </span></div><div class='budget'>Budget: <span class='label'>$"+d.budget+"M</div><div class='profit'>Profitibility: <span class='label'> "+d.profitability+"%</span></div></div>")
                             .style("left", (d3.event.pageX + 5) + "px")
                             .style("top", (d3.event.pageY - 28) + "px");
                       })
@@ -259,7 +280,7 @@ d3.csv("movies2011.csv",
                     tooltip.transition()
                          .duration(500)
                          .style("opacity", .9);
-                    tooltip.html(d.title)
+                    tooltip.html("<div><div class='title'><strong>"+d.title+"</strong></div><div class='genre'>Genre:<span class='label'> "+d.genre+"</span></div><div class='rating'>Rating: <span class='label'>"+d.rating+"% </span></div><div class='budget'>Budget: <span class='label'>$"+d.budget+"M</div><div class='profit'>Profitibility: <span class='label'> "+d.profitability+"%</span></div></div>")
                          .style("left", (d3.event.pageX + 5) + "px")
                          .style("top", (d3.event.pageY - 28) + "px");
                 })

@@ -1,29 +1,66 @@
 
 
 body {font-family:'Open Sans';
+background-color: #eee
+}
 
+
+h1{
+  /*margin-left:50px;*/
+text-transform: uppercase;
+width:100%;
+text-align: center;
+margin-bottom: 0px
+}
+.subtitle{margin:0px;
+margin-bottom: 10px;
 }
 
 .container{
+    margin:0 auto;
+    width:auto;
+    text-align: center;
+}
+
+.scatterplot{
+width:860px;
+height:500px;
+
+  text-align: center;
+  float:left;
+}
+
+.filter{
+  width:100%;
+  float:left;
 }
 
 .axis path, .axis line {
   fill: none;
-  stroke: #000;
+  stroke-width:2px;
+  stroke: #555;
   shape-rendering: crispEdges;
 }
 
 .tooltip {
   position: absolute;
   width: auto;
-  padding:5px;
+  padding:10px;
   height: auto;
-  text-align: center;
+  text-align: left;
   font-weight: bold;
-  background-color: #D9D6BF;
+  background-color: #FFF;
   border:1px solid #CCC;
   pointer-events: none;
 }
+
+
+.title{font-size: 14pt;}
+
+.label{font-weight: bold;
+color:#008080;
+}
+
 
 .dot{
   fill-opacity: 0.7;
@@ -31,17 +68,50 @@ body {font-family:'Open Sans';
 }
 
 .choose{float:left;
-width:46%;
-padding: 2%;
+width:40%;
+padding-left: 5%;
+padding-right: 5%;
+font-weight: 700
+}
+
+.checkbox-list{
+  float:left;
+  width:50%;
+  text-align: left;
+}
+
+input[type='checkbox']{
+  height:18px;
+  width:18px;
 }
 
 .text-label{
   border:none;
+  background-color: #EEE;
   font-size:12pt;
-  color: orange;
+  color: black;
+  font-weight:800;
 }
 
 .ui-slider-horizontal {
   height: .4em;
 }
 
+.ui-widget-header {
+background: #68BDBD;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  
+    background: #008080;  
+}
+
+
+
+.legend-circle{height:5px;
+width:5px;
+background-color: black;
+border-radius: 5px;
+}
+
+.circle{font-size:20pt;}
