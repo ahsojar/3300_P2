@@ -13,9 +13,16 @@
 </head>
 <body>
  <div class="container">
-  <h1>Hollywood Movie Budgets</h1>
+  <h1 >Hollywood Movie Budgets</h1>
+  <div>
    <!--  <p class="subtitle">Dollars spent, Rating, Profitibility,  </p> -->
   <div id="scatterplot"></div>
+  <div id="piecharts">
+    <h4 id="pieheader">Select a movie to see profit details</h4>
+    <div id = "piechart1"></div>
+    <div id = "piechart2"></div>
+  </div>
+</div>
 <div class="filter">
 <div class="choose">
 <p>
@@ -80,10 +87,6 @@ var years=[];
 var genres = ["Action", "Animation", "Comedy", "Drama", "Fantasy", "Horror", "Romance", "Thriller"];
 
 
-
- 
-
-
 function makeSlider(slider_div, text_div, values, max, unit){
  
   $(slider_div).slider({
@@ -110,16 +113,46 @@ makeSlider("#profit-range", "#profit",profit_vals, 8000, '%');
 makeSlider("#rating-range", "#rating",rating_vals, 100, '%');
 
 //set up margins
-var margin = {top: 20, right: 20, bottom: 30, left: 40},
-    width = 860 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+var margin = {top: 20, right: 20, bottom: 50, left: 60},
+    width = 750 - margin.left - margin.right,
+    height = 550 - margin.top - margin.bottom;
 
-// setup svg
+var margin2 = {top: 20, right: 250, bottom: 20, left: 20},
+    width2 = 200 - margin2.left - margin2.right/4,
+    height2 = 200 - margin2.top - margin2.bottom;
+var radius = Math.min(width2, height2) / 2;
+
+// setup svgs
 var svg = d3.select("#scatterplot").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var svg2 = d3.select("#piechart1").append("svg")
+    .attr("width", width2 + margin2.left + margin2.right)
+    .attr("height", height2 + margin2.top + margin2.bottom)
+  .append("g")
+    .attr('transform', 'translate(' + ((width2 + margin2.right/2 + margin2.left) / 2) + 
+            ',' + ((height2 + margin2.top + margin2.bottom) / 2) + ')');
+
+var svg3 = d3.select("#piechart2").append("svg")
+    .attr("width", width2 + margin2.left + margin2.right)
+    .attr("height", height2 + margin2.top + margin2.bottom)
+  .append("g")
+    .attr('transform', 'translate(' + ((width2 + margin2.right/2 + margin2.left) / 2) + 
+            ',' + ((height2 + margin2.top + margin2.bottom) / 2) + ')');
+
+ var arc = d3.svg.arc().outerRadius(radius);
+
+ function arcTween(a) {
+  var i = d3.interpolate(this._current, a);
+  this._current = i(0);
+  return function(t) {
+    return arc(i(t));
+  };
+}
+
 
 // setup x scale and axis
 var xScale = d3.scale.linear().range([0, width]),
@@ -130,7 +163,10 @@ var yScale = d3.scale.linear().range([height, 0]),
     yAxis = d3.svg.axis().scale(yScale).orient("left");
 
 // setup fill color
-var color = d3.scale.category10();
+//var color = d3.scale.category20();
+var color = d3.scale.ordinal()
+          .range(["#1b9e77", "#d95f02", "#7570b3", "#e7298a", "#66a61e", 
+            "#e6ab02", "#a6761d", "#666666"]);
 
 //set legend colors
 var i=0; 
@@ -152,9 +188,9 @@ svg.append("g")
   .call(xAxis)
   .append("text")
   .attr("class", "label")
-  .attr("x", width)
-  .attr("y", -6)
-  .style("text-anchor", "end")
+  .attr("x", (width)/2)
+  .attr("y", 40)
+  .style("text-anchor", "middle")
   .text("Budget (Millions)");
 
 // y-axis
@@ -163,11 +199,110 @@ svg.append("g")
   .call(yAxis)
   .append("text")
   .attr("class", "label")
-  .attr("transform", "rotate(-90)")
-  .attr("y", 6)
-  .attr("dy", ".71em")
-  .style("text-anchor", "end")
-  .text("Rating (%)");
+  .attr("x",-40)
+  .attr("y", (height)/2)
+  .attr("transform", "rotate(-90, -40," + (height/2) +" )")
+  .style("text-anchor", "middle")
+  .text("Rotten Tomatoes Rating (%)");
+
+// Gross Profit label
+svg2.append("g")
+  .append("text")
+  .attr("class", "label")
+  .attr("y", -(height2/2) - 5)
+  .style("text-anchor", "middle")
+  .text("Gross Profit");
+
+   var piechart1 = ["Foreign", "Domestic"]
+
+  var legend1 = svg2.selectAll(".legend")
+    .data(piechart1)
+    .enter().append("g")
+    .attr("transform", function(d, i) { return "translate(100," + (i * -30) + ")"; });
+
+  legend1.append("rect")
+    .attr("width", 18)
+    .attr("height", 18)
+    .style("fill", function(d) {return color(d);});
+
+    legend1.append("text")
+      .attr("x", 24)
+      .attr("y", 9)
+      .attr("font-size", "10")
+      .style("text-anchor", "beginning")
+      .style("word-wrap", "break-word")
+      .text(function(d) { return d; });
+
+// Opening Weekend label
+svg3.append("g")
+  .append("text")
+  .attr("class", "label")
+  .attr("y", -(height2/2) - 5)
+  .style("text-anchor", "middle")
+  .text("Opening Weekend Profit");
+
+  var piechart2 = ["Post Opening Weekend", "Opening Weekend"]
+
+  var legend2 = svg3.selectAll(".legend")
+    .data(piechart2)
+    .enter().append("g")
+    .attr("transform", function(d, i) { return "translate(100," + (i * -30) + ")"; });
+
+  legend2.append("rect")
+    .attr("width", 18)
+    .attr("height", 18)
+    .style("fill", function(d) {return color(d);});
+
+    legend2.append("text")
+      .attr("x", 24)
+      .attr("y", 9)
+      .attr("font-size", "10")
+      .style("text-anchor", "beginning")
+      .text(function(d) { return d; });
+
+
+      var dataset1 = [
+                              { label: 'Domestic', num: 100 }, 
+                              { label: 'Foreign', num: 0 },
+                            ];
+                    var dataset2 = [
+                              { label: 'Opening Weekend', num: 100 },
+                              { label: 'Post Opening Weekend', num: 0 },      
+                            ];
+
+                          var pie = d3.layout.pie()
+                            .value(function(k) {
+                              return k.num; 
+                            })
+                            .sort(null);
+
+                          var path1 = svg2.selectAll('path')
+                            .data(pie(dataset1));
+
+                  
+
+                            path1.enter()
+                            .append('path')
+                            .attr('d', arc)
+                            .each(function(d) { this._current = d; })
+                            .attr('fill', function(d, i) { 
+                              return color(d.data.label);
+                            });
+
+                           
+
+                            var path2 = svg3.selectAll('path')
+                            .data(pie(dataset2));
+
+                         
+
+                            path2.enter()
+                            .append('path')
+                            .attr('d', arc)
+                            .each(function(d) { this._current = d; })
+                            .attr('fill', function(d, i) { 
+                              return color(d.data.label);
+                            });
 
   updateGraph();          
 
@@ -177,7 +312,6 @@ $("input:checkbox").change(function() {
 
 function updateGraph(){
 
-console.log("update called;")
   //get updated values from sliders and checkboxes
 var budget_vals = $( "#budget-range" ).slider( "values" );
 var profit_vals = $( "#profit-range" ).slider( "values" );
@@ -196,7 +330,11 @@ d3.csv("movies2011.csv",
             rating: +d.Rotten_Tomatoes,
             genre: d.Genre,
             budget: +d.Budget,
-            profitability: +d.Profitability
+            profitability: +d.Profitability,
+            domestic: +d.Domestic_Gross,
+            foreign: +d.Foreign_Gross,
+            world: +(d.Worldwide_Gross.replace(',', '')),
+            opening: +d.Opening_Weekend
           };
         },
         function(error, data) {
@@ -289,11 +427,75 @@ d3.csv("movies2011.csv",
                     tooltip.transition()
                          .duration(500)
                          .style("opacity", 0);
+                })
+                .on("click", function(d) {
+
+                   document.getElementById("pieheader").innerHTML = d.title;
+                    var dataset1 = [
+                              { label: 'Domestic', num: d.domestic }, 
+                              { label: 'Foreign', num: d.foreign },
+                            ];
+                    var dataset2 = [
+                              { label: 'Opening Weekend', num: d.opening },
+                              { label: 'Post Opening Weekend', num: (d.world - d.opening) },      
+                            ];
+
+                          var pie = d3.layout.pie()
+                            .value(function(k) {
+                              return k.num; 
+                            })
+                            .sort(null);
+
+                          var path1 = svg2.selectAll('path')
+                            .data(pie(dataset1));
+
+                          path1.transition().duration(1000).attrTween("d", arcTween);
+
+                            path1.enter()
+                            .append('path')
+                            .attr('d', arc)
+                            .each(function(d) { this._current = d; })
+                            .attr('fill', function(d, i) { 
+                              return color(d.data.label);
+                            });
+                            // .append("g")                                     
+                            //   .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
+                            //   .append("text")
+                            //   .style("fill", "Black")
+                            //   .attr("text-anchor", "middle")                          
+                            //   .text("Hi");
+
+                            // path1.append("g")                                     
+                            //   .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
+                            //   .append("text")
+                            //   .style("fill", "White")
+                            //   .attr("text-anchor", "middle")                          
+                            //   .text(function(d) { return "Hi"; });
+
+                           
+
+                            var path2 = svg3.selectAll('path')
+                            .data(pie(dataset2));
+
+                          path2.transition().duration(1000).attrTween("d", arcTween);
+
+                            path2.enter()
+                            .append('path')
+                            .attr('d', arc)
+                            .each(function(d) { this._current = d; })
+                            .attr('fill', function(d, i) { 
+                              return color(d.data.label);
+                            });
+                
                 });
 
                     // Remove old
                    circles.exit().remove();
+
+
         });
+
+
 
 
 

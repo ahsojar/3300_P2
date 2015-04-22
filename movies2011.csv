@@ -1,4 +1,4 @@
-Film,Lead Studio,Rotten_Tomatoes,Audience  score,Story,Genre,Number of Theatres in US Opening Weekend,Box Office Average per US Cinema (Opening Weekend),Domestic Gross,Foreign Gross,Worldwide_Gross,Budget,Profitability,Opening Weekend,Oscar,Bafta,Source
+Film,Lead Studio,Rotten_Tomatoes,Audience  score,Story,Genre,Number of Theatres in US Opening Weekend,Box Office Average per US Cinema (Opening Weekend),Domestic_Gross,Foreign_Gross,Worldwide_Gross,Budget,Profitability,Opening_Weekend,Oscar,Bafta,Source
 30 Minutes or Less,Independent,43,48,Comedy,Comedy,2888,4616,37.05,3.49,40.55,28,144.81,13.33,,,http://boxofficemojo.com/movies/?id=30minutesorless.htm
 50/50,Independent,93,93,Discovery,Comedy,2458,3517,35.01,4.17,39.19,8,489.84,8.64,,,http://boxofficemojo.com/movies/?id=50fifty.htm
 A Dangerous Method,Independent,79,89,Love,Drama,,,5.70,21.76,27.46,20,137.31,0.17,,,http://boxofficemojo.com/movies/?id=dangerousmethod.htm
@@ -128,7 +128,7 @@ The Tree Of Life,Independent,84,61,Discovery,Drama,4,93230,13.30,41.00,54.30,32,
 Thor,Disney,77,80,Monster Force,Action,3955,16618,181.03,268.29,449.32,150,299.55,65.72,,,http://boxofficemojo.com/movies/?id=thor.htm
 Tinker Tailor Soldier Spy,Focus,83,68,,Thriller,809,6772,24.149,56.481,80.63,21,383.95,5.47,,,http://boxofficemojo.com/movies/?id=tinkertailorsoldierspy.htm
 Tower Heist,Relativity,68,61,Revenge,Comedy,3367,7135,78.04,74.88,152.92,75,203.90,24.03,,,http://boxofficemojo.com/movies/?id=towerheist.htm
-Transformers: Dark of the Moon,DreamWorks Pictures,35,67,Quest,Action,4088,23937,352.39,771.40,"1,123.79",195,576.30,97.85,,,http://boxofficemojo.com/movies/?id=transformers3.htm
+Transformers: Dark of the Moon,DreamWorks Pictures,35,67,Quest,Action,4088,23937,352.39,771.40,1123.79,195,576.30,97.85,,,http://boxofficemojo.com/movies/?id=transformers3.htm
 Twilight: Breaking Dawn,Independent,26,68,Love,Romance,4061,34012,281.29,430.88,712.17,110,647.43,138.12,,,http://boxofficemojo.com/movies/?id=breakingdawn.htm
 Unknown,Independent,55,57,The Riddle,Thriller,3043,7183,63.69,67.10,130.79,30,435.95,21.86,,,http://boxofficemojo.com/movies/?id=unknownwhitemale11.htm
 War Horse,Disney,77,73,,Drama,2376,6114,79.884,97.7,177.584,66,269.07,14.52,,,http://boxofficemojo.com/movies/?id=warhorse.htm
