@@ -1,4 +1,4 @@
-Film,Lead Studio,Rotten_Tomatoes,Audience  score,Story,Genre,Number of Theatres in US Opening Weekend,Box Office Average per US Cinema (Opening Weekend),Domestic Gross,Foreign Gross,Worldwide_Gross,Budget,Profitability,Opening Weekend,Oscar,Bafta,Source,Year
+Film,Lead Studio,Rotten_Tomatoes,Audience  score,Story,Genre,Number of Theatres in US Opening Weekend,Box Office Average per US Cinema (Opening Weekend),Domestic_Gross,Foreign_Gross,Worldwide_Gross,Budget,Profitability,Opening_Weekend,Oscar,Bafta,Source,Year
 30 Minutes or Less,Independent,43,48,Comedy,Comedy,2888,4616,37.05,3.49,40.55,28,144.81,13.33,,,http://boxofficemojo.com/movies/?id=30minutesorless.htm,2011
 50/50,Independent,93,93,Discovery,Comedy,2458,3517,35.01,4.17,39.19,8,489.84,8.64,,,http://boxofficemojo.com/movies/?id=50fifty.htm,2011
 A Dangerous Method,Independent,79,89,Love,Drama,,,5.7,21.76,27.46,20,137.31,0.17,,,http://boxofficemojo.com/movies/?id=dangerousmethod.htm,2011
@@ -140,517 +140,517 @@ Winnie The Pooh,Disney,91,79,Quest,Animation,2405,3267,26.69,6.46,33.15,30,110.5
 X-Men: First Class,Disney,87,88,Monster Force,Action,3641,15134,146.41,207.22,353.62,160,221.01,55.1,,,http://boxofficemojo.com/movies/?id=xmenfirstclass.htm,2011
 Your Highness,Universal,26,36,Comedy,Comedy,2769,3380,21.6,3.26,24.86,49.9,49.81,9.36,,,http://boxofficemojo.com/movies/?id=yourhighness.htm,2011
 Zookeeper,Happy Madison Productions,14,42,Comedy,Comedy,3482,5763,80.36,89.49,169.85,80,212.31,20.07,,,http://boxofficemojo.com/movies/?id=zookeeper.htm,2011
-127 Hours,Independent,93,84,Escape,Adventure,916,2333,18.33,42.4,60.73,18,337.39%,2.13,,,http://boxofficemojo.com/movies/?id=127hours.htm,2010
-A Nightmare on Elm Street,Warner Bros.,13,40,Monster Force,Horror,3332,9875,63.08,52.59,115.67,35,330.49%,32.9,,,,2010
-Alice in Wonderland,Disney,52,72,Journey and Return,Adventure,3728,31143,334.19,691.28,1025.466,200,512.73%,116.1,,,,2010
-All About Steve ,Independent,6,35,Comedy,Comedy,2251,4994,33.86,6.26,40.12,15,267.47%,11.2,,,http://www.the-numbers.com/movies/2009/ABSTV.php,2010
-Alpha and Omega,Crest,17,41,Journey and Return,Animation,2625,3469,25.11,25.4,50.507,20,252.54%,9.1,,,,2010
-Black Swan        ,Fox,88,86,Wretched Excess,Drama,959,8742,106.95,222.44,329.397,13,2533.82%,8.38,Best Actress,,,2010
-Brooklyn's Finest,Independent,42,47,Temptation,Action,1936,6896,27.16,9.28,36.439,17,214.35%,13.4,,,http://boxofficemojo.com/movies,2010
-Buried,Independent,86,63,Escape,Drama,11,9115,1.04,18.11,19.148,2,957.40%,0.103,,,http://boxofficemojo.com/movies,2010
-Burlesque,Paramount,36,66,Rags to Riches,Drama,3037,3934,39.44,50.08,89.519,55,162.76%,11.95,,,http://boxofficemojo.com/movies/?id=burlesque.htm,2010
-Case 39,Independent,23,42,Monster Force,Horror,2211,2420,13.26,14.93,28.19,26,108.42%,5.4,,,http://boxofficemojo.com/movies,2010
-Cats & Dogs: The Revenge of Kitty Galore,Independent,13,43,Pursuit,Action,3705,3314,43.59,68.9,112.49,85,132.34%,12.3,,,http://boxofficemojo.com/movies,2010
-"Charlie St. Cloud	",Universal,27,62,Discovery,Fantasy,2718,4555,31.16,17.03,48.188,44,109.52%,12.4,,,http://boxofficemojo.com/movies,2010
-City Island,Independent,81,77,Transformation,Comedy,2,16000,6.67,1.2,7.874,6,131.23%,0.032,,,http://boxofficemojo.com/movies,2010
-Clash of the Titans,Warner Bros.,28,48,Quest,Action,3777,16213,163.21,330,493.214,125,394.57%,61.2,,,http://boxofficemojo.com/movies,2010
-Conviction,Independent,68,71,Rescue,Biography,672,2424,6.79,2.92,9.71,12.5,77.68%,1.62,,,http://boxofficemojo.com/movies,2010
-Cop Out,Warner Bros.,19,45,The Riddle,Action,3150,5781,44.88,10.71,55.588,30,185.29%,18.21,,,http://boxofficemojo.com/movies,2010
-Country Strong,Sony,20,56,Rags to Riches,Drama,1424,5145,20.22,0.31,20.528,15,136.85%,7.33,,,,2010
-Cyrus,Independent,80,51,Rivalry,Comedy,4,45429,7.47,2.45,9.92,7,141.71%,0.18,,,http://boxofficemojo.com/movies,2010
-Date Night,Fox,66,58,Pursuit,Comedy,3374,7471,98.71,53.55,152.263,55,276.84%,25.2,,,http://boxofficemojo.com/movies,2010
-"Daybreakers	",Lionsgate,67,50,Discovery,Action,2523,6003,30.1,21.31,51.41,20,257.05%,15.1,,,,2010
-Dear John,Sony,29,66,Love,Drama,2969,10262,80.01,34.96,114.97,25,459.88%,30.4,,,,2010
-Death at a Funeral,Independent,40,48,Comedy,Comedy,2459,6595,42.74,6.31,49.05,21,233.57%,16.2,,,,2010
-Despicable Me,Universal,81,81,Maturation,Animation,3476,16225,251.51,291.6,543.113,69,787.12%,56.4,,,,2010
-Devil,Independent,52,45,Monster Force,Horror,2809,4375,33.6,29.09,62.694,10,626.94%,12.3,,,,2010
-Diary of a Wimpy Kid,Independent,53,49,Underdog,Comedy,3077,7191,64,11.7,75.7,15,504.67%,22.1,,,,2010
-Dinner for Schmucks,Paramount,43,47,Comedy,Comedy,2911,8082,73.03,13.83,86.855,69,125.88%,23.5,,,,2010
-Due Date,Warner Bros.,40,56,Comedy,Comedy,3355,9743,100.54,111.24,211.78,50,423.56%,32.69,,,http://boxofficemojo.com/movies/?id=duedate.htm,2010
-Easy A,Sony,85,75,Maturation,Comedy,2856,6209,58.4,16.55,74.95,8,936.88%,17.7,,,,2010
-"Eat Pray Love	",Sony,36,46,Journey and Return,Drama,3082,7497,80.57,124.02,204.59,60,340.98%,23.1,,,,2010
-Edge of Darkness,Warner Bros.,55,56,Revenge,Crime,3066,5615,43.31,37.81,81.12,80,101.40%,17.2,,,,2010
-"Extraordinary Measures	",CBS,27,55,Underdog,Drama,2549,2359,12.07,3.07,15.14,31,48.84%,6,,,,2010
-"Faster	",CBS,41,50,Revenge,Action,2454,3873,23.24,12.39,35.626,24,148.44%,8.52,,,,2010
-For Colored Girls,Independent,33,73,Discovery,Drama,2127,9167,37.73,17.32,55.049,21,262.14%,19.5,,,,2010
-From Paris with Love,Independent,38,57,Pursuit,Action,2722,2997,24.08,28.75,52.829,52,101.59%,8.2,,,,2010
-"Furry Vengeance	",Summit,8,36,Comedy,Comedy,2997,2211,17.63,18.61,36.236,35,103.53%,6.6,,,,2010
-Get Him to the Greek,Universal,73,63,Comedy,Comedy,2697,6515,60.97,30.29,91.257,40,228.14%,17.6,,,,2010
-Going the Distance,Warner Bros.,53,56,Love,Comedy,3030,2272,17.8,24.25,42.05,32,131.41%,6.9,,,,2010
-Green Zone,Universal,53,60,Quest,Action,3003,4765,35.05,59.83,94.878,100,94.88%,14.3,,,,2010
+127 Hours,Independent,93,84,Escape,Adventure,916,2333,18.33,42.4,60.73,18,337.39,2.13,,,http://boxofficemojo.com/movies/?id=127hours.htm,2010
+A Nightmare on Elm Street,Warner Bros.,13,40,Monster Force,Horror,3332,9875,63.08,52.59,115.67,35,330.49,32.9,,,,2010
+Alice in Wonderland,Disney,52,72,Journey and Return,Adventure,3728,31143,334.19,691.28,1025.466,200,512.73,116.1,,,,2010
+All About Steve ,Independent,6,35,Comedy,Comedy,2251,4994,33.86,6.26,40.12,15,267.47,11.2,,,http://www.the-numbers.com/movies/2009/ABSTV.php,2010
+Alpha and Omega,Crest,17,41,Journey and Return,Animation,2625,3469,25.11,25.4,50.507,20,252.54,9.1,,,,2010
+Black Swan        ,Fox,88,86,Wretched Excess,Drama,959,8742,106.95,222.44,329.397,13,2533.82,8.38,Best Actress,,,2010
+Brooklyn's Finest,Independent,42,47,Temptation,Action,1936,6896,27.16,9.28,36.439,17,214.35,13.4,,,http://boxofficemojo.com/movies,2010
+Buried,Independent,86,63,Escape,Drama,11,9115,1.04,18.11,19.148,2,957.40,0.103,,,http://boxofficemojo.com/movies,2010
+Burlesque,Paramount,36,66,Rags to Riches,Drama,3037,3934,39.44,50.08,89.519,55,162.76,11.95,,,http://boxofficemojo.com/movies/?id=burlesque.htm,2010
+Case 39,Independent,23,42,Monster Force,Horror,2211,2420,13.26,14.93,28.19,26,108.42,5.4,,,http://boxofficemojo.com/movies,2010
+Cats & Dogs: The Revenge of Kitty Galore,Independent,13,43,Pursuit,Action,3705,3314,43.59,68.9,112.49,85,132.34,12.3,,,http://boxofficemojo.com/movies,2010
+"Charlie St. Cloud	",Universal,27,62,Discovery,Fantasy,2718,4555,31.16,17.03,48.188,44,109.52,12.4,,,http://boxofficemojo.com/movies,2010
+City Island,Independent,81,77,Transformation,Comedy,2,16000,6.67,1.2,7.874,6,131.23,0.032,,,http://boxofficemojo.com/movies,2010
+Clash of the Titans,Warner Bros.,28,48,Quest,Action,3777,16213,163.21,330,493.214,125,394.57,61.2,,,http://boxofficemojo.com/movies,2010
+Conviction,Independent,68,71,Rescue,Biography,672,2424,6.79,2.92,9.71,12.5,77.68,1.62,,,http://boxofficemojo.com/movies,2010
+Cop Out,Warner Bros.,19,45,The Riddle,Action,3150,5781,44.88,10.71,55.588,30,185.29,18.21,,,http://boxofficemojo.com/movies,2010
+Country Strong,Sony,20,56,Rags to Riches,Drama,1424,5145,20.22,0.31,20.528,15,136.85,7.33,,,,2010
+Cyrus,Independent,80,51,Rivalry,Comedy,4,45429,7.47,2.45,9.92,7,141.71,0.18,,,http://boxofficemojo.com/movies,2010
+Date Night,Fox,66,58,Pursuit,Comedy,3374,7471,98.71,53.55,152.263,55,276.84,25.2,,,http://boxofficemojo.com/movies,2010
+"Daybreakers	",Lionsgate,67,50,Discovery,Action,2523,6003,30.1,21.31,51.41,20,257.05,15.1,,,,2010
+Dear John,Sony,29,66,Love,Drama,2969,10262,80.01,34.96,114.97,25,459.88,30.4,,,,2010
+Death at a Funeral,Independent,40,48,Comedy,Comedy,2459,6595,42.74,6.31,49.05,21,233.57,16.2,,,,2010
+Despicable Me,Universal,81,81,Maturation,Animation,3476,16225,251.51,291.6,543.113,69,787.12,56.4,,,,2010
+Devil,Independent,52,45,Monster Force,Horror,2809,4375,33.6,29.09,62.694,10,626.94,12.3,,,,2010
+Diary of a Wimpy Kid,Independent,53,49,Underdog,Comedy,3077,7191,64,11.7,75.7,15,504.67,22.1,,,,2010
+Dinner for Schmucks,Paramount,43,47,Comedy,Comedy,2911,8082,73.03,13.83,86.855,69,125.88,23.5,,,,2010
+Due Date,Warner Bros.,40,56,Comedy,Comedy,3355,9743,100.54,111.24,211.78,50,423.56,32.69,,,http://boxofficemojo.com/movies/?id=duedate.htm,2010
+Easy A,Sony,85,75,Maturation,Comedy,2856,6209,58.4,16.55,74.95,8,936.88,17.7,,,,2010
+"Eat Pray Love	",Sony,36,46,Journey and Return,Drama,3082,7497,80.57,124.02,204.59,60,340.98,23.1,,,,2010
+Edge of Darkness,Warner Bros.,55,56,Revenge,Crime,3066,5615,43.31,37.81,81.12,80,101.40,17.2,,,,2010
+"Extraordinary Measures	",CBS,27,55,Underdog,Drama,2549,2359,12.07,3.07,15.14,31,48.84,6,,,,2010
+"Faster	",CBS,41,50,Revenge,Action,2454,3873,23.24,12.39,35.626,24,148.44,8.52,,,,2010
+For Colored Girls,Independent,33,73,Discovery,Drama,2127,9167,37.73,17.32,55.049,21,262.14,19.5,,,,2010
+From Paris with Love,Independent,38,57,Pursuit,Action,2722,2997,24.08,28.75,52.829,52,101.59,8.2,,,,2010
+"Furry Vengeance	",Summit,8,36,Comedy,Comedy,2997,2211,17.63,18.61,36.236,35,103.53,6.6,,,,2010
+Get Him to the Greek,Universal,73,63,Comedy,Comedy,2697,6515,60.97,30.29,91.257,40,228.14,17.6,,,,2010
+Going the Distance,Warner Bros.,53,56,Love,Comedy,3030,2272,17.8,24.25,42.05,32,131.41,6.9,,,,2010
+Green Zone,Universal,53,60,Quest,Action,3003,4765,35.05,59.83,94.878,100,94.88,14.3,,,,2010
 Greenberg,Independent,75,40,Transformation,Comedy,3,39384,4.23,1.92,6.15,,,0.11,,,,2010
-"Grown Ups	",Independent,10,59,Comedy,Comedy,3534,11462,162,109.43,271.43,80,339.29%,40.5,,,,2010
-Gulliver's Travels,Fox,21,31,Journey and Return,Comedy,2546,2477,42.78,194.6,237.382,112,211.95%,6.3,,,,2010
-Harry Potter and the Deathly Hallows Part 1,Warner Bros.,79,87,Quest,Adventure,4125,30307,295,664.3,959.3,125,767.44%,125,,,http://boxofficemojo.com/movies,2010
-Hot Tub Time Machine,MGM,64,57,Journey and Return,Adventure,2754,5091,50.29,14.28,64.571,36,179.36%,14,,,,2010
-How to Train Your Dragon,Paramount,98,90,Underdog,Animation,4055,10785,217.58,277.3,494.88,165,299.93%,43.7,,,,2010
-I Love You Phillip Morris,Independent,71,57,Love,Comedy,100,,2.04,18.69,20.722,15,138.15%,0.11,,,,2010
-Inception,Warner Bros.,86,93,Journey and Return,Action,3792,16557,292.58,532.96,825.536,160,515.96%,62.8,,,,2010
-Iron Man 2,Paramount,74,80,Rivalry,Action,4380,29252,312.43,311.5,623.93,200,311.97%,128.1,,,,2010
-Jackass 3-D,Paramount,63,72,Comedy,Documentary,3081,16343,117.23,54.46,171.685,20,858.43%,50.4,,,,2010
-Jonah Hex,Warner Bros.,13,24,Revenge,Action,2825,1904,10.55,0.36,10.91,47,23.21%,5.4,,,,2010
-Just Wright,Fox,45,58,Love,Comedy,1831,4525,21.54,0.03,21.569,12,179.74%,8.3,,,http://forum.blu-ray.com/movies/141938-just-wright-review-thread-use-spoiler-tags.html. *NB unofficial budget figure - see links for sources,2010
-Kick-Ass,Independent,76,83,Rivalry,Action,3065,6469,48.07,48.12,96.188,30,320.63%,19.8,,,,2010
-Killers,Lionsgate,11,45,Love,Action,2859,5539,47.06,51.1,98.16,75,130.88%,15.8,,,,2010
-Knight and Day,Fox,53,52,Pursuit,Action,3098,6501,76.42,185.51,261.927,117,223.87%,20.2,,,,2010
-Leap Year,Universal,21,49,Love,Comedy,2511,3665,25.92,6.69,32.608,19,171.62%,9.2,,,,2010
-Legend of the Guardians: The Owls of Ga'Hoole,Warner Bros.,51,65,Rivalry,Animation,3575,4507,55.68,84.4,140.073,80,175.09%,16.1,,,,2010
-Legion,Independent,19,36,Monster Force,Action,2476,7069,40.17,27.75,67.92,26,261.23%,17.5,,,,2010
-Letters to Juliet,Summit,40,62,Love,Comedy,2968,4562,53.03,26.15,79.179,30,263.93%,13.5,,,,2010
-Life as We Know It,Independent,28,62,Love,Comedy,3150,4605,53.13,43.03,53.374,52.274,102.10%,14.5,,,,2010
-Little Fockers,Independent,9,40,Comedy,Comedy,3536,8720,148.44,162.21,310.649,100,310.65%,30.83,,,,2010
-Love & Other Drugs,Fox,48,55,Love,Comedy,2455,3967,32.37,70.44,102.802,30,342.67%,9.74,,,,2010
-MacGruber,Independent,47,33,Comedy,Action,2551,1585,8.53,0.8,9.327,10,93.27%,4,,,,2010
-Machete,Independent,73,66,Revenge,Action,2670,4276,26.59,17.5,44.089,20,220.45%,11,,,,2010
-Marmaduke,Fox,9,46,Rivalry,Comedy,3213,3610,33.64,50.12,83.757,50,167.51%,11.6,,,,2010
-Megamind,Paramount,72,73,Transformation,Animation,3944,11668,148.42,173.47,321.884,130,247.60%,46.02,,,,2010
-Morning Glory,Independent,54,54,Comedy,Comedy,2518,3655,31.01,29.03,60.039,40,150.10%,9.2,,,,2010
-My Soul to Take,Relativity Media,9,29,Monster Force,Horror,2572,2660,14.74,6.23,20.971,25,83.88%,6.84,,,,2010
-Nanny McPhee Returns,Universal,77,54,Comedy,Comedy,2784,3020,29.01,64.23,93.24,35,266.40%,8.4,,,,2010
-Never Let Me Go,Independent,70,70,Tragedy,Drama,4,,2.43,7.02,9.45,15,63.00%,0.11,,,,2010
+"Grown Ups	",Independent,10,59,Comedy,Comedy,3534,11462,162,109.43,271.43,80,339.29,40.5,,,,2010
+Gulliver's Travels,Fox,21,31,Journey and Return,Comedy,2546,2477,42.78,194.6,237.382,112,211.95,6.3,,,,2010
+Harry Potter and the Deathly Hallows Part 1,Warner Bros.,79,87,Quest,Adventure,4125,30307,295,664.3,959.3,125,767.44,125,,,http://boxofficemojo.com/movies,2010
+Hot Tub Time Machine,MGM,64,57,Journey and Return,Adventure,2754,5091,50.29,14.28,64.571,36,179.36,14,,,,2010
+How to Train Your Dragon,Paramount,98,90,Underdog,Animation,4055,10785,217.58,277.3,494.88,165,299.93,43.7,,,,2010
+I Love You Phillip Morris,Independent,71,57,Love,Comedy,100,,2.04,18.69,20.722,15,138.15,0.11,,,,2010
+Inception,Warner Bros.,86,93,Journey and Return,Action,3792,16557,292.58,532.96,825.536,160,515.96,62.8,,,,2010
+Iron Man 2,Paramount,74,80,Rivalry,Action,4380,29252,312.43,311.5,623.93,200,311.97,128.1,,,,2010
+Jackass 3-D,Paramount,63,72,Comedy,Documentary,3081,16343,117.23,54.46,171.685,20,858.43,50.4,,,,2010
+Jonah Hex,Warner Bros.,13,24,Revenge,Action,2825,1904,10.55,0.36,10.91,47,23.21,5.4,,,,2010
+Just Wright,Fox,45,58,Love,Comedy,1831,4525,21.54,0.03,21.569,12,179.74,8.3,,,http://forum.blu-ray.com/movies/141938-just-wright-review-thread-use-spoiler-tags.html. *NB unofficial budget figure - see links for sources,2010
+Kick-Ass,Independent,76,83,Rivalry,Action,3065,6469,48.07,48.12,96.188,30,320.63,19.8,,,,2010
+Killers,Lionsgate,11,45,Love,Action,2859,5539,47.06,51.1,98.16,75,130.88,15.8,,,,2010
+Knight and Day,Fox,53,52,Pursuit,Action,3098,6501,76.42,185.51,261.927,117,223.87,20.2,,,,2010
+Leap Year,Universal,21,49,Love,Comedy,2511,3665,25.92,6.69,32.608,19,171.62,9.2,,,,2010
+Legend of the Guardians: The Owls of Ga'Hoole,Warner Bros.,51,65,Rivalry,Animation,3575,4507,55.68,84.4,140.073,80,175.09,16.1,,,,2010
+Legion,Independent,19,36,Monster Force,Action,2476,7069,40.17,27.75,67.92,26,261.23,17.5,,,,2010
+Letters to Juliet,Summit,40,62,Love,Comedy,2968,4562,53.03,26.15,79.179,30,263.93,13.5,,,,2010
+Life as We Know It,Independent,28,62,Love,Comedy,3150,4605,53.13,43.03,53.374,52.274,102.10,14.5,,,,2010
+Little Fockers,Independent,9,40,Comedy,Comedy,3536,8720,148.44,162.21,310.649,100,310.65,30.83,,,,2010
+Love & Other Drugs,Fox,48,55,Love,Comedy,2455,3967,32.37,70.44,102.802,30,342.67,9.74,,,,2010
+MacGruber,Independent,47,33,Comedy,Action,2551,1585,8.53,0.8,9.327,10,93.27,4,,,,2010
+Machete,Independent,73,66,Revenge,Action,2670,4276,26.59,17.5,44.089,20,220.45,11,,,,2010
+Marmaduke,Fox,9,46,Rivalry,Comedy,3213,3610,33.64,50.12,83.757,50,167.51,11.6,,,,2010
+Megamind,Paramount,72,73,Transformation,Animation,3944,11668,148.42,173.47,321.884,130,247.60,46.02,,,,2010
+Morning Glory,Independent,54,54,Comedy,Comedy,2518,3655,31.01,29.03,60.039,40,150.10,9.2,,,,2010
+My Soul to Take,Relativity Media,9,29,Monster Force,Horror,2572,2660,14.74,6.23,20.971,25,83.88,6.84,,,,2010
+Nanny McPhee Returns,Universal,77,54,Comedy,Comedy,2784,3020,29.01,64.23,93.24,35,266.40,8.4,,,,2010
+Never Let Me Go,Independent,70,70,Tragedy,Drama,4,,2.43,7.02,9.45,15,63.00,0.11,,,,2010
 Our Family Wedding,Independent,14,49,Love,Comedy,1605,4754,20.26,1.15,21.413,,,7.6,,,,2010
-Paranormal Activity 2,Paramount,,,Monster Force,Horror,3216,12649,84.75,92.76,177.511,3,5917.03%,40.67,,,http://boxofficemojo.com/movies/?id=paranormalactivity2.htm,2010
-Percy Jackson & the Olympians: The Lightning Thief,Fox,50,57,Rivalry,Action,3356,9308,88.77,137.73,226.5,95,238.42%,31.2,,,,2010
-Piranha 3-D,The Weinstein Company,74,45,Monster Force,Comedy,2470,4092,25,58.19,83.188,24,346.62%,10.1,,,http://www.the-numbers.com/movies/2009/ABSTV.php,2010
-Please Give,Sony,88,62,Comedy,Comedy,,,4.03,0.28,4.309,3,143.63%,0.1,,,,2010
-Predators,Fox,64,52,Monster Force,Action,2669,9277,52,75.23,127.232,40,318.08%,24.8,,,,2010
-Prince of Persia: The Sands of Time,Disney,36,71,Rivalry,Action,3646,8254,90.76,245.61,336.365,200,168.18%,30,,,,2010
-Red,Summit,71,72,Rivalry,Action,3255,6686,90.38,108.63,199.006,58,343.11%,21.8,,,,2010
-Remember Me,Summit,28,70,Love,Drama,2212,3657,19.07,36.96,56.034,16,350.21%,8,,,,2010
-Repo Men,Universal,22,43,Rescue,Action,2521,2430,13.79,4.62,18.41,32,57.53%,6.1,,,,2010
-Resident Evil: Afterlife,Highlight Communications,24,53,Monster Force,Action,3203,8320,60.13,236.09,296.22,60,493.70%,26.7,,,,2010
-Robin Hood,Universal,42,59,Rivalry,Action,3503,10295,105.27,216.4,321.669,200,160.83%,36,,,,2010
-Salt,Sony,62,62,Revenge,Action,3612,9970,118.31,175.19,293.502,110,266.82%,36,,,,2010
-Saw 3-D,Independent,10,47,Escape,Crime,2808,8024,45.71,90.44,136.15,20,680.75%,22.53,,,,2010
-Scott Pilgrim vs. the World,Universal,81,83,Underdog,Action,2818,3765,31.52,16.14,47.66,60,79.43%,10.6,,,,2010
-Sex and the City 2,Warner Bros.,15,49,Love,Comedy,3445,8999,95.35,193,288.347,100,288.35%,31,,,,2010
-She's Out of My League,Paramount,57,60,Love,Comedy,2956,3307,32.01,17.77,49.778,20,248.89%,9.8,,,,2010
-Shrek Forever After,Paramount,57,64,Journey and Return,Animation,4359,16251,238.74,513.86,752.604,165,456.12%,70.8,,,,2010
-Shutter Island,Paramount,68,73,The Riddle,Drama,2991,13729,128.01,166.79,294.802,80,368.50%,41,,,,2010
-Skyline,Independent,16,19,Monster Force,Action,2880,4060,21.39,45.43,66.817,10,668.17%,11.69,,,,2010
-Solitary Man,Independent,81,47,Wretched Excess,Comedy,4,23734,4.36,0.82,5.178,15,34.52%,0.09,,,,2010
-Step Up 3D,Summit,46,67,Transformation,Drama,2435,6494,42.4,116.89,159.291,30,530.97%,15.8,,,http://www.the-numbers.com/movies/2009/ABSTV.php,2010
-Stone,Independent,49,20,Rivalry,Drama,6,12628,1.81,7.67,9.479,22,43.09%,0.075,,,,2010
-Takers,Sony,27,57,Rivalry,Action,2206,9298,57.74,11.31,69.05,32,215.78%,20.5,,,,2010
-Tangled,Disney,89,88,Love,Animation,3603,13535,200.82,390.97,591.794,260,227.61%,48.77,,,,2010
-The A-Team,Fox,47,71,Pursuit,Action,3535,7262,77.22,100.02,177.236,100,177.24%,25.7,,,,2010
-The American,Universal,66,37,Rivalry,Crime,2823,4668,35.61,32.27,67.875,20,339.38%,13.1,,,,2010
-The Back-up Plan,CBS,20,47,Love,Comedy,3280,3720,37.49,39.99,77.477,35,221.36%,12.2,,,,2010
-The Book of Eli        ,Independent,48,68,Quest,Action,3111,10540,94.84,62.27,157.107,80,196.38%,32.7,,,,2010
-The Bounty Hunter,Sony,7,41,Rivalry,Action,3074,6729,67.06,69.27,136.333,40,340.83%,20.7,,,http://boxofficemojo.com/movies,2010
-The Chronicles of Narnia: The Voyage of the Dawn Treader,Fox,49,63,Quest,Adventure,3555,6752,104.39,311.3,415.685,155,268.18%,24,,,,2010
-The Crazies,Liberty Starz,72,54,Monster Force,Horror,2476,6489,39.12,15.68,54.803,20,274.02%,16.07,,,http://boxofficemojo.com/movies/?id=crazies.htm,2010
-The Expendables,Independent,40,58,Pursuit,Action,3270,10650,103.07,171.4,274.469,82,334.72%,34.8,,,,2010
-The Fighter,Paramount,91,88,Underdog,Drama,2503,4848,93.62,35.54,129.154,25,516.62%,12,"Sup. Actor, Sup. Actress",,,2010
-The Ghost Writer,Summit,83,68,The Riddle,Mystery,819,2520,15.54,44.68,60.22,45,133.82%,2,,,,2010
-The Joneses,Independent,61,47,Temptation,Comedy,,,1.48,0.49,1.97,10,19.70%,0.51,,,http://www.imdb.com/title/tt1285309/,2010
-The Karate Kid,Sony,66,75,Underdog,Action,3663,15197,176.59,182.53,359.12,40,897.80%,55.7,,,,2010
-The Kids Are All Right,Independent,94,72,Comedy,Comedy,847,4162,20.81,13.89,34.704,4,867.60%,3.5,,,,2010
-The King's Speech,Independent,95,93,Maturation,Biography,700,6406,138.79,275.41,414.204,15,2761.36%,4.4,"Best Picture, Director,  Actor, Orig. Screenplay",,http://www.the-numbers.com/movie/Kings-Speech-The,2010
-The Last Airbender,Paramount,6,42,Quest,Action,3169,12725,131.77,187.94,319.713,150,213.14%,40.3,,,,2010
-The Last Exorcism,Independent,73,32,Monster Force,Drama,2874,7087,41.03,26.7,67.733,1.8,3762.94%,20.4,,,,2010
-The Last Song,Disney,19,66,Discovery,Drama,2673,5989,62.95,26.09,89.04,20,445.20%,16,,,,2010
-The Losers,Warner Bros.,47,55,Revenge,Action,2936,3204,23.59,5.79,29.38,25,117.52%,9.4,,,,2010
-The Next Three Days,Lionsgate,51,66,Rescue,Crime,2564,2552,21.15,46.3,67.45,30,224.83%,6.54,,,,2010
-The Other Guys,Sony,78,57,Comedy,Action,3651,9735,119.22,51.21,170.431,100,170.43%,35.5,,,,2010
-The Runaways,Independent,68,56,Maturation,Biography,244,3300,3.57,1.11,4.677,10,46.77%,0.8,,,,2010
-The Social Network,Sony,96,89,Rags to Riches,Biography,2771,8100,96.96,127.96,224.919,50,449.84%,22.4,,,,2010
-The Sorcerer's Apprentice,Disney,42,57,Pursuit,Action,3504,5028,63.15,152.13,215.28,150,143.52%,17.6,,,,2010
+Paranormal Activity 2,Paramount,,,Monster Force,Horror,3216,12649,84.75,92.76,177.511,3,5917.03,40.67,,,http://boxofficemojo.com/movies/?id=paranormalactivity2.htm,2010
+Percy Jackson & the Olympians: The Lightning Thief,Fox,50,57,Rivalry,Action,3356,9308,88.77,137.73,226.5,95,238.42,31.2,,,,2010
+Piranha 3-D,The Weinstein Company,74,45,Monster Force,Comedy,2470,4092,25,58.19,83.188,24,346.62,10.1,,,http://www.the-numbers.com/movies/2009/ABSTV.php,2010
+Please Give,Sony,88,62,Comedy,Comedy,,,4.03,0.28,4.309,3,143.63,0.1,,,,2010
+Predators,Fox,64,52,Monster Force,Action,2669,9277,52,75.23,127.232,40,318.08,24.8,,,,2010
+Prince of Persia: The Sands of Time,Disney,36,71,Rivalry,Action,3646,8254,90.76,245.61,336.365,200,168.18,30,,,,2010
+Red,Summit,71,72,Rivalry,Action,3255,6686,90.38,108.63,199.006,58,343.11,21.8,,,,2010
+Remember Me,Summit,28,70,Love,Drama,2212,3657,19.07,36.96,56.034,16,350.21,8,,,,2010
+Repo Men,Universal,22,43,Rescue,Action,2521,2430,13.79,4.62,18.41,32,57.53,6.1,,,,2010
+Resident Evil: Afterlife,Highlight Communications,24,53,Monster Force,Action,3203,8320,60.13,236.09,296.22,60,493.70,26.7,,,,2010
+Robin Hood,Universal,42,59,Rivalry,Action,3503,10295,105.27,216.4,321.669,200,160.83,36,,,,2010
+Salt,Sony,62,62,Revenge,Action,3612,9970,118.31,175.19,293.502,110,266.82,36,,,,2010
+Saw 3-D,Independent,10,47,Escape,Crime,2808,8024,45.71,90.44,136.15,20,680.75,22.53,,,,2010
+Scott Pilgrim vs. the World,Universal,81,83,Underdog,Action,2818,3765,31.52,16.14,47.66,60,79.43,10.6,,,,2010
+Sex and the City 2,Warner Bros.,15,49,Love,Comedy,3445,8999,95.35,193,288.347,100,288.35,31,,,,2010
+She's Out of My League,Paramount,57,60,Love,Comedy,2956,3307,32.01,17.77,49.778,20,248.89,9.8,,,,2010
+Shrek Forever After,Paramount,57,64,Journey and Return,Animation,4359,16251,238.74,513.86,752.604,165,456.12,70.8,,,,2010
+Shutter Island,Paramount,68,73,The Riddle,Drama,2991,13729,128.01,166.79,294.802,80,368.50,41,,,,2010
+Skyline,Independent,16,19,Monster Force,Action,2880,4060,21.39,45.43,66.817,10,668.17,11.69,,,,2010
+Solitary Man,Independent,81,47,Wretched Excess,Comedy,4,23734,4.36,0.82,5.178,15,34.52,0.09,,,,2010
+Step Up 3D,Summit,46,67,Transformation,Drama,2435,6494,42.4,116.89,159.291,30,530.97,15.8,,,http://www.the-numbers.com/movies/2009/ABSTV.php,2010
+Stone,Independent,49,20,Rivalry,Drama,6,12628,1.81,7.67,9.479,22,43.09,0.075,,,,2010
+Takers,Sony,27,57,Rivalry,Action,2206,9298,57.74,11.31,69.05,32,215.78,20.5,,,,2010
+Tangled,Disney,89,88,Love,Animation,3603,13535,200.82,390.97,591.794,260,227.61,48.77,,,,2010
+The A-Team,Fox,47,71,Pursuit,Action,3535,7262,77.22,100.02,177.236,100,177.24,25.7,,,,2010
+The American,Universal,66,37,Rivalry,Crime,2823,4668,35.61,32.27,67.875,20,339.38,13.1,,,,2010
+The Back-up Plan,CBS,20,47,Love,Comedy,3280,3720,37.49,39.99,77.477,35,221.36,12.2,,,,2010
+The Book of Eli        ,Independent,48,68,Quest,Action,3111,10540,94.84,62.27,157.107,80,196.38,32.7,,,,2010
+The Bounty Hunter,Sony,7,41,Rivalry,Action,3074,6729,67.06,69.27,136.333,40,340.83,20.7,,,http://boxofficemojo.com/movies,2010
+The Chronicles of Narnia: The Voyage of the Dawn Treader,Fox,49,63,Quest,Adventure,3555,6752,104.39,311.3,415.685,155,268.18,24,,,,2010
+The Crazies,Liberty Starz,72,54,Monster Force,Horror,2476,6489,39.12,15.68,54.803,20,274.02,16.07,,,http://boxofficemojo.com/movies/?id=crazies.htm,2010
+The Expendables,Independent,40,58,Pursuit,Action,3270,10650,103.07,171.4,274.469,82,334.72,34.8,,,,2010
+The Fighter,Paramount,91,88,Underdog,Drama,2503,4848,93.62,35.54,129.154,25,516.62,12,"Sup. Actor, Sup. Actress",,,2010
+The Ghost Writer,Summit,83,68,The Riddle,Mystery,819,2520,15.54,44.68,60.22,45,133.82,2,,,,2010
+The Joneses,Independent,61,47,Temptation,Comedy,,,1.48,0.49,1.97,10,19.70,0.51,,,http://www.imdb.com/title/tt1285309/,2010
+The Karate Kid,Sony,66,75,Underdog,Action,3663,15197,176.59,182.53,359.12,40,897.80,55.7,,,,2010
+The Kids Are All Right,Independent,94,72,Comedy,Comedy,847,4162,20.81,13.89,34.704,4,867.60,3.5,,,,2010
+The King's Speech,Independent,95,93,Maturation,Biography,700,6406,138.79,275.41,414.204,15,2761.36,4.4,"Best Picture, Director,  Actor, Orig. Screenplay",,http://www.the-numbers.com/movie/Kings-Speech-The,2010
+The Last Airbender,Paramount,6,42,Quest,Action,3169,12725,131.77,187.94,319.713,150,213.14,40.3,,,,2010
+The Last Exorcism,Independent,73,32,Monster Force,Drama,2874,7087,41.03,26.7,67.733,1.8,3762.94,20.4,,,,2010
+The Last Song,Disney,19,66,Discovery,Drama,2673,5989,62.95,26.09,89.04,20,445.20,16,,,,2010
+The Losers,Warner Bros.,47,55,Revenge,Action,2936,3204,23.59,5.79,29.38,25,117.52,9.4,,,,2010
+The Next Three Days,Lionsgate,51,66,Rescue,Crime,2564,2552,21.15,46.3,67.45,30,224.83,6.54,,,,2010
+The Other Guys,Sony,78,57,Comedy,Action,3651,9735,119.22,51.21,170.431,100,170.43,35.5,,,,2010
+The Runaways,Independent,68,56,Maturation,Biography,244,3300,3.57,1.11,4.677,10,46.77,0.8,,,,2010
+The Social Network,Sony,96,89,Rags to Riches,Biography,2771,8100,96.96,127.96,224.919,50,449.84,22.4,,,,2010
+The Sorcerer's Apprentice,Disney,42,57,Pursuit,Action,3504,5028,63.15,152.13,215.28,150,143.52,17.6,,,,2010
 The Spy Next Door,Relativity Media,13,46,Rivalry,Action,2924,3326,24.31,20.93,45.239,,,9.7,,,,2010
-The Switch,Independent,52,44,Comedy,Comedy,2012,4193,27.78,22.05,49.831,19,262.27%,8.4,,,,2010
-The Tourist,Sony,20,44,,Thriller,2756,5977,67.63,210.72,278.346,100,278.35%,16,,,,2010
-The Town,Warner Bros.,94,83,Rivalry,Crime,2856,8322,92.19,61.84,154.025,37,416.28%,23.8,,,,2010
-"The Twilight Saga: Eclipse	",Summit,50,74,Monster Force,Drama,4468,14510,300.53,397.96,698.489,68,1027.19%,64.8,,,,2010
-The Wolfman,Universal,33,38,Monster Force,Drama,3222,9770,61.98,77.81,139.79,150,93.19%,31.5,,,,2010
-Tooth Fairy,Fox,16,46,Comedy,Comedy,3344,4190,60.02,52.44,112.46,48,234.29%,14,,,,2010
-Toy Story 3,Disney,99,91,Rescue,Animation,4028,27385,415,648.16,1063.16,200,531.58%,110.3,,,,2010
-Tron: Legacy,Independent,50,67,Fish Out Of Water,Action,3451,12578,172.06,228,400.062,170,235.33%,44.03,,,,2010
-True Grit,Paramount,96,86,Revenge,Adventure,3047,8149,171.24,81.03,252.273,38,663.88%,24,,,,2010
-Unstoppable,Fox,86,73,Rescue,Action,3207,7075,81.56,86.24,167.802,95,176.63%,22.69,,,,2010
-Valentine's Day,Warner Bros.,17,54,Love,Comedy,3655,15351,110.49,106,216.485,52,416.32%,56.2,,,,2010
-Vampires Suck,Independent,4,32,Comedy,Comedy,3233,3774,36.66,43.89,80.546,20,402.73%,12.2,,,,2010
-Wall Street: Money Never Sleeps,Independent,54,43,Rivalry,Drama,3565,5333,52.47,82.27,134.743,70,192.49%,19,,,,2010
+The Switch,Independent,52,44,Comedy,Comedy,2012,4193,27.78,22.05,49.831,19,262.27,8.4,,,,2010
+The Tourist,Sony,20,44,,Thriller,2756,5977,67.63,210.72,278.346,100,278.35,16,,,,2010
+The Town,Warner Bros.,94,83,Rivalry,Crime,2856,8322,92.19,61.84,154.025,37,416.28,23.8,,,,2010
+"The Twilight Saga: Eclipse	",Summit,50,74,Monster Force,Drama,4468,14510,300.53,397.96,698.489,68,1027.19,64.8,,,,2010
+The Wolfman,Universal,33,38,Monster Force,Drama,3222,9770,61.98,77.81,139.79,150,93.19,31.5,,,,2010
+Tooth Fairy,Fox,16,46,Comedy,Comedy,3344,4190,60.02,52.44,112.46,48,234.29,14,,,,2010
+Toy Story 3,Disney,99,91,Rescue,Animation,4028,27385,415,648.16,1063.16,200,531.58,110.3,,,,2010
+Tron: Legacy,Independent,50,67,Fish Out Of Water,Action,3451,12578,172.06,228,400.062,170,235.33,44.03,,,,2010
+True Grit,Paramount,96,86,Revenge,Adventure,3047,8149,171.24,81.03,252.273,38,663.88,24,,,,2010
+Unstoppable,Fox,86,73,Rescue,Action,3207,7075,81.56,86.24,167.802,95,176.63,22.69,,,,2010
+Valentine's Day,Warner Bros.,17,54,Love,Comedy,3655,15351,110.49,106,216.485,52,416.32,56.2,,,,2010
+Vampires Suck,Independent,4,32,Comedy,Comedy,3233,3774,36.66,43.89,80.546,20,402.73,12.2,,,,2010
+Wall Street: Money Never Sleeps,Independent,54,43,Rivalry,Drama,3565,5333,52.47,82.27,134.743,70,192.49,19,,,,2010
 When in Rome,Disney,15,44,Love,Comedy,2456,5029,32.68,10.36,43.04,,,12.3,,,,2010
-Why Did I Get Married Too?,Lionsgate,27,67,Comedy,Comedy,2155,13591,60.09,0.58,60.67,20,303.35%,29.3,,,,2010
-Winter's Bone,Independent,94,73,Quest,Drama,,,6.53,7.3,13.831,2,691.55%,0.8,,,,2010
-Yogi Bear,,14,36,,Comedy,3515,4669,100.25,101.34,201.584,80,251.98%,16.4,,,http://boxofficemojo.com/movies/?id=yogibear.htm,2010
-You Again,Independent,18,45,Comedy,Comedy,2548,3300,25.7,6.3,32.003,20,160.02%,8.4,,,,2010
-You Will Meet a Tall Dark Stranger,Independent,43,35,Love,Comedy,402,,3.24,31.03,34.267,22,155.76%,0.16,,,,2010
-Youth in Revolt,The Weinstein Company,68,52,Love,Comedy,1873,3678,15.28,4.37,19.649,18,109.16%,6.9,,,,2010
-Avatar ,Fox,83,92,Metamorphosis,Action,3452,22313,760.5,"2,021.00","2,781.50",237,1173.63%,77,,,http://www.the-numbers.com/movies/2009/AVATR.php,2009
-Transformers: Revenge of the Fallen ,Paramount,20,76,Revenge,Action,4234,25736,402.1,434.2,836.3,210,398.24%,109,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
-Harry Potter and the Half-Blood Prince ,Warner Bros.,83,75,Quest,Adventure,4325,17997,302,632,934,250,373.60%,77.8,,,http://www.the-numbers.com/movies/2009/HPOT6.php,2009
-The Twilight Saga: New Moon ,Summit,27,78,Love,Drama,4024,35497,296.62,413.2,709.82,50,1419.64%,142.8,,,http://boxofficemojo.com/movies/?id=newmoon.htm,2009
-Up ,Disney,98,86,Journey and Return,Animation,3766,18085,293,438.3,731.3,175,417.89%,68.1,Animated,Animated,http://www.the-numbers.com/movies/2009/UP.php,2009
-The Hangover ,Warner Bros.,79,87,Comedy,Comedy,3269,13759,277.3,190.16,467.46,35,1335.60%,45,,,http://boxofficemojo.com/movies/?id=hangover.htm,2009
-Star Trek ,Paramount,94,91,Revenge,Action,3849,19539,257.7,127.95,385.65,140,275.46%,75.2,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
-The Blind Side ,Warner Bros.,65,90,Rags To Riches,Biography,3110,10971,255.96,53.24,309.2,29,1066.20%,34.1,Best Actress,,http://boxofficemojo.com/movies/?id=blindside.htm,2009
-Alvin and the Chipmunks: The Squeakquel ,Independent,21,59,Comedy,Animation,\,13210,219.5,223,440.7,75,587.60%,48.8,,,http://boxofficemojo.com/movies/?id=alvinandthechipmunksii.htm,2009
-Sherlock Holmes ,Warner Bros.,70,81,The Riddle,Action,3626,17183,209.02,315,524.02,90,582.24%,62.3,,,http://boxofficemojo.com/movies/?id=sherlockholmes.htm,2009
-Monsters Vs. Aliens ,Paramount,72,65,Monster Force,Animation,4104,14454,198.4,183.2,381.5,175,218.00%,59.3,,,http://boxofficemojo.com/movies/?id=monstersvsaliens.htm,2009
-Ice Age: Dawn of the Dinosaurs ,Fox,45,72,Quest,Animation,4099,10171,196.57,690.11,886.68,90,985.20%,41.7,,,http://boxofficemojo.com/movies/?id=iceage3.htm,2009
-X-Men Origins: Wolverine ,Fox,37,72,Revenge,Action,4099,20751,179.9,193.2,373.1,150,248.73%,85.1,,,http://boxofficemojo.com/movies/?id=wolverine.htm,2009
-Night at the Museum: Battle of the Smithsonian ,Fox,43,60,Quest,Action,4096,13226,177.2,235.8,413,150,275.33%,54.2,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
-2012,Sony,39,63,Escape,Action,3404,19165,166.12,603.57,769.69,200,384.84%,65.3,,,http://boxofficemojo.com/movies/?id=2012.htm,2009
-The Proposal ,Disney,43,74,Love,Comedy,3056,11004,163.96,153.42,314.7,40,786.75%,33.6,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
-Fast and Furious ,Universal,28,76,Revenge,Action,3461,20500,155.1,208,363.1,85,427.18%,70.9,,,http://boxofficemojo.com/movies/?id=fastandthefurious4.htm,2009
-G.I. Joe: The Rise of Cobra ,Paramount,33,62,Pursuit,Action,4007,13654,150.2,152.26,302.1,175,172.63%,54.7,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
-Paul Blart: Mall Cop ,Sony,33,50,Comedy,Action,3144,10125,146.33,36.95,183.28,26,704.92%,31.8,,,http://boxofficemojo.com/movies/?id=mallcop.htm,2009
-Taken ,Fox,58,83,Pursuit,Action,3183,7765,145,81.8,226.8,25,907.20%,24.7,,,http://boxofficemojo.com/movies/?id=taken.htm,2009
-A Christmas Carol,Disney,52,72,Transformation,Animation,3683,8159,137.9,187.43,325.33,200,162.67%,30.1,,,http://boxofficemojo.com/movies/?id=christmascarol09.htm,2009
-Angels & Demons ,Sony,36,65,The Riddle,Mystery,3527,13100,133.4,352.6,485.9,150,323.93%,46.2,,,http://boxofficemojo.com/movies/?id=angelsanddemons.htm,2009
-Terminator Salvation ,Warner Bros.,33,64,Monster Force,Action,3530,12056,125.3,246.7,372,200,186.00%,42.6,,,http://boxofficemojo.com/movies/?id=terminatorsalvation.htm,2009
-Cloudy with a Chance of Meatballs ,Sony,86,70,Comedy,Animation,3119,9716,124.9,118.13,243.03,100,243.03%,30.3,,,http://boxofficemojo.com/movies/?id=cloudywithachanceofmeatballs.htm,2009
-Inglourious Basterds ,Universal,88,87,Underdog,Adventure,3135,12024,120.5,200.91,321.41,70,459.16%,38,Supporting Actor,Supporting Actor,http://www.the-numbers.com/movies/records/allbudgets.php,2009
-G-Force ,Disney,22,50,Comedy,Action,3697,8576,119.4,173.38,285.1,150,190.07%,31.7,,,http://boxofficemojo.com/movies/?id=g-force.htm,2009
-District 9 ,Independent,91,81,Metamorphosis,Action,3049,12251,115.6,95.17,210.77,30,702.57%,37.4,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
-It's Complicated ,Universal,56,63,Love,Comedy,2887,7655,112.73,106.37,219.1,85,257.76%,22.1,,,http://www.the-numbers.com/movies/2009/CMPLC.php,2009
-Couples Retreat ,Universal,12,47,Comedy,Comedy,3000,11429,109.2,62.63,171.83,60,286.38%,34.3,,,http://boxofficemojo.com/movies/?id=couplesretreat.htm,2009
-Paranormal Activity ,Independent,82,56,Monster Force,Horror,760,25813,107.92,85.44,193.36,0.015,1289040.00%,19.6,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
-Watchmen ,Warner Bros.,64,68,Sacrifice,Action,3611,15291,107.5,77.7,185.3,130,142.54%,55.2,,,http://boxofficemojo.com/movies/?id=watchmen.htm,2009
-The Princess and the Frog ,Disney,84,72,Metamorphosis,Animation,3434,7050,104.4,162.64,267.04,105,254.32%,24.2,,,http://www.the-numbers.com/movies/2009/FROGP.php,2009
-Public Enemies ,Universal,67,65,Underdog,Biography,3334,7580,97.1,117,214.1,100,214.10%,25.2,,,http://boxofficemojo.com/movies/?id=publicenemies.htm,2009
-Julie & Julia ,Sony,74,69,Underdog,Biography,2354,8508,94.12,32.45,126.57,40,316.43%,20,,,http://www.the-numbers.com/movies/2009/JULIE.php,2009
-He's Just Not That Into You ,Warner Bros.,42,60,Love,Comedy,3175,8751,93.95,84.89,178.84,25,715.36%,27.8,,,http://boxofficemojo.com/movies/?id=hesjustnotthatintoyou.htm,2009
-The Ugly Truth ,Independent,14,68,Love,Comedy,2882,9579,88.9,116.38,205.28,38,540.22%,27.6,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
-Up in the Air ,Paramount,90,76,Maturation,Drama,1895,5947,83.82,116.38,200.2,25,800.81%,11.2,,Adapted Screenplay,http://boxofficemojo.com/movies/?id=upintheair.htm,2009
-Knowing ,Summit,33,50,Escape,Drama,3332,7384,79.95,103.63,183.58,50,367.16%,24.6,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
-Hannah Montana: The Movie ,Disney,44,66,Maturation,Comedy,3118,10367,79.58,75.97,155.55,35,444.43%,32.3,,,http://www.the-numbers.com/movies/2009/HANNA.php,2009
-Where the Wild Things Are ,Warner Bros.,73,59,Journey and Return,Adventure,3735,8754,77.23,22.85,100.08,100,100.08%,32.7,,,http://www.the-numbers.com/movies/2009/WILD.php,2009
-Zombieland ,Sony,90,87,Monster Force,Action,3036,8147,75.59,26.8,102.39,23.6,433.86%,24.7,,,http://www.the-numbers.com/movies/2009/ZMBLN.php,2009
-Coraline ,Universal,89,77,Journey and Return,Animation,2299,7329,75.28,49.3,124.58,60,207.63%,16.8,,,http://boxofficemojo.com/movies/?id=coraline.htm,2009
-Law Abiding Citizen ,Independent,25,77,Revenge,Crime,2890,7280,73.4,53.08,126.48,53,238.64%,21,,,http://www.the-numbers.com/movies/2009/LACTZ.php,2009
-Hotel for Dogs ,Paramount,46,57,Comedy,Comedy,3271,5201,73,43.97,118.2,35,337.71%,17,,,http://www.the-numbers.com/movies/2009/HTLDG.php,2009
-Michael Jackson's This Is It ,Sony,81,82,Tragedy,Documentary,3481,6675,72.1,189.09,261.19,60,435.32%,23.3,,,http://www.the-numbers.com/movies/2009/JACKO.php,2009
-"I Love You, Man ",Paramount,83,72,Comedy,Comedy,2711,6570,71.4,20.2,91.4,40,228.50%,17.8,,,http://www.the-numbers.com/movies/2009/ILVUM.php,2009
-Obsessed ,Sony,20,50,Rivalry,Drama,2514,11318,68.26,5.56,73.82,20,369.10%,28.6,,,http://boxofficemojo.com/movies/?id=obsessed.htm,2009
-Race to Witch Mountain ,Buena Vista,42,50,Quest,Action,3187,7651,67.17,39.21,106.38,50,212.76%,24.4,,,http://boxofficemojo.com/movies/?id=racetowitchmountain.htm,2009
-The Final Destination ,Warner Bros.,29,52,Escape,Horror,3121,8782,66.5,119.69,186.19,40,465.47%,27.4,,,http://www.the-numbers.com/movies/2009/FDES4.php,2009
-The Taking of Pelham 1 2 3 ,Sony,51,60,Rescue,Action,3074,7603,65.45,84.71,150.16,100,150.16%,23.37,,,http://boxofficemojo.com/movies/?id=takingofpelham09.htm,2009
-Friday the 13th,Paramount,25,52,Monster Force,Horror,3105,13066,65,26.4,91.4,19,481.05%,40.6,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
-17 Again ,Independent,55,70,Maturation,Comedy,3255,7288,64.2,72.1,136.3,20,681.50%,23.7,,,http://www.darkhorizons.com/films/134/17-Again,2009
-The Time Traveler's Wife ,Paramount,38,65,Love,Drama,2988,6233,63.41,37.92,101.33,39,259.82%,18.6,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
-Bruno ,Universal,68,48,Comedy,Comedy,2756,11110,60.1,78.75,130.8,42,311.43%,30.6,,,http://www.the-numbers.com/movies/2009/BRUNO.php,2009
-Bride Wars ,Fox,11,56,Comedy,Comedy,3226,6528,58.75,55.95,115.15,30,383.83%,21.1,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
-The Haunting in Connecticut ,Lionsgate,17,51,Monster Force,Drama,2732,8420,55.39,22.13,77.52,30,258.40%,23,,,http://www.the-numbers.com/interactive/newsStory.php?newsID=4064,2009
-Ghosts of Girlfriends Past ,Warner Bros.,27,47,Love,Comedy,3175,4854,55.25,46.97,102.22,50,204.44%,15.4,,,http://boxofficemojo.com/movies/?id=ghostsofgirlfriendspast.htm,2009
-Funny People ,Universal,68,58,Transformation,Comedy,3007,7535,51.85,19.73,71.58,75,95.44%,22.7,,,http://boxofficemojo.com/movies/?id=funnypeople.htm,2009
-My Bloody Valentine 3-D ,Lionsgate,57,48,Pursuit,Crime,2534,8383,51.54,49.19,100.73,14,719.49%,21.2,,,http://www.the-numbers.com/movies/2009/MBVAL.php,2009
-Old Dogs ,Buena Vista,5,49,Comedy,Comedy,3425,4933,49.49,47.26,96.75,35,276.43%,16.9,,,http://boxofficemojo.com/movies/?id=olddogs.htm,2009
-Land of the Lost ,Universal,26,38,Journey and Return,Drama,3521,5350,49.43,19.34,68.77,100,68.77%,18.8,,,http://www.the-numbers.com/movies/2009/LANDL.php,2009
-My Sister's Keeper ,Warner Bros.,47,73,Escape,Drama,2606,4774,49.2,46.51,95.71,27.5,348.05%,12.4,,,http://www.the-numbers.com/movies/2009/MYSKP.php,2009
-Underworld: Rise of the Lycans ,Sony,30,68,Rivalry,Action,2942,7080,45.8,45.55,91.35,35,261.00%,20.8,,,http://boxofficemojo.com/movies/?id=underworld3.htm,2009
-Confessions of a Shopaholic ,Disney,24,53,Comedy,Comedy,2507,6010,44.27,64.05,108.3,70,155.00%,15,,,http://www.the-numbers.com/movies/2009/SHOPA.php,2009
-The Lovely Bones ,Paramount,32,57,Tragedy,Drama,2563,6635,44,49.51,93.51,65,143.86%,17,,,http://www.the-numbers.com/movies/2009/LVBON.php,2009
-Year One ,Sony,14,31,Quest,Adventure,3022,6489,43.33,19.02,62.35,60,103.92%,19.6,,,http://boxofficemojo.com/movies/?id=yearone.htm,2009
-The Unborn,Relativity Media,11,39,Monster Force,Horror,2357,8405,42.67,33.84,76.51,16,478.19%,19.8,,,http://boxofficemojo.com/movies/?id=unborn09.htm,2009
-Planet 51 ,Independent,22,45,Comedy,Animation,3035,4048,42.19,63.45,105.64,70,150.91%,12.3,,,http://boxofficemojo.com/movies/?id=planet51.htm,2009
-Drag Me to Hell ,Universal,92,61,Monster Force,Horror,2508,6310,42.1,48.7,90.8,30,302.67%,15.8,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
-Orphan ,Warner Bros.,55,65,Escape,Horror,2750,4681,41.59,35.1,76.69,30,255.64%,12.8,,,http://www.the-numbers.com/interactive/newsStory.php?newsID=4328,2009
-Duplicity ,Universal,64,38,Rivalry,Romance,2574,5425,40.57,37.57,78.14,60,130.23%,14,,,http://boxofficemojo.com/movies/?id=duplicity.htm,2009
-Surrogates ,Buena Vista,39,42,Pursuit,Action,2951,5050,38.57,83.86,122.43,80,153.04%,14.9,,,http://boxofficemojo.com/movies/?id=surrogates.htm,2009
-Ninja Assassin ,Warner Bros.,25,57,Revenge,Action,2503,5320,38.12,23.47,61.59,50,123.18%,13.3,,,http://boxofficemojo.com/movies/?id=ninjaassassin.htm,2009
-Invictus,Warner Bros.,75,74,Underdog,Biography,2125,4052,37.49,84.74,122.23,60,203.72%,8.6,,,http://boxofficemojo.com/movies/?id=eastwood09.htm,2009
-State of Play ,Universal,84,71,The Riddle,Crime,2803,5020,37.02,50.79,88.3,60,147.00%,14.1,,,http://www.the-numbers.com/movies/2009/STPLY.php,2009
-Notorious,Fox,50,66,Tragedy ,Biography,1638,12514,36.84,7.52,44.36,20,221.80%,20.5,,,http://boxofficemojo.com/movies/?id=notorious08.htm,2009
-The Pink Panther 2 ,Sony,12,47,Comedy,Adventure,3243,3573,35.92,40.02,75.94,59,128.71%,11.6,,,http://boxofficemojo.com/movies/?id=pinkpanther2.htm,2009
-All About Steve ,Fox,6,35,Comedy,Comedy,2251,4994,33.86,6.26,40.12,15,267.47%,11.2,,,http://www.the-numbers.com/movies/2009/ABSTV.php,2009
-Halloween II,Independent,20,45,Escape,Horror,3025,5405,33.39,6.02,39.41,15,262.73%,16.3,,,http://boxofficemojo.com/movies/?id=halloween209.htm,2009
-The Informant! ,Warner Bros.,78,42,Comedy,Comedy,2505,4177,33.31,8.45,41.76,22,189.82%,10.5,,,http://boxofficemojo.com/movies/?id=informant.htm,2009
-The Men Who Stare at Goats ,Independent,52,43,Comedy,Comedy,2443,5201,32.4,36.54,68.94,25,275.76%,12.7,,,http://boxofficemojo.com/movies/?id=menwhostareatgoats.htm,2009
-(500) Days of Summer ,Fox,87,81,Love,Comedy,817,4577,32.39,28.33,60.72,7.5,809.60%,3.8,,,http://boxofficemojo.com/movies/?id=500daysofsummer.htm,2009
-Push ,Summit,22,47,Quest,Action,2313,4358,31.81,17.04,48.85,38,128.55%,10.1,,,http://boxofficemojo.com/movies/?id=push09.htm,2009
-9,Focus,57,58,Sacrifice,Animation,1661,10398,31.74,16.67,48.41,30,161.37%,10.7,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
-The Soloist ,Paramount,56,59,Quest,Drama,2024,4801,31.7,6.61,38.31,60,63.85%,9.7,,,http://www.the-numbers.com/movies/2009/SOLOS.php,2009
-Did You Hear About the Morgans? ,Sony,12,31,Comedy,Comedy,2718,2434,29.58,55.7,85.28,58,147.03%,6.6,,,http://boxofficemojo.com/movies/?id=grantparker09.htm,2009
-The Stepfather,Sony,12,48,Rescue,Mystery,2734,4236,29.1,2.13,31.2,20,156.00%,11.6,,,http://www.boxofficemojo.com/movies/?id=stepfather09.htm,2009
+Why Did I Get Married Too?,Lionsgate,27,67,Comedy,Comedy,2155,13591,60.09,0.58,60.67,20,303.35,29.3,,,,2010
+Winter's Bone,Independent,94,73,Quest,Drama,,,6.53,7.3,13.831,2,691.55,0.8,,,,2010
+Yogi Bear,,14,36,,Comedy,3515,4669,100.25,101.34,201.584,80,251.98,16.4,,,http://boxofficemojo.com/movies/?id=yogibear.htm,2010
+You Again,Independent,18,45,Comedy,Comedy,2548,3300,25.7,6.3,32.003,20,160.02,8.4,,,,2010
+You Will Meet a Tall Dark Stranger,Independent,43,35,Love,Comedy,402,,3.24,31.03,34.267,22,155.76,0.16,,,,2010
+Youth in Revolt,The Weinstein Company,68,52,Love,Comedy,1873,3678,15.28,4.37,19.649,18,109.16,6.9,,,,2010
+Avatar ,Fox,83,92,Metamorphosis,Action,3452,22313,760.5,"2,021.00","2,781.50",237,1173.63,77,,,http://www.the-numbers.com/movies/2009/AVATR.php,2009
+Transformers: Revenge of the Fallen ,Paramount,20,76,Revenge,Action,4234,25736,402.1,434.2,836.3,210,398.24,109,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
+Harry Potter and the Half-Blood Prince ,Warner Bros.,83,75,Quest,Adventure,4325,17997,302,632,934,250,373.60,77.8,,,http://www.the-numbers.com/movies/2009/HPOT6.php,2009
+The Twilight Saga: New Moon ,Summit,27,78,Love,Drama,4024,35497,296.62,413.2,709.82,50,1419.64,142.8,,,http://boxofficemojo.com/movies/?id=newmoon.htm,2009
+Up ,Disney,98,86,Journey and Return,Animation,3766,18085,293,438.3,731.3,175,417.89,68.1,Animated,Animated,http://www.the-numbers.com/movies/2009/UP.php,2009
+The Hangover ,Warner Bros.,79,87,Comedy,Comedy,3269,13759,277.3,190.16,467.46,35,1335.60,45,,,http://boxofficemojo.com/movies/?id=hangover.htm,2009
+Star Trek ,Paramount,94,91,Revenge,Action,3849,19539,257.7,127.95,385.65,140,275.46,75.2,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
+The Blind Side ,Warner Bros.,65,90,Rags To Riches,Biography,3110,10971,255.96,53.24,309.2,29,1066.20,34.1,Best Actress,,http://boxofficemojo.com/movies/?id=blindside.htm,2009
+Alvin and the Chipmunks: The Squeakquel ,Independent,21,59,Comedy,Animation,\,13210,219.5,223,440.7,75,587.60,48.8,,,http://boxofficemojo.com/movies/?id=alvinandthechipmunksii.htm,2009
+Sherlock Holmes ,Warner Bros.,70,81,The Riddle,Action,3626,17183,209.02,315,524.02,90,582.24,62.3,,,http://boxofficemojo.com/movies/?id=sherlockholmes.htm,2009
+Monsters Vs. Aliens ,Paramount,72,65,Monster Force,Animation,4104,14454,198.4,183.2,381.5,175,218.00,59.3,,,http://boxofficemojo.com/movies/?id=monstersvsaliens.htm,2009
+Ice Age: Dawn of the Dinosaurs ,Fox,45,72,Quest,Animation,4099,10171,196.57,690.11,886.68,90,985.20,41.7,,,http://boxofficemojo.com/movies/?id=iceage3.htm,2009
+X-Men Origins: Wolverine ,Fox,37,72,Revenge,Action,4099,20751,179.9,193.2,373.1,150,248.73,85.1,,,http://boxofficemojo.com/movies/?id=wolverine.htm,2009
+Night at the Museum: Battle of the Smithsonian ,Fox,43,60,Quest,Action,4096,13226,177.2,235.8,413,150,275.33,54.2,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
+2012,Sony,39,63,Escape,Action,3404,19165,166.12,603.57,769.69,200,384.84,65.3,,,http://boxofficemojo.com/movies/?id=2012.htm,2009
+The Proposal ,Disney,43,74,Love,Comedy,3056,11004,163.96,153.42,314.7,40,786.75,33.6,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
+Fast and Furious ,Universal,28,76,Revenge,Action,3461,20500,155.1,208,363.1,85,427.18,70.9,,,http://boxofficemojo.com/movies/?id=fastandthefurious4.htm,2009
+G.I. Joe: The Rise of Cobra ,Paramount,33,62,Pursuit,Action,4007,13654,150.2,152.26,302.1,175,172.63,54.7,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
+Paul Blart: Mall Cop ,Sony,33,50,Comedy,Action,3144,10125,146.33,36.95,183.28,26,704.92,31.8,,,http://boxofficemojo.com/movies/?id=mallcop.htm,2009
+Taken ,Fox,58,83,Pursuit,Action,3183,7765,145,81.8,226.8,25,907.20,24.7,,,http://boxofficemojo.com/movies/?id=taken.htm,2009
+A Christmas Carol,Disney,52,72,Transformation,Animation,3683,8159,137.9,187.43,325.33,200,162.67,30.1,,,http://boxofficemojo.com/movies/?id=christmascarol09.htm,2009
+Angels & Demons ,Sony,36,65,The Riddle,Mystery,3527,13100,133.4,352.6,485.9,150,323.93,46.2,,,http://boxofficemojo.com/movies/?id=angelsanddemons.htm,2009
+Terminator Salvation ,Warner Bros.,33,64,Monster Force,Action,3530,12056,125.3,246.7,372,200,186.00,42.6,,,http://boxofficemojo.com/movies/?id=terminatorsalvation.htm,2009
+Cloudy with a Chance of Meatballs ,Sony,86,70,Comedy,Animation,3119,9716,124.9,118.13,243.03,100,243.03,30.3,,,http://boxofficemojo.com/movies/?id=cloudywithachanceofmeatballs.htm,2009
+Inglourious Basterds ,Universal,88,87,Underdog,Adventure,3135,12024,120.5,200.91,321.41,70,459.16,38,Supporting Actor,Supporting Actor,http://www.the-numbers.com/movies/records/allbudgets.php,2009
+G-Force ,Disney,22,50,Comedy,Action,3697,8576,119.4,173.38,285.1,150,190.07,31.7,,,http://boxofficemojo.com/movies/?id=g-force.htm,2009
+District 9 ,Independent,91,81,Metamorphosis,Action,3049,12251,115.6,95.17,210.77,30,702.57,37.4,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
+It's Complicated ,Universal,56,63,Love,Comedy,2887,7655,112.73,106.37,219.1,85,257.76,22.1,,,http://www.the-numbers.com/movies/2009/CMPLC.php,2009
+Couples Retreat ,Universal,12,47,Comedy,Comedy,3000,11429,109.2,62.63,171.83,60,286.38,34.3,,,http://boxofficemojo.com/movies/?id=couplesretreat.htm,2009
+Paranormal Activity ,Independent,82,56,Monster Force,Horror,760,25813,107.92,85.44,193.36,0.015,1289040.00,19.6,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
+Watchmen ,Warner Bros.,64,68,Sacrifice,Action,3611,15291,107.5,77.7,185.3,130,142.54,55.2,,,http://boxofficemojo.com/movies/?id=watchmen.htm,2009
+The Princess and the Frog ,Disney,84,72,Metamorphosis,Animation,3434,7050,104.4,162.64,267.04,105,254.32,24.2,,,http://www.the-numbers.com/movies/2009/FROGP.php,2009
+Public Enemies ,Universal,67,65,Underdog,Biography,3334,7580,97.1,117,214.1,100,214.10,25.2,,,http://boxofficemojo.com/movies/?id=publicenemies.htm,2009
+Julie & Julia ,Sony,74,69,Underdog,Biography,2354,8508,94.12,32.45,126.57,40,316.43,20,,,http://www.the-numbers.com/movies/2009/JULIE.php,2009
+He's Just Not That Into You ,Warner Bros.,42,60,Love,Comedy,3175,8751,93.95,84.89,178.84,25,715.36,27.8,,,http://boxofficemojo.com/movies/?id=hesjustnotthatintoyou.htm,2009
+The Ugly Truth ,Independent,14,68,Love,Comedy,2882,9579,88.9,116.38,205.28,38,540.22,27.6,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
+Up in the Air ,Paramount,90,76,Maturation,Drama,1895,5947,83.82,116.38,200.2,25,800.81,11.2,,Adapted Screenplay,http://boxofficemojo.com/movies/?id=upintheair.htm,2009
+Knowing ,Summit,33,50,Escape,Drama,3332,7384,79.95,103.63,183.58,50,367.16,24.6,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
+Hannah Montana: The Movie ,Disney,44,66,Maturation,Comedy,3118,10367,79.58,75.97,155.55,35,444.43,32.3,,,http://www.the-numbers.com/movies/2009/HANNA.php,2009
+Where the Wild Things Are ,Warner Bros.,73,59,Journey and Return,Adventure,3735,8754,77.23,22.85,100.08,100,100.08,32.7,,,http://www.the-numbers.com/movies/2009/WILD.php,2009
+Zombieland ,Sony,90,87,Monster Force,Action,3036,8147,75.59,26.8,102.39,23.6,433.86,24.7,,,http://www.the-numbers.com/movies/2009/ZMBLN.php,2009
+Coraline ,Universal,89,77,Journey and Return,Animation,2299,7329,75.28,49.3,124.58,60,207.63,16.8,,,http://boxofficemojo.com/movies/?id=coraline.htm,2009
+Law Abiding Citizen ,Independent,25,77,Revenge,Crime,2890,7280,73.4,53.08,126.48,53,238.64,21,,,http://www.the-numbers.com/movies/2009/LACTZ.php,2009
+Hotel for Dogs ,Paramount,46,57,Comedy,Comedy,3271,5201,73,43.97,118.2,35,337.71,17,,,http://www.the-numbers.com/movies/2009/HTLDG.php,2009
+Michael Jackson's This Is It ,Sony,81,82,Tragedy,Documentary,3481,6675,72.1,189.09,261.19,60,435.32,23.3,,,http://www.the-numbers.com/movies/2009/JACKO.php,2009
+"I Love You, Man ",Paramount,83,72,Comedy,Comedy,2711,6570,71.4,20.2,91.4,40,228.50,17.8,,,http://www.the-numbers.com/movies/2009/ILVUM.php,2009
+Obsessed ,Sony,20,50,Rivalry,Drama,2514,11318,68.26,5.56,73.82,20,369.10,28.6,,,http://boxofficemojo.com/movies/?id=obsessed.htm,2009
+Race to Witch Mountain ,Buena Vista,42,50,Quest,Action,3187,7651,67.17,39.21,106.38,50,212.76,24.4,,,http://boxofficemojo.com/movies/?id=racetowitchmountain.htm,2009
+The Final Destination ,Warner Bros.,29,52,Escape,Horror,3121,8782,66.5,119.69,186.19,40,465.47,27.4,,,http://www.the-numbers.com/movies/2009/FDES4.php,2009
+The Taking of Pelham 1 2 3 ,Sony,51,60,Rescue,Action,3074,7603,65.45,84.71,150.16,100,150.16,23.37,,,http://boxofficemojo.com/movies/?id=takingofpelham09.htm,2009
+Friday the 13th,Paramount,25,52,Monster Force,Horror,3105,13066,65,26.4,91.4,19,481.05,40.6,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
+17 Again ,Independent,55,70,Maturation,Comedy,3255,7288,64.2,72.1,136.3,20,681.50,23.7,,,http://www.darkhorizons.com/films/134/17-Again,2009
+The Time Traveler's Wife ,Paramount,38,65,Love,Drama,2988,6233,63.41,37.92,101.33,39,259.82,18.6,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
+Bruno ,Universal,68,48,Comedy,Comedy,2756,11110,60.1,78.75,130.8,42,311.43,30.6,,,http://www.the-numbers.com/movies/2009/BRUNO.php,2009
+Bride Wars ,Fox,11,56,Comedy,Comedy,3226,6528,58.75,55.95,115.15,30,383.83,21.1,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
+The Haunting in Connecticut ,Lionsgate,17,51,Monster Force,Drama,2732,8420,55.39,22.13,77.52,30,258.40,23,,,http://www.the-numbers.com/interactive/newsStory.php?newsID=4064,2009
+Ghosts of Girlfriends Past ,Warner Bros.,27,47,Love,Comedy,3175,4854,55.25,46.97,102.22,50,204.44,15.4,,,http://boxofficemojo.com/movies/?id=ghostsofgirlfriendspast.htm,2009
+Funny People ,Universal,68,58,Transformation,Comedy,3007,7535,51.85,19.73,71.58,75,95.44,22.7,,,http://boxofficemojo.com/movies/?id=funnypeople.htm,2009
+My Bloody Valentine 3-D ,Lionsgate,57,48,Pursuit,Crime,2534,8383,51.54,49.19,100.73,14,719.49,21.2,,,http://www.the-numbers.com/movies/2009/MBVAL.php,2009
+Old Dogs ,Buena Vista,5,49,Comedy,Comedy,3425,4933,49.49,47.26,96.75,35,276.43,16.9,,,http://boxofficemojo.com/movies/?id=olddogs.htm,2009
+Land of the Lost ,Universal,26,38,Journey and Return,Drama,3521,5350,49.43,19.34,68.77,100,68.77,18.8,,,http://www.the-numbers.com/movies/2009/LANDL.php,2009
+My Sister's Keeper ,Warner Bros.,47,73,Escape,Drama,2606,4774,49.2,46.51,95.71,27.5,348.05,12.4,,,http://www.the-numbers.com/movies/2009/MYSKP.php,2009
+Underworld: Rise of the Lycans ,Sony,30,68,Rivalry,Action,2942,7080,45.8,45.55,91.35,35,261.00,20.8,,,http://boxofficemojo.com/movies/?id=underworld3.htm,2009
+Confessions of a Shopaholic ,Disney,24,53,Comedy,Comedy,2507,6010,44.27,64.05,108.3,70,155.00,15,,,http://www.the-numbers.com/movies/2009/SHOPA.php,2009
+The Lovely Bones ,Paramount,32,57,Tragedy,Drama,2563,6635,44,49.51,93.51,65,143.86,17,,,http://www.the-numbers.com/movies/2009/LVBON.php,2009
+Year One ,Sony,14,31,Quest,Adventure,3022,6489,43.33,19.02,62.35,60,103.92,19.6,,,http://boxofficemojo.com/movies/?id=yearone.htm,2009
+The Unborn,Relativity Media,11,39,Monster Force,Horror,2357,8405,42.67,33.84,76.51,16,478.19,19.8,,,http://boxofficemojo.com/movies/?id=unborn09.htm,2009
+Planet 51 ,Independent,22,45,Comedy,Animation,3035,4048,42.19,63.45,105.64,70,150.91,12.3,,,http://boxofficemojo.com/movies/?id=planet51.htm,2009
+Drag Me to Hell ,Universal,92,61,Monster Force,Horror,2508,6310,42.1,48.7,90.8,30,302.67,15.8,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
+Orphan ,Warner Bros.,55,65,Escape,Horror,2750,4681,41.59,35.1,76.69,30,255.64,12.8,,,http://www.the-numbers.com/interactive/newsStory.php?newsID=4328,2009
+Duplicity ,Universal,64,38,Rivalry,Romance,2574,5425,40.57,37.57,78.14,60,130.23,14,,,http://boxofficemojo.com/movies/?id=duplicity.htm,2009
+Surrogates ,Buena Vista,39,42,Pursuit,Action,2951,5050,38.57,83.86,122.43,80,153.04,14.9,,,http://boxofficemojo.com/movies/?id=surrogates.htm,2009
+Ninja Assassin ,Warner Bros.,25,57,Revenge,Action,2503,5320,38.12,23.47,61.59,50,123.18,13.3,,,http://boxofficemojo.com/movies/?id=ninjaassassin.htm,2009
+Invictus,Warner Bros.,75,74,Underdog,Biography,2125,4052,37.49,84.74,122.23,60,203.72,8.6,,,http://boxofficemojo.com/movies/?id=eastwood09.htm,2009
+State of Play ,Universal,84,71,The Riddle,Crime,2803,5020,37.02,50.79,88.3,60,147.00,14.1,,,http://www.the-numbers.com/movies/2009/STPLY.php,2009
+Notorious,Fox,50,66,Tragedy ,Biography,1638,12514,36.84,7.52,44.36,20,221.80,20.5,,,http://boxofficemojo.com/movies/?id=notorious08.htm,2009
+The Pink Panther 2 ,Sony,12,47,Comedy,Adventure,3243,3573,35.92,40.02,75.94,59,128.71,11.6,,,http://boxofficemojo.com/movies/?id=pinkpanther2.htm,2009
+All About Steve ,Fox,6,35,Comedy,Comedy,2251,4994,33.86,6.26,40.12,15,267.47,11.2,,,http://www.the-numbers.com/movies/2009/ABSTV.php,2009
+Halloween II,Independent,20,45,Escape,Horror,3025,5405,33.39,6.02,39.41,15,262.73,16.3,,,http://boxofficemojo.com/movies/?id=halloween209.htm,2009
+The Informant! ,Warner Bros.,78,42,Comedy,Comedy,2505,4177,33.31,8.45,41.76,22,189.82,10.5,,,http://boxofficemojo.com/movies/?id=informant.htm,2009
+The Men Who Stare at Goats ,Independent,52,43,Comedy,Comedy,2443,5201,32.4,36.54,68.94,25,275.76,12.7,,,http://boxofficemojo.com/movies/?id=menwhostareatgoats.htm,2009
+(500) Days of Summer ,Fox,87,81,Love,Comedy,817,4577,32.39,28.33,60.72,7.5,809.60,3.8,,,http://boxofficemojo.com/movies/?id=500daysofsummer.htm,2009
+Push ,Summit,22,47,Quest,Action,2313,4358,31.81,17.04,48.85,38,128.55,10.1,,,http://boxofficemojo.com/movies/?id=push09.htm,2009
+9,Focus,57,58,Sacrifice,Animation,1661,10398,31.74,16.67,48.41,30,161.37,10.7,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
+The Soloist ,Paramount,56,59,Quest,Drama,2024,4801,31.7,6.61,38.31,60,63.85,9.7,,,http://www.the-numbers.com/movies/2009/SOLOS.php,2009
+Did You Hear About the Morgans? ,Sony,12,31,Comedy,Comedy,2718,2434,29.58,55.7,85.28,58,147.03,6.6,,,http://boxofficemojo.com/movies/?id=grantparker09.htm,2009
+The Stepfather,Sony,12,48,Rescue,Mystery,2734,4236,29.1,2.13,31.2,20,156.00,11.6,,,http://www.boxofficemojo.com/movies/?id=stepfather09.htm,2009
 The Uninvited ,Paramount,31,52,Monster Force,Drama,2344,4405,28.6,13.03,42.7,,,10.3,,,http://www.the-numbers.com/movies/2009/UNVIT.php,2009
-Brothers ,Lionsgate,61,62,Transformation,Drama,2088,4563,28.5,14.77,43.27,26,166.42%,9.5,,,http://boxofficemojo.com/movies/?id=brothers09.htm,2009
-Saw VI ,Independent,40,67,Escape,Horror,3036,4650,27.69,40.5,68.19,11,619.91%,14.1,,,http://boxofficemojo.com/movies/?id=saw6.htm,2009
-Dance Flick ,Paramount,17,35,Comedy,Action,2450,4344,25.66,5.77,31.43,25,125.72%,10.6,,,http://boxofficemojo.com/movies/?id=danceflick.htm,2009
-The Fourth Kind ,Universal,18,44,Monster Force,Mystery,2527,4840,25.48,22.22,47.7,10,477.00%,12.2,,,http://boxofficemojo.com/movies/?id=fourthkind.htm,2009
-The International ,Sony,58,39,The Riddle,Action,2364,3947,25.4,34.7,60.1,50,120.20%,9.3,,,http://boxofficemojo.com/movies/?id=international.htm,2009
-Aliens in the Attic ,Fox,30,46,Monster Force,Adventure,3106,2578,25.2,32.68,57.88,45,128.62%,8,,,http://boxofficemojo.com/movies/?id=aliensintheattic.htm,2009
-Observe and Report ,Warner Bros.,51,40,Comedy,Comedy,2727,4040,24,2.96,26.96,18,149.78%,11,,,http://boxofficemojo.com/movies/?id=observeandreport.htm,2009
-Love Happens ,Universal,18,40,Love,Drama,1898,4245,22.96,13.12,36.08,18,200.44%,8.05,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
-Fame,MGM,25,43,Maturation,Comedy,3096,3234,22.46,54.76,77.21,18,428.95%,10,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
-Fantastic Mr. Fox ,Fox,93,80,Rivalry,Animation,2033,3426,21,25.46,46.46,40,116.15%,7,,,http://boxofficemojo.com/movies/?id=fantasticmrfox.htm,2009
-Gamer ,Lionsgate,29,43,Revenge,Action,2502,3659,20.53,20.29,40.82,12.5,326.56%,9.15,,,http://www.the-numbers.com/movies/2009/CGAME.php,2009
-Nine ,Weinstein Co.,37,40,Discovery,Drama,1412,3862,19.67,34.32,53.99,80,67.49%,5.45,,,http://boxofficemojo.com/movies/?id=nine.htm,2009
-Astro Boy ,Summit,49,53,Quest,Animation,3014,2224,19.55,20.34,39.89,65,61.36%,6.7,,,http://www.the-numbers.com/movies/2009/ASBOY.php,2009
-The Invention of Lying ,Warner Bros.,56,47,Love,Comedy,1707,4117,18.45,13.95,32.4,18.5,175.14%,7,,,http://boxofficemojo.com/movies/?id=inventionoflying.htm,2009
-Inkheart ,Warner Bros.,39,51,Quest,Adventure,2655,2862,17.3,45.14,62.44,60,104.07%,7.6,,,http://boxofficemojo.com/movies/?id=inkheart.htm,2009
-Fired Up! ,Independent,22,52,Comedy,Comedy,1810,3030,17.2,1.37,18.6,20,93.00%,5.5,,,http://boxofficemojo.com/movies/?id=firedup.htm,2009
-The Hurt Locker ,Independent,97,83,Quest,Drama,4,36338,17.01,32.21,49.22,15,328.13%,0.14,"Best Picture, Director, Original Screenplay","Film, Director, Original Screenplay",http://boxofficemojo.com/movies/?id=hurtlocker.htm,2009
-Jennifer's Body ,Fox,42,37,Monster Force,Comedy,2702,2542,16.2,15.35,31.55,16,197.19%,6.9,,,http://boxofficemojo.com/movies/?id=jennifersbody.htm,2009
-Imagine That ,Paramount,38,44,Comedy,Comedy,3008,1830,16.12,6.86,22.99,55,41.80%,5.5,,,http://boxofficemojo.com/movies/?id=imaginethat.htm,2009
-Adventureland ,Miramax,89,56,Maturation,Comedy,1862,3073,16.04,1.12,17.16,9.8,175.10%,5.7,,,http://www.the-numbers.com/movies/2009/ADVNL.php,2009
-Armored ,Sony,40,34,Temptation,Action,1915,3400,15.99,6.95,16,20,80.00%,6.5,,,http://boxofficemojo.com/movies/?id=armored.htm,2009
-A Perfect Getaway ,Universal,61,50,Escape,Mystery,2159,2755,15.5,7.33,22.83,14,163.07%,5.9,,,http://boxofficemojo.com/movies/?id=perfectgetaway.htm,2009
-The Box ,Warner Bros.,46,27,Temptation,Drama,2635,2873,15.1,18.28,33.38,30,111.27%,7.6,,,http://boxofficemojo.com/movies/?id=box09.htm,2009
-I Love You Beth Cooper ,Fox,14,38,Comedy,Comedy,1856,2648,14.8,1.02,15.82,18,87.89%,4.9,,,http://www.the-numbers.com/movies/2009/ILUBC.php,2009
-Amelia ,Independent,21,35,Quest,Adventure,820,4761,14.25,5.4,19.2,40,48.00%,3.9,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
-Cirque du Freak: The Vampire's Assistant ,Universal,38,50,Discovery,Action,2754,2285,13.87,25.36,39.23,40,98.08%,6.3,,,http://www.the-numbers.com/movies/2009/VAMPA.php,2009
+Brothers ,Lionsgate,61,62,Transformation,Drama,2088,4563,28.5,14.77,43.27,26,166.42,9.5,,,http://boxofficemojo.com/movies/?id=brothers09.htm,2009
+Saw VI ,Independent,40,67,Escape,Horror,3036,4650,27.69,40.5,68.19,11,619.91,14.1,,,http://boxofficemojo.com/movies/?id=saw6.htm,2009
+Dance Flick ,Paramount,17,35,Comedy,Action,2450,4344,25.66,5.77,31.43,25,125.72,10.6,,,http://boxofficemojo.com/movies/?id=danceflick.htm,2009
+The Fourth Kind ,Universal,18,44,Monster Force,Mystery,2527,4840,25.48,22.22,47.7,10,477.00,12.2,,,http://boxofficemojo.com/movies/?id=fourthkind.htm,2009
+The International ,Sony,58,39,The Riddle,Action,2364,3947,25.4,34.7,60.1,50,120.20,9.3,,,http://boxofficemojo.com/movies/?id=international.htm,2009
+Aliens in the Attic ,Fox,30,46,Monster Force,Adventure,3106,2578,25.2,32.68,57.88,45,128.62,8,,,http://boxofficemojo.com/movies/?id=aliensintheattic.htm,2009
+Observe and Report ,Warner Bros.,51,40,Comedy,Comedy,2727,4040,24,2.96,26.96,18,149.78,11,,,http://boxofficemojo.com/movies/?id=observeandreport.htm,2009
+Love Happens ,Universal,18,40,Love,Drama,1898,4245,22.96,13.12,36.08,18,200.44,8.05,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
+Fame,MGM,25,43,Maturation,Comedy,3096,3234,22.46,54.76,77.21,18,428.95,10,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
+Fantastic Mr. Fox ,Fox,93,80,Rivalry,Animation,2033,3426,21,25.46,46.46,40,116.15,7,,,http://boxofficemojo.com/movies/?id=fantasticmrfox.htm,2009
+Gamer ,Lionsgate,29,43,Revenge,Action,2502,3659,20.53,20.29,40.82,12.5,326.56,9.15,,,http://www.the-numbers.com/movies/2009/CGAME.php,2009
+Nine ,Weinstein Co.,37,40,Discovery,Drama,1412,3862,19.67,34.32,53.99,80,67.49,5.45,,,http://boxofficemojo.com/movies/?id=nine.htm,2009
+Astro Boy ,Summit,49,53,Quest,Animation,3014,2224,19.55,20.34,39.89,65,61.36,6.7,,,http://www.the-numbers.com/movies/2009/ASBOY.php,2009
+The Invention of Lying ,Warner Bros.,56,47,Love,Comedy,1707,4117,18.45,13.95,32.4,18.5,175.14,7,,,http://boxofficemojo.com/movies/?id=inventionoflying.htm,2009
+Inkheart ,Warner Bros.,39,51,Quest,Adventure,2655,2862,17.3,45.14,62.44,60,104.07,7.6,,,http://boxofficemojo.com/movies/?id=inkheart.htm,2009
+Fired Up! ,Independent,22,52,Comedy,Comedy,1810,3030,17.2,1.37,18.6,20,93.00,5.5,,,http://boxofficemojo.com/movies/?id=firedup.htm,2009
+The Hurt Locker ,Independent,97,83,Quest,Drama,4,36338,17.01,32.21,49.22,15,328.13,0.14,"Best Picture, Director, Original Screenplay","Film, Director, Original Screenplay",http://boxofficemojo.com/movies/?id=hurtlocker.htm,2009
+Jennifer's Body ,Fox,42,37,Monster Force,Comedy,2702,2542,16.2,15.35,31.55,16,197.19,6.9,,,http://boxofficemojo.com/movies/?id=jennifersbody.htm,2009
+Imagine That ,Paramount,38,44,Comedy,Comedy,3008,1830,16.12,6.86,22.99,55,41.80,5.5,,,http://boxofficemojo.com/movies/?id=imaginethat.htm,2009
+Adventureland ,Miramax,89,56,Maturation,Comedy,1862,3073,16.04,1.12,17.16,9.8,175.10,5.7,,,http://www.the-numbers.com/movies/2009/ADVNL.php,2009
+Armored ,Sony,40,34,Temptation,Action,1915,3400,15.99,6.95,16,20,80.00,6.5,,,http://boxofficemojo.com/movies/?id=armored.htm,2009
+A Perfect Getaway ,Universal,61,50,Escape,Mystery,2159,2755,15.5,7.33,22.83,14,163.07,5.9,,,http://boxofficemojo.com/movies/?id=perfectgetaway.htm,2009
+The Box ,Warner Bros.,46,27,Temptation,Drama,2635,2873,15.1,18.28,33.38,30,111.27,7.6,,,http://boxofficemojo.com/movies/?id=box09.htm,2009
+I Love You Beth Cooper ,Fox,14,38,Comedy,Comedy,1856,2648,14.8,1.02,15.82,18,87.89,4.9,,,http://www.the-numbers.com/movies/2009/ILUBC.php,2009
+Amelia ,Independent,21,35,Quest,Adventure,820,4761,14.25,5.4,19.2,40,48.00,3.9,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
+Cirque du Freak: The Vampire's Assistant ,Universal,38,50,Discovery,Action,2754,2285,13.87,25.36,39.23,40,98.08,6.3,,,http://www.the-numbers.com/movies/2009/VAMPA.php,2009
 Crank: High Voltage ,Lionsgate,62,54,"Pursuit
-",Action,2223,3133,13.7,20.8,34.5,12.9,267.44%,7,,,http://www.boxofficemojo.com/movies/?id=crank2.htm,2009
-Whip It ,Independent,84,73,Maturation,Drama,1721,2702,13,3.59,16,15,106.67%,4.7,,,http://www.boxofficemojo.com/movies/?id=whipit.htm,2009
-An Education,Sony Classics,94,78,Maturation,Drama,761,1003,12.57,13.52,26.09,7.5,347.87%,0.76,,,,2009
-12 Rounds ,Fox,30,52,Rescue,Action,2331,2286,12.23,5.05,17.28,20,86.38%,5.3,,,http://www.the-numbers.com/movies/2009/12RDS.php,2009
-Sunshine Cleaning ,Independent,72,59,Transformation,Comedy,642,1527,12.06,4.51,16.57,5,331.40%,0.9,,,http://www.the-numbers.com/movies/2009/SUNCL.php,2009
-Sorority Row ,Summit,22,38,Pursuit,Horror,2665,1899,11.97,15.24,27.21,12.5,217.68%,5.1,,,http://boxofficemojo.com/movies/?id=sororityrow.htm,2009
-Extract ,Miramax,62,37,Comedy,Comedy,1611,2694,10.8,0.03,10.83,7.5,144.33%,4.3,,,http://www.the-numbers.com/movies/2009/EXTRC.php,2009
-Not Easily Broken ,Independent,34,66,Love,Drama,724,7340,10.6,0.14,10.7,5,214.00%,5.3,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
-Pandorum ,Independent,28,49,Monster Force,Action,2506,1765,10.3,10.31,17,40,42.50%,4.4,,,http://www.the-numbers.com/movies/2009/PNDRM.php,2009
-Whiteout ,Warner Bros.,7,28,Pursuit,Action,2745,1791,10.28,7.57,12.2,35,34.86%,4.9,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
-Next Day Air ,Summit,21,27,Comedy,Action,1138,3613,10,0.15,10,3,333.33%,4.1,,,http://boxofficemojo.com/movies/?id=nextdayair.htm,2009
-Away We Go ,Focus,67,74,Discovery,Comedy,4,32603,9.45,5.44,14.89,21,70.90%,0.13,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
-Dragonball Evolution ,Fox,15,28,Quest,Action,2181,2181,9.36,48.13,58.23,30,194.10%,4.8,,,http://www.the-numbers.com/movies/2009/DRGNB.php,2009
-A Serious Man ,Universal,89,64,Love,Drama,6,41890,9.23,22.2,31.43,7,448.99%,0.25,,,http://www.the-numbers.com/movies/2009/ASERM.php,2009
-Everybody's Fine ,Miramax,46,55,Discovery,Drama,2133,1806,9.2,7.2,16.4,21,78.10%,3.9,,,http://boxofficemojo.com/movies/?id=everybodysfine09.htm,2009
-Street Fighter: The Legend of Chun-Li ,Fox,16,28,Revenge,Action,1136,4156,8.74,4.02,12.34,50,24.68%,4.7,,,http://www.the-numbers.com/movies/2009/STRFT.php,2009
-My Life in Ruins ,Independent,9,43,Comedy,Comedy,1164,2769,8.67,11.79,18.01,17,106.00%,3.2,,,http://www.the-numbers.com/movies/2009/MLFRU.php,2009
-"Pirate Radio (The Boat that Rocked, UK)",Focus,60,72,Comedy,Comedy,882,3293,8.01,28.33,36.34,50,72.68%,2.9,,,http://boxofficemojo.com/movies/?id=boatthatrocked.htm,2009
-The Road ,The Weinstein Company,75,65,Quest,Adventure,111,13534,8.12,19.51,27.63,25,110.51%,1.5,,,http://boxofficemojo.com/movies/?id=road08.htm,2009
-Taking Woodstock ,Focus,48,48,Quest,Comedy,1393,2482,7.46,2.52,9.98,29,34.40%,3.5,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
-Post Grad ,Fox,7,31,Maturation,Comedy,1959,1354,6.38,0.03,6.38,15,42.53%,2.6,,,http://www.the-numbers.com/movies/2009/POSTG.php,2009
-Whatever Works ,Independent,50,63,Discovery,Comedy,9,29574,5.3,29.79,35.09,15,233.94%,0.26,,,http://www.the-numbers.com/movies/2009/WEVRW.php,2009
-Bandslam ,Summit,79,60,Maturation,Comedy,2121,1052,5.2,7.01,12.1,20,61.00%,2.2,,,http://en.wikipedia.org/wiki/Bandslam,2009
-The Dark Knight,Warner Bros.,94,96,Revenge,Thriller,4366,36283,534.86,469.7,"1,004.56",185,543.00%,158.4,Supporting Actor,Supporting Actor,,2008
-Iron Man,Paramount,94,91,Metamorphosis,Action,4105,24024,318.76,266.76,585.52,186,314.80%,98.62,,,,2008
-Indiana Jones and the Kingdom of the Crystal Skull,Paramount,77,59,Pursuit,Action,4260,23507,317.1,469.53,786.64,185,425.21%,100.1,,,,2008
-Hancock,Sony,40,67,Discovery,Action,3965,15789,227.95,396.44,624.39,150,416.26%,62.6,,,,2008
-WALL-E,Disney,96,89,love,Animation,3992,15803,223.81,297.5,521.31,180,289.62%,63.09,Animated,Animated,http://boxofficemojo.com/movies/?id=wall-e.htm,2008
-Kung Fu Panda,Paramount,88,83,Underdog,Animation,4114,14642,215.43,416.31,631.74,200,315.87%,60.24,,,,2008
-Madagascar: Escape 2 Africa,Paramount,64,73,Journey and Return,Animation,4056,15559,180.01,423.89,603.9,150,402.60%,63.11,,,,2008
-Twilight,Summit,49,82,Love,Romance,3419,20368,192.77,199.85,392.62,37,1061.12%,69.64,,,,2008
-Quantum of Solace,MGM,64,62,Revenge,Action,3451,19568,168.37,417.72,586.09,230,254.82%,67.5,,,http://www.the-numbers.com/movies/2008/JB22.php,2008
-Dr. Seuss' Horton Hears a Who!,Fox,79,75,rescue,Animation,3954,11384,154.53,142.61,297.14,85,349.57%,45,,,,2008
-Sex and the City,Warner Bros.,49,81,love,Comedy,3285,17363,152.65,262.61,415.25,57.5,722.18%,57.04,,,,2008
-Gran Torino,Warner Bros.,80,90,Temptation,Drama,,,148.1,121.86,269.96,33,818.05%,29.48,,,http://boxofficemojo.com/movies/?id=grantorino.htm,2008
-Mamma Mia!,Universal,53,76,Love,Comedy,2976,9325,144.13,465.71,609.84,66,924.00%,27.75,,,,2008
-The Chronicles of Narnia: Prince Caspian,Disney,66,78,fish out of water,Action,3929,14007,141.62,278.04,419.67,200,209.83%,55.03,,,,2008
-Slumdog Millionaire,Independent,94,90,Underdog,Crime,,,141.32,236.59,377.91,15,2519.39%,4.3,"Best Picture, Director, Adapted Screenplay","Best Film, Director, Adapted Screenplay",,2008
-The Incredible Hulk,Universal,67,75,Metamorphosis,Action,3505,15810,134.81,128.62,263.43,137.5,191.58%,55.14,,,,2008
-Wanted,Universal,73,72,Transformation,Action,3175,16040,134.51,206.92,341.43,75,455.24%,50.93,,,http://boxofficemojo.com/movies/?id=wanted.htm,2008
-Get Smart,Warner Bros.,51,73,Pursuit,Action,3911,9891,130.32,100.37,230.69,80,288.36%,38.7,,,,2008
-Four Christmases,Warner Bros.,26,52,love,Comedy,,,120.15,43.59,163.73,80,204.67%,31.07,,,,2008
-Tropic Thunder,Paramount,83,69,fish out of water,Comedy,3319,7777,110.52,77.56,188.07,90,208.97%,25.81,,,,2008
-Bedtime Stories,Disney,25,63,rivalry,Comedy,3681,7457,110.1,102.77,212.87,80,266.09%,27.5,,,http://www.the-numbers.com/movies/2008/BEDTM.php,2008
-Bolt,Disney,89,76,rescue,Animation,3651,7182,114.05,195.93,309.98,150,206.65%,26.2,,,,2008
-Marley and Me,Fox,63,77,love,Comedy,3480,10448,143.15,99.56,242.72,55,441.30%,36.36,,,,2008
-The Mummy: Tomb of the Dragon Emperor,Universal,14,40,Quest,Action,3760,10760,102.49,298.64,401.13,145,276.64%,40.5,,,http://boxofficemojo.com/movies/?id=mummy3.htm,2008
-Journey to the Center of the Earth,Warner Bros.,61,55,Quest,Action,2811,7477,101.7,140.29,241.99,45,537.76%,21,,,,2008
-Eagle Eye,Paramount,27,72,pursuit,Action,3510,8305,101.44,76.63,178.07,80,222.58%,29.2,,,,2008
-Step Brothers,Sony,54,68,Comedy,Comedy,3094,10000,100.47,27.64,128.11,65,197.09%,30.94,,,,2008
-You Don't Mess with the Zohan,Sony,36,50,fish out of water,Comedy,3462,11130,100.02,99.92,199.94,80,249.92%,38.53,,,http://boxofficemojo.com/movies/?id=youdontmesswiththezohan.htm,2008
-Yes Man,Warner Bros.,43,72,Transformation,Comedy,3434,5318,97.69,125.55,223.24,70,318.91%,18.26,,,http://boxofficemojo.com/movies/?id=yesman.htm,2008
-"10,000 B.C.",Warner Bros.,9,44,Rescue,Adventure,3410,10518,94.78,175,269.78,105,256.94%,35.9,,,,2008
-Beverly Hills Chihuahua,Disney,41,56,Journey and Return,Adventure,3215,9114,94.51,54.77,149.28,20,746.41%,29.3,,,http://www.the-numbers.com/movies/2008/BHCHI.php,2008
-High School Musical 3: Senior Year,Disney,65,76,love,Comedy,3623,11601,90.56,162.35,252.91,11,2299.16%,42.03,,,,2008
-Pineapple Express,Sony,68,74,Comedy,Action,3072,7567,87.34,14.28,101.62,26,390.86%,23.2,,,,2008
-Valkyrie,MGM,58,66,Sacrifice,Thriller,2711,7756,83.08,117.2,200.28,75,267.03%,21.03,,,http://boxofficemojo.com/movies/?id=valkyrie.htm,2008
-21,Sony,35,73,quest,Crime,2648,9103,81.16,76.77,157.93,35,451.22%,24.1,,,http://www.the-numbers.com/movies/2008/21.php,2008
-What Happens in Vegas,Fox,28,72,Love,Comedy,3215,6274,80.28,139.1,219.38,35,626.79%,20.17,,,http://boxofficemojo.com/movies/?id=whathappensinvegas.htm,2008
-Jumper,Fox,16,50,Rescue,Action,3428,7980,80.17,142.06,222.23,82.5,269.37%,27.4,,,,2008
-Cloverfield,Paramount,77,67,Monster Force,Action,3411,11744,80.05,90.72,170.76,25,683.05%,40.1,,,,2008
-The Curious Case of Benjamin Button,Warner Bros.,73,81,love,Fantasy,2988,8987,127.51,206.42,333.93,160,208.71%,26.85,,,,2008
-27 Dresses,Fox,40,71,Love,Comedy,3057,7526,76.81,83.45,160.26,30,534.19%,23.01,,,,2008
-Hellboy II: The Golden Army,Universal,87,70,sacrifice,Action,3204,10780,75.99,84.4,160.39,82.5,194.41%,34.5,,,,2008
-The Day the Earth Stood Still ,Fox,19,34,Sacrifice,Thriller,3560,8562,79.37,153.73,233.09,100,233.09%,30.5,,,,2008
-Vantage Point,Sony,35,61,The Riddle,,3149,7264,72.27,78.9,151.16,40,377.90%,22.87,,,http://boxofficemojo.com/movies/?id=vantagepoint.htm,2008
-The Spiderwick Chronicles,Paramount,79,67,fish out of water,Fantasy,3847,4940,71.2,91.64,162.84,92.5,176.04%,19,,,,2008
-Fool's Gold,Warner Bros.,11,53,Quest,Adventure,3125,6909,70.23,41,111.23,72.5,153.42%,21.6,,,,2008
-Role Models,Universal,77,75,Discovery,Comedy,2792,6865,67.29,25.09,92.38,28,329.93%,19.17,,,,2008
-The Happening,Fox,19,29,escape,Thriller,2986,10220,64.51,98.9,163.4,48,340.42%,30.52,,,http://boxofficemojo.com/movies/?id=happening.htm,2008
-Forgetting Sarah Marshall,Independent,85,75,maturation,Comedy,2798,6791,63.17,42,105.17,30,350.57%,17.73,,,,2008
-Burn After Reading,Relativity Media,78,64,Comedy,Comedy,2651,7215,60.36,103.36,163.72,37,442.48%,19.13,,,,2008
-Baby Mama,Independent,63,59,Discovery,Comedy,2543,6845,60.49,3.67,64.16,70,91.66%,17.41,,,,2008
-Seven Pounds,Sony,27,77,Sacrifice,Drama,2758,5385,69.95,98.22,168.17,55,305.76%,14.9,,,http://boxofficemojo.com/movies/?id=sevenpounds.htm,2008
-Step Up 2: The Streets,Disney,26,81,underdog,Drama,2470,7655,58.02,92.8,150.82,17.5,861.80%,18.91,,,,2008
-Saw V,Independent,13,63,Monster Force,Crime,3030,9822,56.75,57.12,113.86,10.8,1054.29%,30.1,,,,2008
-The Strangers,Relativity Media,44,48,Escape,Horror,2466,8515,52.6,29.79,82.39,9,915.44%,20.99,,,,2008
-The Forbidden Kingdom,Relativity Media,64,65,journey & return,Action,3151,6791,52.08,75.9,127.98,55,232.69%,21.4,,,,2008
-The Tale of Despereaux,Universal,54,46,Rescue,Animation,3104,3255,50.88,36.07,86.95,55,158.09%,10.1,,,,2008
-The House Bunny,Sony,39,54,Discovery,Comedy,2714,5355,48.24,22.21,70.44,25,281.77%,14.53,,,http://boxofficemojo.com/movies/?id=housebunny.htm,2008
-Nim's Island,Independent,51,50,rescue,Adventure,3513,3760,48.01,52.07,100.08,37,270.47%,13.2,,,,2008
-Australia,Fox,55,69,Fish Out of Water,Adventure,2642,5602,49.55,161.79,211.34,78,270.95%,14.8,,,,2008
-Made of Honor,Sony,13,61,Love,Comedy,2729,5407,46.01,59.95,105.96,40,264.91%,14.76,,,,2008
-College Road Trip,Buena Vista,13,56,comedy,Adventure,2706,5026,45.61,5.94,51.55,140,36.82%,13.6,,,,2008
-The Sisterhood of the Traveling Pants 2,Warner Bros.,65,67,Journey and Return,,2707,3945,44.09,0.26,44.35,27,164.26%,10.68,,,,2008
-Speed Racer,Warner Bros.,38,61,Quest,Action,3606,5174,43.95,50,93.95,120,78.29%,18.6,,,,2008
-Prom Night,Independent,8,46,escape,Horror,2700,7705,43.87,13.33,57.2,18,317.76%,20.81,,,,2008
-Rambo,Lionsgate,36,70,Rescue,Action,2751,6617,42.75,70.49,113.24,47.5,238.41%,18.2,,,http://boxofficemojo.com/movies/?id=rambo08.htm,2008
-"Welcome Home, Roscoe Jenkins",Universal,24,64,discovery,Comedy,2387,6790,42.44,1.21,43.65,35,124.71%,16.21,,,http://boxofficemojo.com/movies/?id=roscoejenkins.htm,2008
-Tyler Perry's Meet the Browns,Independent,31,36,Discovery,Drama,2006,10011,41.98,,41.98,20,209.88%,20.08,,,http://boxofficemojo.com/movies/?id=meetthebrowns.htm,2008
-Nights in Rodanthe,Warner Bros.,31,56,Discovery,Drama,2704,4962,41.85,42.52,84.37,30,281.25%,13.42,,,,2008
-Max Payne,Fox,16,36,Revenge,Action,3376,5225,40.69,44.73,85.42,35,244.05%,17.6,,,,2008
-Righteous Kill,Overture,19,44,The Riddle,Crime,3152,5168,40.08,38.38,78.46,60,130.77%,16.3,,,http://boxofficemojo.com/movies/?id=righteouskill.htm,2008
-Lakeview Terrace,Sony,46,44,rivalry,Crime,2464,6090,39.26,5.39,44.65,20,223.27%,15,,,,2008
-Body of Lies,Warner Bros.,53,65,Temptation,Action,2710,4754,39.39,75.7,115.1,67.5,170.51%,12.9,,,,2008
-Meet the Spartans,Independent,2,31,comedy,Comedy,2605,7104,38.23,46.41,84.65,30,282.15%,18.51,,,,2008
-Harold and Kumar Escape from Guantanamo Bay,Warner Bros.,54,65,escape,Adventure,2510,5939,38.11,5.38,43.49,12,362.43%,14.91,,,,2008
-First Sunday,Sony,13,59,Comedy,Comedy,2213,8004,37.93,0.87,38.8,13,298.48%,17.7,,,,2008
-The Secret Life of Bees,Fox,56,78,Maturation,Drama,1591,6617,37.77,2.18,39.95,11,363.15%,10.53,,,,2008
-Tyler Perry's The Family That Preys,Independent,51,36,Discovery,Drama,2070,8397,37.11,,37.11,10,371.05%,17.38,,,http://boxofficemojo.com/movies/?id=familythatpreys.htm,2008
-Death Race,Universal,42,69,escape,Action,2532,4985,36.32,39.36,75.68,45,168.17%,12.62,,,,2008
-Changeling,Independent,62,84,quest,Drama,1850,5055,35.74,77.28,113.02,55,205.49%,9.4,,,,2008
-Star Wars: The Clone Wars,Independent,19,46,sacrifice,Animation,3452,4233,35.16,33.12,68.28,8.5,803.32%,14.6,,,,2008
-Semi-Pro,Warner Bros.,21,41,underdog,Comedy,3121,4830,33.48,10.41,43.88,2.6,1687.85%,15.08,,,,2008
-Fireproof,Independent,40,51,love,Drama,839,8148,33.46,0.02,33.47,0.5,6694.40%,6.84,,,http://boxofficemojo.com/movies/?page=main&id=Fireproof.htm,2008
-Drillbit Taylor,Paramount,26,49,Comedy,Comedy,3056,3373,32.86,16.83,49.69,40,124.23%,10.3,,,,2008
-The Love Guru,Paramount,14,38,Comedy,Comedy,3012,4617,32.24,8.63,40.86,62,65.91%,13.91,,,,2008
-"Definitely, Maybe",Universal,71,72,Discovery,Comedy,2204,4430,32.24,23.21,55.45,7,792.10%,9.76,,,,2008
-Milk,Universal,94,88,quest,Biography,36,40385,31.84,22.75,54.59,20,272.93%,1.5,"Best Actor, Original Screenplay",,http://www.the-numbers.com/movies/2008/HMILK.php,2008
-Transporter 3,Independent,36,58,escape,Action,2626,4594,31.72,77.26,108.98,30,363.26%,12.06,,,,2008
-Quarantine,Sony,59,46,Monster Force,Horror,2461,5775,31.69,9.63,41.32,12,344.33%,14.2,,,http://boxofficemojo.com/movies/?id=rachelgettingmarried.htm,2008
-Nick and Norah's Infinite Playlist,Sony,73,67,Love,Comedy,2421,4672,31.49,2.02,33.51,10,335.05%,11.31,,,,2008
-The Eye,Lionsgate,22,51,Sacrifice,Horror,2436,5101,31.42,25.55,56.96,12,474.69%,12.4,,,,2008
-Zack and Miri Make a Porno,The Weinstein Company,64,70,Love,Romance,3735,3680,31.46,10.65,42.1,24,175.43%,10.07,,,http://boxofficemojo.com/movies/?id=zackandmirimakeaporno.htm,2008
-Leatherheads,Universal,52,41,Rivalry,Comedy,2769,4580,31.37,9.93,41.3,58,71.20%,12.7,,,,2008
-Mirrors,Independent,14,49,monster force,Horror,2664,4190,30.69,46.8,77.49,35,221.39%,11.2,,,,2008
-Space Chimps,Independent*,36,37,Transformation,Animation,2511,2860,30.11,34.73,64.83,37,175.22%,7.18,,,"* Co-production partnership with Digital Production Studios, a subsidiary of IDT Media.",2008
-The Bank Job,Independent,78,74,Quest,Thriller,1603,3702,30.06,34.76,64.82,20,324.11%,5.94,,,,2008
-Untraceable,Independent,14,56,riddle,Thriller,2368,4795,28.69,23.97,52.66,35,150.45%,11.4,,,,2008
-The Women,Warner Bros.,13,41,Transformation,Drama,2962,3415,26.9,23.11,50.01,16,312.54%,10.12,,,,2008
-One Missed Call,Warner Bros.,0,36,Monster Force,Horror,2240,5585,26.89,18.96,45.85,20,229.24%,12.5,,,,2008
-The Other Boleyn Girl,Independent,41,65,tragedy,Drama,1166,7035,26.81,50.9,77.71,40,194.28%,8.2,,,,2008
-Street Kings,Fox,37,62,The Riddle,Action,2467,5054,26.42,39.15,65.57,20,327.86%,12.5,,,,2008
-Shutter,Fox,7,40,Monster Force,Horror,2753,3794,25.93,21.95,47.88,8,598.48%,10.5,,,http://boxofficemojo.com/movies/?id=shutter.htm,2008
-Superhero Movie,The Weinstein Company,15,36,Comedy,Comedy,2960,3212,25.88,45.36,71.24,65,109.60%,9.51,,,,2008
-W.,Lionsgate,60,42,rivalry,Drama,2030,5175,25.53,3.97,29.51,25.1,117.55%,10.5,,,http://boxofficemojo.com/movies/?id=w.htm,2008
-Never Back Down,Summit,23,37,Rivalry,Action,2729,3152,24.85,16.78,41.63,21,198.22%,8.6,,,,2008
-Traitor,Liberty Starz,55,66,Pursuit,Thriller,2054,3831,23.53,4.13,27.66,22,125.74%,7.9,,,,2008
-Vicky Cristina Barcelona,The Weinstein Company,82,73,temptation,Romance,692,5427,23.22,73.19,96.41,16,602.55%,3.76,,,http://boxofficemojo.com/movies/?id=vickycristinabarcelona.htm,2008
-Babylon A.D.,Fox,7,32,quest,Action,3390,2798,22.53,49.58,72.11,45,160.24%,9.5,,,,2008
-The X-Files: I Want to Believe,Fox,32,34,monster force,Thriller,3185,3147,20.98,47.39,68.37,35,195.34%,10.1,,,,2008
-Mad Money,Independent,22,51,Comedy,Comedy,2470,3132,20.67,5.74,26.41,22,120.05%,7.74,,,,2008
-Appaloosa,Warner Bros.,77,55,Rescue,Action,1045,4833,20.21,7.45,27.67,20,138.33%,5,,,,2008
-Igor,Independent,36,42,Temptation,Animation,2339,,19.53,11.22,30.75,30,102.49%,7.8,,,,2008
-My Best Friend's Girl,Lionsgate,14,51,Comedy,Comedy,2604,3174,19.22,22.4,41.62,20,208.11%,8.27,,,,2008
-Doubt,Independent,78,75,riddle,Drama,1267,4214,33.45,17.46,50.91,25,203.62%,5.3,,,,2008
-The Spirit,Lionsgate,14,29,rivalry,Action,2509,2576,19.81,19.23,39.03,6,650.52%,6.5,,,,2008
-Kit Kittredge: An American Girl,Warner Bros.,78,26,riddle,Drama,,,17.66,,17.66,10,176.57%,3.3,,,,2008
-The Ruins,Paramount,46,32,rescue,Horror,2812,2846,17.43,5.3,22.73,25,90.91%,8,,,,2008
-88 Minutes,Sony,5,51,The Riddle,Drama,2168,3209,17.21,15.38,32.59,30,108.64%,7,,,,2008
-Swing Vote,Disney,36,44,maturation,Comedy,2213,2815,16.29,1.34,17.63,20,88.17%,6.23,,,,2008
-Pride & Glory,Warner Bros.,34,54,Temptation,Crime,2585,2423,15.74,15.41,31.15,30,103.82%,6.26,,,,2008
-Bangkok Dangerous,Lionsgate,9,33,pursuit,Action,2650,2937,15.3,27.19,42.49,45,94.42%,7.8,,,,2008
-Disaster Movie,Lionsgate,2,28,Rescue,Comedy,2642,2209,14.19,20.63,34.82,20,174.08%,5.8,,,,2008
-The Duchess,Paramount,60,68,Love,Drama,,,13.85,29.46,43.31,13.5,320.78%,3.3,,,,2008
-The Haunting of Molly Hartley,Independent,3,22,sacrifice,Horror,2652,2045,13.56,1.86,15.42,5,308.34%,5.4,,,,2008
-Ghost Town,Paramount,85,60,transformation,Comedy,1505,3330,13.37,13.71,27.07,20,135.37%,5.01,,,,2008
-Religulous,Lionsgate,70,78,comedy,Documentary,502,6792,13.01,0.63,13.64,2.5,545.52%,3.41,,,http://www.the-numbers.com/movies/2008/RELIG.php,2008
-Rachel Getting Married,Independent,85,61,love,Drama,9,32597,12.8,3.83,16.62,12,138.52%,0.29,,,http://www.the-numbers.com/movies/2008/RGMRD.php,2008
-The Pirates Who Don't Do Anything,Universal,41,,Fish Out of Water,,,,12.98,0.17,13.15,15,87.69%,4.25,,,,2008
-Under the Same Moon,Weinstein Co.,72,37,Quest,,266,10412,12.59,10.72,23.31,1.7,1371.24%,2.8,,,http://boxofficemojo.com/movies/?id=underthesamemoon.htm,2008
-Miss Pettigrew Lives for a Day,Independent,78,70,Love,Comedy,535,4655,12.31,4.41,16.72,60,27.87%,2.49,,,,2008
+",Action,2223,3133,13.7,20.8,34.5,12.9,267.44,7,,,http://www.boxofficemojo.com/movies/?id=crank2.htm,2009
+Whip It ,Independent,84,73,Maturation,Drama,1721,2702,13,3.59,16,15,106.67,4.7,,,http://www.boxofficemojo.com/movies/?id=whipit.htm,2009
+An Education,Sony Classics,94,78,Maturation,Drama,761,1003,12.57,13.52,26.09,7.5,347.87,0.76,,,,2009
+12 Rounds ,Fox,30,52,Rescue,Action,2331,2286,12.23,5.05,17.28,20,86.38,5.3,,,http://www.the-numbers.com/movies/2009/12RDS.php,2009
+Sunshine Cleaning ,Independent,72,59,Transformation,Comedy,642,1527,12.06,4.51,16.57,5,331.40,0.9,,,http://www.the-numbers.com/movies/2009/SUNCL.php,2009
+Sorority Row ,Summit,22,38,Pursuit,Horror,2665,1899,11.97,15.24,27.21,12.5,217.68,5.1,,,http://boxofficemojo.com/movies/?id=sororityrow.htm,2009
+Extract ,Miramax,62,37,Comedy,Comedy,1611,2694,10.8,0.03,10.83,7.5,144.33,4.3,,,http://www.the-numbers.com/movies/2009/EXTRC.php,2009
+Not Easily Broken ,Independent,34,66,Love,Drama,724,7340,10.6,0.14,10.7,5,214.00,5.3,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
+Pandorum ,Independent,28,49,Monster Force,Action,2506,1765,10.3,10.31,17,40,42.50,4.4,,,http://www.the-numbers.com/movies/2009/PNDRM.php,2009
+Whiteout ,Warner Bros.,7,28,Pursuit,Action,2745,1791,10.28,7.57,12.2,35,34.86,4.9,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
+Next Day Air ,Summit,21,27,Comedy,Action,1138,3613,10,0.15,10,3,333.33,4.1,,,http://boxofficemojo.com/movies/?id=nextdayair.htm,2009
+Away We Go ,Focus,67,74,Discovery,Comedy,4,32603,9.45,5.44,14.89,21,70.90,0.13,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
+Dragonball Evolution ,Fox,15,28,Quest,Action,2181,2181,9.36,48.13,58.23,30,194.10,4.8,,,http://www.the-numbers.com/movies/2009/DRGNB.php,2009
+A Serious Man ,Universal,89,64,Love,Drama,6,41890,9.23,22.2,31.43,7,448.99,0.25,,,http://www.the-numbers.com/movies/2009/ASERM.php,2009
+Everybody's Fine ,Miramax,46,55,Discovery,Drama,2133,1806,9.2,7.2,16.4,21,78.10,3.9,,,http://boxofficemojo.com/movies/?id=everybodysfine09.htm,2009
+Street Fighter: The Legend of Chun-Li ,Fox,16,28,Revenge,Action,1136,4156,8.74,4.02,12.34,50,24.68,4.7,,,http://www.the-numbers.com/movies/2009/STRFT.php,2009
+My Life in Ruins ,Independent,9,43,Comedy,Comedy,1164,2769,8.67,11.79,18.01,17,106.00,3.2,,,http://www.the-numbers.com/movies/2009/MLFRU.php,2009
+"Pirate Radio (The Boat that Rocked, UK)",Focus,60,72,Comedy,Comedy,882,3293,8.01,28.33,36.34,50,72.68,2.9,,,http://boxofficemojo.com/movies/?id=boatthatrocked.htm,2009
+The Road ,The Weinstein Company,75,65,Quest,Adventure,111,13534,8.12,19.51,27.63,25,110.51,1.5,,,http://boxofficemojo.com/movies/?id=road08.htm,2009
+Taking Woodstock ,Focus,48,48,Quest,Comedy,1393,2482,7.46,2.52,9.98,29,34.40,3.5,,,http://www.the-numbers.com/movies/records/allbudgets.php,2009
+Post Grad ,Fox,7,31,Maturation,Comedy,1959,1354,6.38,0.03,6.38,15,42.53,2.6,,,http://www.the-numbers.com/movies/2009/POSTG.php,2009
+Whatever Works ,Independent,50,63,Discovery,Comedy,9,29574,5.3,29.79,35.09,15,233.94,0.26,,,http://www.the-numbers.com/movies/2009/WEVRW.php,2009
+Bandslam ,Summit,79,60,Maturation,Comedy,2121,1052,5.2,7.01,12.1,20,61.00,2.2,,,http://en.wikipedia.org/wiki/Bandslam,2009
+The Dark Knight,Warner Bros.,94,96,Revenge,Thriller,4366,36283,534.86,469.7,"1,004.56",185,543.00,158.4,Supporting Actor,Supporting Actor,,2008
+Iron Man,Paramount,94,91,Metamorphosis,Action,4105,24024,318.76,266.76,585.52,186,314.80,98.62,,,,2008
+Indiana Jones and the Kingdom of the Crystal Skull,Paramount,77,59,Pursuit,Action,4260,23507,317.1,469.53,786.64,185,425.21,100.1,,,,2008
+Hancock,Sony,40,67,Discovery,Action,3965,15789,227.95,396.44,624.39,150,416.26,62.6,,,,2008
+WALL-E,Disney,96,89,love,Animation,3992,15803,223.81,297.5,521.31,180,289.62,63.09,Animated,Animated,http://boxofficemojo.com/movies/?id=wall-e.htm,2008
+Kung Fu Panda,Paramount,88,83,Underdog,Animation,4114,14642,215.43,416.31,631.74,200,315.87,60.24,,,,2008
+Madagascar: Escape 2 Africa,Paramount,64,73,Journey and Return,Animation,4056,15559,180.01,423.89,603.9,150,402.60,63.11,,,,2008
+Twilight,Summit,49,82,Love,Romance,3419,20368,192.77,199.85,392.62,37,1061.12,69.64,,,,2008
+Quantum of Solace,MGM,64,62,Revenge,Action,3451,19568,168.37,417.72,586.09,230,254.82,67.5,,,http://www.the-numbers.com/movies/2008/JB22.php,2008
+Dr. Seuss' Horton Hears a Who!,Fox,79,75,rescue,Animation,3954,11384,154.53,142.61,297.14,85,349.57,45,,,,2008
+Sex and the City,Warner Bros.,49,81,love,Comedy,3285,17363,152.65,262.61,415.25,57.5,722.18,57.04,,,,2008
+Gran Torino,Warner Bros.,80,90,Temptation,Drama,,,148.1,121.86,269.96,33,818.05,29.48,,,http://boxofficemojo.com/movies/?id=grantorino.htm,2008
+Mamma Mia!,Universal,53,76,Love,Comedy,2976,9325,144.13,465.71,609.84,66,924.00,27.75,,,,2008
+The Chronicles of Narnia: Prince Caspian,Disney,66,78,fish out of water,Action,3929,14007,141.62,278.04,419.67,200,209.83,55.03,,,,2008
+Slumdog Millionaire,Independent,94,90,Underdog,Crime,,,141.32,236.59,377.91,15,2519.39,4.3,"Best Picture, Director, Adapted Screenplay","Best Film, Director, Adapted Screenplay",,2008
+The Incredible Hulk,Universal,67,75,Metamorphosis,Action,3505,15810,134.81,128.62,263.43,137.5,191.58,55.14,,,,2008
+Wanted,Universal,73,72,Transformation,Action,3175,16040,134.51,206.92,341.43,75,455.24,50.93,,,http://boxofficemojo.com/movies/?id=wanted.htm,2008
+Get Smart,Warner Bros.,51,73,Pursuit,Action,3911,9891,130.32,100.37,230.69,80,288.36,38.7,,,,2008
+Four Christmases,Warner Bros.,26,52,love,Comedy,,,120.15,43.59,163.73,80,204.67,31.07,,,,2008
+Tropic Thunder,Paramount,83,69,fish out of water,Comedy,3319,7777,110.52,77.56,188.07,90,208.97,25.81,,,,2008
+Bedtime Stories,Disney,25,63,rivalry,Comedy,3681,7457,110.1,102.77,212.87,80,266.09,27.5,,,http://www.the-numbers.com/movies/2008/BEDTM.php,2008
+Bolt,Disney,89,76,rescue,Animation,3651,7182,114.05,195.93,309.98,150,206.65,26.2,,,,2008
+Marley and Me,Fox,63,77,love,Comedy,3480,10448,143.15,99.56,242.72,55,441.30,36.36,,,,2008
+The Mummy: Tomb of the Dragon Emperor,Universal,14,40,Quest,Action,3760,10760,102.49,298.64,401.13,145,276.64,40.5,,,http://boxofficemojo.com/movies/?id=mummy3.htm,2008
+Journey to the Center of the Earth,Warner Bros.,61,55,Quest,Action,2811,7477,101.7,140.29,241.99,45,537.76,21,,,,2008
+Eagle Eye,Paramount,27,72,pursuit,Action,3510,8305,101.44,76.63,178.07,80,222.58,29.2,,,,2008
+Step Brothers,Sony,54,68,Comedy,Comedy,3094,10000,100.47,27.64,128.11,65,197.09,30.94,,,,2008
+You Don't Mess with the Zohan,Sony,36,50,fish out of water,Comedy,3462,11130,100.02,99.92,199.94,80,249.92,38.53,,,http://boxofficemojo.com/movies/?id=youdontmesswiththezohan.htm,2008
+Yes Man,Warner Bros.,43,72,Transformation,Comedy,3434,5318,97.69,125.55,223.24,70,318.91,18.26,,,http://boxofficemojo.com/movies/?id=yesman.htm,2008
+"10,000 B.C.",Warner Bros.,9,44,Rescue,Adventure,3410,10518,94.78,175,269.78,105,256.94,35.9,,,,2008
+Beverly Hills Chihuahua,Disney,41,56,Journey and Return,Adventure,3215,9114,94.51,54.77,149.28,20,746.41,29.3,,,http://www.the-numbers.com/movies/2008/BHCHI.php,2008
+High School Musical 3: Senior Year,Disney,65,76,love,Comedy,3623,11601,90.56,162.35,252.91,11,2299.16,42.03,,,,2008
+Pineapple Express,Sony,68,74,Comedy,Action,3072,7567,87.34,14.28,101.62,26,390.86,23.2,,,,2008
+Valkyrie,MGM,58,66,Sacrifice,Thriller,2711,7756,83.08,117.2,200.28,75,267.03,21.03,,,http://boxofficemojo.com/movies/?id=valkyrie.htm,2008
+21,Sony,35,73,quest,Crime,2648,9103,81.16,76.77,157.93,35,451.22,24.1,,,http://www.the-numbers.com/movies/2008/21.php,2008
+What Happens in Vegas,Fox,28,72,Love,Comedy,3215,6274,80.28,139.1,219.38,35,626.79,20.17,,,http://boxofficemojo.com/movies/?id=whathappensinvegas.htm,2008
+Jumper,Fox,16,50,Rescue,Action,3428,7980,80.17,142.06,222.23,82.5,269.37,27.4,,,,2008
+Cloverfield,Paramount,77,67,Monster Force,Action,3411,11744,80.05,90.72,170.76,25,683.05,40.1,,,,2008
+The Curious Case of Benjamin Button,Warner Bros.,73,81,love,Fantasy,2988,8987,127.51,206.42,333.93,160,208.71,26.85,,,,2008
+27 Dresses,Fox,40,71,Love,Comedy,3057,7526,76.81,83.45,160.26,30,534.19,23.01,,,,2008
+Hellboy II: The Golden Army,Universal,87,70,sacrifice,Action,3204,10780,75.99,84.4,160.39,82.5,194.41,34.5,,,,2008
+The Day the Earth Stood Still ,Fox,19,34,Sacrifice,Thriller,3560,8562,79.37,153.73,233.09,100,233.09,30.5,,,,2008
+Vantage Point,Sony,35,61,The Riddle,,3149,7264,72.27,78.9,151.16,40,377.90,22.87,,,http://boxofficemojo.com/movies/?id=vantagepoint.htm,2008
+The Spiderwick Chronicles,Paramount,79,67,fish out of water,Fantasy,3847,4940,71.2,91.64,162.84,92.5,176.04,19,,,,2008
+Fool's Gold,Warner Bros.,11,53,Quest,Adventure,3125,6909,70.23,41,111.23,72.5,153.42,21.6,,,,2008
+Role Models,Universal,77,75,Discovery,Comedy,2792,6865,67.29,25.09,92.38,28,329.93,19.17,,,,2008
+The Happening,Fox,19,29,escape,Thriller,2986,10220,64.51,98.9,163.4,48,340.42,30.52,,,http://boxofficemojo.com/movies/?id=happening.htm,2008
+Forgetting Sarah Marshall,Independent,85,75,maturation,Comedy,2798,6791,63.17,42,105.17,30,350.57,17.73,,,,2008
+Burn After Reading,Relativity Media,78,64,Comedy,Comedy,2651,7215,60.36,103.36,163.72,37,442.48,19.13,,,,2008
+Baby Mama,Independent,63,59,Discovery,Comedy,2543,6845,60.49,3.67,64.16,70,91.66,17.41,,,,2008
+Seven Pounds,Sony,27,77,Sacrifice,Drama,2758,5385,69.95,98.22,168.17,55,305.76,14.9,,,http://boxofficemojo.com/movies/?id=sevenpounds.htm,2008
+Step Up 2: The Streets,Disney,26,81,underdog,Drama,2470,7655,58.02,92.8,150.82,17.5,861.80,18.91,,,,2008
+Saw V,Independent,13,63,Monster Force,Crime,3030,9822,56.75,57.12,113.86,10.8,1054.29,30.1,,,,2008
+The Strangers,Relativity Media,44,48,Escape,Horror,2466,8515,52.6,29.79,82.39,9,915.44,20.99,,,,2008
+The Forbidden Kingdom,Relativity Media,64,65,journey & return,Action,3151,6791,52.08,75.9,127.98,55,232.69,21.4,,,,2008
+The Tale of Despereaux,Universal,54,46,Rescue,Animation,3104,3255,50.88,36.07,86.95,55,158.09,10.1,,,,2008
+The House Bunny,Sony,39,54,Discovery,Comedy,2714,5355,48.24,22.21,70.44,25,281.77,14.53,,,http://boxofficemojo.com/movies/?id=housebunny.htm,2008
+Nim's Island,Independent,51,50,rescue,Adventure,3513,3760,48.01,52.07,100.08,37,270.47,13.2,,,,2008
+Australia,Fox,55,69,Fish Out of Water,Adventure,2642,5602,49.55,161.79,211.34,78,270.95,14.8,,,,2008
+Made of Honor,Sony,13,61,Love,Comedy,2729,5407,46.01,59.95,105.96,40,264.91,14.76,,,,2008
+College Road Trip,Buena Vista,13,56,comedy,Adventure,2706,5026,45.61,5.94,51.55,140,36.82,13.6,,,,2008
+The Sisterhood of the Traveling Pants 2,Warner Bros.,65,67,Journey and Return,,2707,3945,44.09,0.26,44.35,27,164.26,10.68,,,,2008
+Speed Racer,Warner Bros.,38,61,Quest,Action,3606,5174,43.95,50,93.95,120,78.29,18.6,,,,2008
+Prom Night,Independent,8,46,escape,Horror,2700,7705,43.87,13.33,57.2,18,317.76,20.81,,,,2008
+Rambo,Lionsgate,36,70,Rescue,Action,2751,6617,42.75,70.49,113.24,47.5,238.41,18.2,,,http://boxofficemojo.com/movies/?id=rambo08.htm,2008
+"Welcome Home, Roscoe Jenkins",Universal,24,64,discovery,Comedy,2387,6790,42.44,1.21,43.65,35,124.71,16.21,,,http://boxofficemojo.com/movies/?id=roscoejenkins.htm,2008
+Tyler Perry's Meet the Browns,Independent,31,36,Discovery,Drama,2006,10011,41.98,,41.98,20,209.88,20.08,,,http://boxofficemojo.com/movies/?id=meetthebrowns.htm,2008
+Nights in Rodanthe,Warner Bros.,31,56,Discovery,Drama,2704,4962,41.85,42.52,84.37,30,281.25,13.42,,,,2008
+Max Payne,Fox,16,36,Revenge,Action,3376,5225,40.69,44.73,85.42,35,244.05,17.6,,,,2008
+Righteous Kill,Overture,19,44,The Riddle,Crime,3152,5168,40.08,38.38,78.46,60,130.77,16.3,,,http://boxofficemojo.com/movies/?id=righteouskill.htm,2008
+Lakeview Terrace,Sony,46,44,rivalry,Crime,2464,6090,39.26,5.39,44.65,20,223.27,15,,,,2008
+Body of Lies,Warner Bros.,53,65,Temptation,Action,2710,4754,39.39,75.7,115.1,67.5,170.51,12.9,,,,2008
+Meet the Spartans,Independent,2,31,comedy,Comedy,2605,7104,38.23,46.41,84.65,30,282.15,18.51,,,,2008
+Harold and Kumar Escape from Guantanamo Bay,Warner Bros.,54,65,escape,Adventure,2510,5939,38.11,5.38,43.49,12,362.43,14.91,,,,2008
+First Sunday,Sony,13,59,Comedy,Comedy,2213,8004,37.93,0.87,38.8,13,298.48,17.7,,,,2008
+The Secret Life of Bees,Fox,56,78,Maturation,Drama,1591,6617,37.77,2.18,39.95,11,363.15,10.53,,,,2008
+Tyler Perry's The Family That Preys,Independent,51,36,Discovery,Drama,2070,8397,37.11,,37.11,10,371.05,17.38,,,http://boxofficemojo.com/movies/?id=familythatpreys.htm,2008
+Death Race,Universal,42,69,escape,Action,2532,4985,36.32,39.36,75.68,45,168.17,12.62,,,,2008
+Changeling,Independent,62,84,quest,Drama,1850,5055,35.74,77.28,113.02,55,205.49,9.4,,,,2008
+Star Wars: The Clone Wars,Independent,19,46,sacrifice,Animation,3452,4233,35.16,33.12,68.28,8.5,803.32,14.6,,,,2008
+Semi-Pro,Warner Bros.,21,41,underdog,Comedy,3121,4830,33.48,10.41,43.88,2.6,1687.85,15.08,,,,2008
+Fireproof,Independent,40,51,love,Drama,839,8148,33.46,0.02,33.47,0.5,6694.40,6.84,,,http://boxofficemojo.com/movies/?page=main&id=Fireproof.htm,2008
+Drillbit Taylor,Paramount,26,49,Comedy,Comedy,3056,3373,32.86,16.83,49.69,40,124.23,10.3,,,,2008
+The Love Guru,Paramount,14,38,Comedy,Comedy,3012,4617,32.24,8.63,40.86,62,65.91,13.91,,,,2008
+"Definitely, Maybe",Universal,71,72,Discovery,Comedy,2204,4430,32.24,23.21,55.45,7,792.10,9.76,,,,2008
+Milk,Universal,94,88,quest,Biography,36,40385,31.84,22.75,54.59,20,272.93,1.5,"Best Actor, Original Screenplay",,http://www.the-numbers.com/movies/2008/HMILK.php,2008
+Transporter 3,Independent,36,58,escape,Action,2626,4594,31.72,77.26,108.98,30,363.26,12.06,,,,2008
+Quarantine,Sony,59,46,Monster Force,Horror,2461,5775,31.69,9.63,41.32,12,344.33,14.2,,,http://boxofficemojo.com/movies/?id=rachelgettingmarried.htm,2008
+Nick and Norah's Infinite Playlist,Sony,73,67,Love,Comedy,2421,4672,31.49,2.02,33.51,10,335.05,11.31,,,,2008
+The Eye,Lionsgate,22,51,Sacrifice,Horror,2436,5101,31.42,25.55,56.96,12,474.69,12.4,,,,2008
+Zack and Miri Make a Porno,The Weinstein Company,64,70,Love,Romance,3735,3680,31.46,10.65,42.1,24,175.43,10.07,,,http://boxofficemojo.com/movies/?id=zackandmirimakeaporno.htm,2008
+Leatherheads,Universal,52,41,Rivalry,Comedy,2769,4580,31.37,9.93,41.3,58,71.20,12.7,,,,2008
+Mirrors,Independent,14,49,monster force,Horror,2664,4190,30.69,46.8,77.49,35,221.39,11.2,,,,2008
+Space Chimps,Independent*,36,37,Transformation,Animation,2511,2860,30.11,34.73,64.83,37,175.22,7.18,,,"* Co-production partnership with Digital Production Studios, a subsidiary of IDT Media.",2008
+The Bank Job,Independent,78,74,Quest,Thriller,1603,3702,30.06,34.76,64.82,20,324.11,5.94,,,,2008
+Untraceable,Independent,14,56,riddle,Thriller,2368,4795,28.69,23.97,52.66,35,150.45,11.4,,,,2008
+The Women,Warner Bros.,13,41,Transformation,Drama,2962,3415,26.9,23.11,50.01,16,312.54,10.12,,,,2008
+One Missed Call,Warner Bros.,0,36,Monster Force,Horror,2240,5585,26.89,18.96,45.85,20,229.24,12.5,,,,2008
+The Other Boleyn Girl,Independent,41,65,tragedy,Drama,1166,7035,26.81,50.9,77.71,40,194.28,8.2,,,,2008
+Street Kings,Fox,37,62,The Riddle,Action,2467,5054,26.42,39.15,65.57,20,327.86,12.5,,,,2008
+Shutter,Fox,7,40,Monster Force,Horror,2753,3794,25.93,21.95,47.88,8,598.48,10.5,,,http://boxofficemojo.com/movies/?id=shutter.htm,2008
+Superhero Movie,The Weinstein Company,15,36,Comedy,Comedy,2960,3212,25.88,45.36,71.24,65,109.60,9.51,,,,2008
+W.,Lionsgate,60,42,rivalry,Drama,2030,5175,25.53,3.97,29.51,25.1,117.55,10.5,,,http://boxofficemojo.com/movies/?id=w.htm,2008
+Never Back Down,Summit,23,37,Rivalry,Action,2729,3152,24.85,16.78,41.63,21,198.22,8.6,,,,2008
+Traitor,Liberty Starz,55,66,Pursuit,Thriller,2054,3831,23.53,4.13,27.66,22,125.74,7.9,,,,2008
+Vicky Cristina Barcelona,The Weinstein Company,82,73,temptation,Romance,692,5427,23.22,73.19,96.41,16,602.55,3.76,,,http://boxofficemojo.com/movies/?id=vickycristinabarcelona.htm,2008
+Babylon A.D.,Fox,7,32,quest,Action,3390,2798,22.53,49.58,72.11,45,160.24,9.5,,,,2008
+The X-Files: I Want to Believe,Fox,32,34,monster force,Thriller,3185,3147,20.98,47.39,68.37,35,195.34,10.1,,,,2008
+Mad Money,Independent,22,51,Comedy,Comedy,2470,3132,20.67,5.74,26.41,22,120.05,7.74,,,,2008
+Appaloosa,Warner Bros.,77,55,Rescue,Action,1045,4833,20.21,7.45,27.67,20,138.33,5,,,,2008
+Igor,Independent,36,42,Temptation,Animation,2339,,19.53,11.22,30.75,30,102.49,7.8,,,,2008
+My Best Friend's Girl,Lionsgate,14,51,Comedy,Comedy,2604,3174,19.22,22.4,41.62,20,208.11,8.27,,,,2008
+Doubt,Independent,78,75,riddle,Drama,1267,4214,33.45,17.46,50.91,25,203.62,5.3,,,,2008
+The Spirit,Lionsgate,14,29,rivalry,Action,2509,2576,19.81,19.23,39.03,6,650.52,6.5,,,,2008
+Kit Kittredge: An American Girl,Warner Bros.,78,26,riddle,Drama,,,17.66,,17.66,10,176.57,3.3,,,,2008
+The Ruins,Paramount,46,32,rescue,Horror,2812,2846,17.43,5.3,22.73,25,90.91,8,,,,2008
+88 Minutes,Sony,5,51,The Riddle,Drama,2168,3209,17.21,15.38,32.59,30,108.64,7,,,,2008
+Swing Vote,Disney,36,44,maturation,Comedy,2213,2815,16.29,1.34,17.63,20,88.17,6.23,,,,2008
+Pride & Glory,Warner Bros.,34,54,Temptation,Crime,2585,2423,15.74,15.41,31.15,30,103.82,6.26,,,,2008
+Bangkok Dangerous,Lionsgate,9,33,pursuit,Action,2650,2937,15.3,27.19,42.49,45,94.42,7.8,,,,2008
+Disaster Movie,Lionsgate,2,28,Rescue,Comedy,2642,2209,14.19,20.63,34.82,20,174.08,5.8,,,,2008
+The Duchess,Paramount,60,68,Love,Drama,,,13.85,29.46,43.31,13.5,320.78,3.3,,,,2008
+The Haunting of Molly Hartley,Independent,3,22,sacrifice,Horror,2652,2045,13.56,1.86,15.42,5,308.34,5.4,,,,2008
+Ghost Town,Paramount,85,60,transformation,Comedy,1505,3330,13.37,13.71,27.07,20,135.37,5.01,,,,2008
+Religulous,Lionsgate,70,78,comedy,Documentary,502,6792,13.01,0.63,13.64,2.5,545.52,3.41,,,http://www.the-numbers.com/movies/2008/RELIG.php,2008
+Rachel Getting Married,Independent,85,61,love,Drama,9,32597,12.8,3.83,16.62,12,138.52,0.29,,,http://www.the-numbers.com/movies/2008/RGMRD.php,2008
+The Pirates Who Don't Do Anything,Universal,41,,Fish Out of Water,,,,12.98,0.17,13.15,15,87.69,4.25,,,,2008
+Under the Same Moon,Weinstein Co.,72,37,Quest,,266,10412,12.59,10.72,23.31,1.7,1371.24,2.8,,,http://boxofficemojo.com/movies/?id=underthesamemoon.htm,2008
+Miss Pettigrew Lives for a Day,Independent,78,70,Love,Comedy,535,4655,12.31,4.41,16.72,60,27.87,2.49,,,,2008
 Soul Men,The Weinstein Company,45,42,Comedy,Comedy,2044,2643,12.08,0.25,12.33,0,,5.4,,,http://www.boxofficemojo.com/movies/?id=soulmen.htm,2008
-Meet Dave,Fox,19,42,Fish Out of Water,Adventure,3011,1744,11.8,38.85,50.65,60,84.42%,5.25,,,,2008
-The Longshots,Independent,39,39,Quest,Comedy,2089,1953,11.54,0.23,11.77,30,39.22%,4,,,,2008
-"Be Kind, Rewind",New Line,65,57,Comedy,Comedy,808,5013,11.18,19.4,30.58,20,152.88%,4.05,,,,2008
-Doomsday,Relativity Media,48,47,Quest,Action,1936,2544,11.01,11.2,22.21,33,67.30%,4.9,,,,2008
-Stop-Loss,Paramount,65,27,Tragedy,Drama,1291,3528,10.92,0.29,11.21,25,44.82%,4.56,,,http://www.the-numbers.com/movies/2008/STOPL.php,2008
-Penelope,Summit,52,74,love,Comedy,,,10.01,11.14,21.16,15,141.03%,3.8,,,,2008
-The Express,Independent,62,73,Maturation,Biopic,2808,1625,9.79,0.01,9.81,37.5,26.15%,4.56,,,http://www.the-numbers.com/movies/2008/EXPRS.php,2008
-Smart People,Independent,50,41,Transformation,Comedy,1106,3700,9.51,2.33,11.84,7,169.19%,4.09,,,http://www.the-numbers.com/movies/2008/SMPEP.php,2008
-The Visitor,Independent,92,83,Transformation,Drama,,,9.43,8.65,18.08,4,451.95%,0.09,,,http://www.the-numbers.com/movies/2008/VISTR.php,2008
-The Boy in the Striped Pyjamas,Independent,63,84,Tragedy,Drama,,,9.05,31.37,40.42,12.5,323.33%,1.03,,,,2008
-Sex Drive,Summit,46,61,Journey and Return,Adventure,2421,1490,8.4,10.35,18.76,19,98.71%,3.61,,,http://boxofficemojo.com/movies/?id=sexdrive.htm,2008
-Cadillac Records,Sony,67,64,Rags to Riches,Biography,687,5015,8.2,0.68,8.88,12,73.99%,3.4,,,,2008
-Punisher: War Zone,Lionsgate,27,47,Revenge,Action,2508,1703,8.05,2.05,10.1,35,28.85%,4.3,,,http://boxofficemojo.com/movies/?id=punisher2.htm,2008
-Miracle at St. Anna,Disney,34,68,quest,Action,1185,2935,7.92,1.4,9.32,45,20.72%,3.5,,,http://www.the-numbers.com/movies/2008/MSANA.php,2008
-City of Ember,Independent,52,48,escape,Adventure,2022,1548,7.87,10.06,17.93,38,47.18%,3.13,,,http://www.the-numbers.com/movies/2008/CEMBR.php,2008
-In Bruges,Focus,81,85,Fish Out of Water,Crime,,,7.8,25.59,33.39,15,222.62%,0.46,,,http://www.the-numbers.com/movies/2008/BRUGE.php,2008
-Expelled: No Intelligence Allowed,,10,42,comedy,Documentary,1052,2824,7.72,,7.72,3.5,220.57%,2.97,,,,2008
-Over Her Dead Body,New Line,15,47,Love,Comedy,,,7.56,13.89,21.46,10,214.57%,4.03,,,,2008
-Spider-Man 3,Sony,61,54,Metamorphosis,Action,4252,35540,336.53,554.34,890.87,258,345.30%,151.1,,,,2007
-Shrek the Third,Paramount,42,57,Quest,Animation,4122,29507,322.72,476.24,798.96,160,499.35%,121.6,,,,2007
-Transformers,Paramount,57,89,Monster Force,Action,4011,17577,319.25,390.46,709.71,150,473.14%,70.5,,,,2007
-Pirates of the Caribbean: At World's End,Disney,45,74,Rescue,Action,4362,26302,309.42,654,963.42,300,321.14%,114.7,,,,2007
-Harry Potter and the Order of the Phoenix,Warner Bros.,78,82,Quest,Adventure,4285,17998,292,647.88,939.89,150,626.59%,77.1,,,,2007
-I Am Legend,Warner Bros.,69,69,Quest,Thriller,3606,21411,256.39,328.96,585.35,150,390.23%,77.2,,,,2007
-The Bourne Ultimatum,Universal,93,91,Pursuit,Thriller,3660,18929,227.47,215.35,442.82,110,402.57%,69.3,,,,2007
-National Treasure: Book of Secrets,Disney,31,72,The Riddle,Thriller,3832,11686,219.96,237.4,457.36,130,351.82%,44.8,,,,2007
-Alvin and the Chipmunks,Fox,26,73,Comedy,Animation,3475,12750,217.33,144.01,361.34,70,516.19%,44.3,,,,2007
-300,Warner Bros.,60,90,Sacrifice,Action,3103,22844,210.61,245.45,456.07,65,701.64%,70.9,,,,2007
-Ratatouille,Disney,97,84,Transformation,Animation,3940,11935,206.45,417.28,623.72,150,415.81%,47,Animated,Animated,,2007
-The Simpsons Movie,Fox,90,78,Maturation,Comedy,3922,18877,183.14,343.94,527.07,75,702.76%,74,,,,2007
-Wild Hogs,Disney,14,72,Transformation,Comedy,3287,12077,168.27,85.35,253.62,90,281.80%,39.7,,,,2007
-Knocked Up,Universal,91,83,Love,Comedy,2871,10690,148.77,70.31,219.08,33,663.86%,30.7,,,,2007
-Juno,Fox,94,89,Maturation,Comedy,1019,10436,143.5,87.92,231.41,7.5,3085.48%,10.6,Original Screenplay,Original Screenplay,,2007
-Rush Hour 3,Warner Bros.,20,68,Rescue,Action,3778,12996,140.13,117.9,258.02,140,184.30%,49.1,,,,2007
-Live Free or Die Hard,Fox,79,86,Rescue,Action,3408,9791,134.53,249,383.53,110,348.66%,33.4,,,,2007
-Fantastic Four: Rise of the Silver Surfer,Fox,35,55,Monster Force,Action,3959,14663,131.92,157.13,289.05,130,222.34%,58,,,,2007
-American Gangster,Universal,79,87,pursuit,Thriller,3054,14264,130.16,136.3,266.46,100,266.46%,43.6,,,,2007
-Enchanted,Disney,93,80,Love,Comedy,3730,9233,127.81,212.68,340.49,85,400.57%,34.4,,,,2007
-Bee Movie,Paramount,52,57,Journey and Return,Animation,3928,9679,126.63,160.96,287.59,150,191.73%,38,,,,2007
-Superbad,Sony,88,87,Comedy,Comedy,2948,11211,121.46,48.41,169.87,20,849.36%,33,,,,2007
-I Now Pronounce You Chuck and Larry,Universal,13,73,Comedy,Comedy,3495,9795,120.06,66.01,186.07,85,218.91%,34.2,,,,2007
-Hairspray,Warner Bros.,92,84,Underdog,Musical,3121,8803,118.87,83.68,202.55,75,270.06%,27.5,,,,2007
-Blades of Glory,Paramount,69,66,Rivalry,Comedy,3372,9790,118.59,27.11,145.71,61,238.87%,33,,,,2007
-Ocean's 13,Warner Bros.,70,74,Revenge,Thriller,3565,10135,117.15,194.16,311.31,85,366.25%,36.1,,,,2007
-Ghost Rider,Sony,28,56,Monster Force,Action,3619,12541,115.8,112.94,228.74,110,207.94%,45.3,,,,2007
-Evan Almighty,Universal,23,56,Comedy,Comedy,3604,8654,100.46,72.96,173.42,175,99.10%,31.2,,,,2007
-Meet the Robinsons,Disney,66,75,Quest,Animation,3413,7361,97.82,71.51,169.33,100,169.33%,25.1,,,,2007
-Norbit,Paramount,9,56,Comedy,Comedy,3136,10904,95.67,63.64,159.31,60,265.52%,34.2,,,,2007
-The Bucket List,Warner Bros.,41,81,discovery,Drama,2911,6661,93.47,81.91,175.37,45,389.72%,19.4,,,,2007
-The Game Plan,Disney,27,75,Discovery,Comedy,3103,7396,90.65,57.23,147.88,22,672.18%,22.9,,,,2007
-Beowulf,Paramount,71,52,Journey and Return,Action,3153,8726,82.28,114.11,196.39,150,130.93%,27.5,,,,2007
-Disturbia,Paramount,67,75,Pursuit,Thriller,2925,7598,80.21,37.55,117.76,20,588.79%,22.2,,,,2007
-No Country for Old Men,Paramount,95,84,Pursuit,Drama,860,9042,74.28,97.34,171.63,25,686.50%,7.8,"Best Picture, Director, Supporting Actor, Adapted Screenplay","Supporting Actor, Director",,2007
-The Golden Compass,Warner Bros.,42,55,Rescue,Action,3528,7308,70.11,302.13,372.23,180,206.80%,25.7,,,,2007
-Charlie Wilson's War,Universal,82,73,Discovery,Biography,2575,3750,66.66,52.34,119,75,158.67%,9.6,,,,2007
-Saw IV,Independent,18,70,Escape,Horror,3183,9976,63.3,76.05,139.35,10,1393.52%,31.7,,,,2007
-Stomp the Yard,Independent,27,83,Maturation,Musical,2051,10645,61.36,14.15,75.51,14,539.36%,21.9,,,,2007
-Surf's Up,Sony,78,64,Discovery,Animation,3528,5000,58.87,90.18,149.04,85,175.34%,17.6,,,,2007
-Halloween,The Weinstein Company,26,64,Pursuit,Horror,3472,7592,58.27,21.98,80.25,20,401.27%,26.4,,,,2007
-Tyler Perry's Why Did I get Married,Independent,46,47,Love,Romance,2011,10618,55.2,0.66,55.86,15,372.41%,21.4,,,,2007
-TMNT,,33,63,Monster Force,Action,3110,7799,54.15,41.46,95.61,35,273.17%,24.3,,,,2007
-P.S. I Love You,Independent,21,82,Love,Romance,2454,2641,53.7,103.14,156.83,30,522.78%,6.5,,,,2007
-3:10 to Yuma,Lionsgate,88,85,sacrifice,Western,2652,5292,53.61,16.41,70.02,48,145.86%,14,,,,2007
-Sweeney Todd: The Demon Barber of Fleet Street,Warner Bros.,86,81,Revenge,Musical,1249,7446,52.9,99.63,152.52,50,305.05%,9.3,,,,2007
-Music and Lyrics,Warner Bros.,63,70,Love,Romance,,,50.57,95.32,145.9,40,364.74%,13.6,,,,2007
-Michael Clayton,Independent,90,72,Transformation,Thriller,2511,4131,49.03,43.96,92.99,25,371.96%,10.4,Supporting Actress,Supporting Actress,,2007
-Premonition,Sony,8,55,The Riddle,Drama,2831,6202,47.85,36.29,84.15,20,420.73%,17.6,,,,2007
-The Kingdom,,52,78,Quest,Action,2793,6135,47.54,39.12,86.66,80,108.32%,17.1,,,,2007
-Shooter,Paramount,47,82,Pursuit,Action,2806,5175,47,48.69,95.7,61,156.88%,14.5,,,,2007
-License to Wed,Warner Bros.,8,55,Love,Comedy,2604,4002,43.8,25.51,69.31,35,198.02%,10.4,,,,2007
-No Reservations,,39,64,Love,Comedy,2425,4826,43.11,49.49,92.6,28,330.71%,11.7,,,,2007
-Alien vs. Predator -- Requiem,Fox,14,37,Monster Force,Horror,2611,3853,41.8,87.09,128.88,40,322.21%,10,,,,2007
-There Will Be Blood,Paramount,91,84,Wretched Excess,Drama,885,5502,40.22,35.96,76.18,25,304.72%,4.9,Best Actor,Leading Actor,,2007
-Epic Movie,Independent,2,38,Comedy,Comedy,2801,6644,39.74,47.13,86.87,20,434.33%,18.6,,,,2007
-Hitman,Fox,15,61,Quest,Action,2458,5362,39.69,60.28,99.97,17.5,571.23%,13.2,,,,2007
-30 Days of Night,Independent,50,57,Monster Force,Horror,2855,5587,39.57,35.94,75.5,32,235.95%,15.6,,,,2007
-Stardust,Paramount,76,86,Quest,Adventure,2540,3610,38.63,96.93,135.56,70,193.66%,9.16,,,,2007
-The Brave One,,43,65,Rivalry,Action,2755,4889,36.79,32.99,69.79,70,99.69%,13.5,,,,2007
-The Heartbreak Kid,Paramount,30,41,Love,Comedy,3229,4342,36.79,90.98,127.77,60,212.94%,14,,,,2007
-Smokin' Aces,Universal,27,64,Pursuit,Action,2218,6599,35.79,21.32,57.1,17,335.90%,14.6,,,,2007
-Good Luck Chuck,Lionsgate,3,61,Love,Comedy,2612,5226,35.02,24.17,59.19,25,236.76%,13.7,,,,2007
-Zodiac,Paramount,89,73,Pursuit,Thriller,2362,5671,33.08,51.71,84.79,65,130.44%,13.4,,,,2007
-Mr. Magorium's Wonder Emporium,Independent,36,56,Transformation,Fantasy,3164,3043,32.06,37.41,69.47,25,277.90%,9.63,,,,2007
-We Own the Night,Sony,55,63,Sacrifice,Drama,2362,4583,28.56,26.36,54.93,21,261.55%,10.8,,,,2007
-Mr. Brooks,MGM,56,75,Temptation,Thriller,2453,4083,28.55,19.57,48.12,20,240.61%,10,,,,2007
-The Nanny Diaries,The Weinstein Company,33,52,Discovery,Comedy,2629,2845,25.93,21.81,47.74,20,238.69%,7.5,,,,2007
-Nancy Drew,Independent,49,61,The Riddle,Thriller,2612,2615,25.61,5.05,30.67,20,153.33%,6.9,,,,2007
-The Mist,The Weinstein Company,72,64,Monster Force,Horror,2423,3686,25.59,31.7,57.29,18,318.29%,8.9,,,,2007
-The Reaping,,9,53,Quest,Horror,2603,3851,25.13,37.64,62.77,40,156.93%,10,,,,2007
-Grindhouse,The Weinstein Company,82,86,pursuit,Action,2624,4419,25.04,0.38,25.42,53,47.96%,11.6,,,,2007
-Sicko,The Weinstein Company,93,87,quest,Documentary,702,5128,24.54,11.55,36.09,9,400.98%,3.6,,,,2007
-Across the Universe,Independent,54,84,Love,Romance,954,4009,24.34,5.02,29.37,45,65.26%,3.8,,,,2007
-The Hills Have Eyes 2,Independent,11,50,Monster Force,Horror,2447,3958,20.8,16.66,37.47,15,249.77%,9.7,,,,2007
-Vacancy,Sony,55,46,Pursuit,Comedy,2551,2980,19.36,15.94,35.3,19,185.79%,7.6,,,,2007
-Waitress,Independent,89,67,Love,Romance,605,3327,19.07,3.1,22.18,2,1108.90%,2,,,,2007
-Into the Wild,Paramount,82,90,quest,Drama,658,3249,18.35,37.9,56.25,15,375.03%,2.1,,,,2007
-Walk Hard: The Dewey Cox Story,Sony,75,55,Comedy,Comedy,2650,1575,18.32,2.26,20.58,35,58.79%,4.1,,,,2007
-Next,Paramount,29,59,Pursuit,Thriller,2725,2617,18.21,57.86,76.07,70,108.67%,7.1,,,,2007
-Hostel: Part II,Lionsgate,44,45,Escape,Horror,2350,3490,17.61,18.01,35.62,10,356.19%,8.2,,,,2007
-The Kite Runner,Paramount,66,85,Maturation,Drama,715,2243,15.8,57.48,73.28,20,366.38%,1.6,,,,2007
-Happily N'Ever After,Lionsgate,4,43,Maturation,Animation,2381,2775,15.59,22.5,38.09,47,81.03%,6.6,,,,2007
-The Invasion,Warner Bros.,19,43,Monster Force,Sci-Fi,2776,2143,15.07,25.1,40.17,80,50.21%,5.6,,,,2007
-Lions for Lambs,Independent,27,48,Quest,Drama,2215,3025,15,48.21,63.22,35,180.61%,6.7,,,,2007
-Daddy Day Camp,Sony,1,63,Comedy,Comedy,2332,1459,13.24,4.96,18.2,6,303.28%,3.4,,,,2007
-Shoot 'Em Up,Warner Bros.,67,66,Pursuit,Action,2108,2711,12.81,14.01,26.82,39,68.77%,5.7,,,,2007
-The Darjeeling Limited,Fox,67,79,Journey and Return,Drama,698,2523,11.9,23.18,35.08,17.5,200.45%,1.8,,,,2007
-In the Land of Women,Warner Bros.,43,72,Transformation,Comedy,2155,2186,11.05,6.51,17.56,10,175.61%,4.7,,,,2007
-Dragon Wars (aka D-War),Mediaplex,27,44,Monster Force,Action,2277,2213,10.98,64.13,75.11,75,100.14%,5,,,,2007
-Pathfinder: Legend of the Ghost Warrior,,11,41,Rescue,Action,1720,2907,10.23,20.59,30.82,26,118.55%,5,,,,2007
+Meet Dave,Fox,19,42,Fish Out of Water,Adventure,3011,1744,11.8,38.85,50.65,60,84.42,5.25,,,,2008
+The Longshots,Independent,39,39,Quest,Comedy,2089,1953,11.54,0.23,11.77,30,39.22,4,,,,2008
+"Be Kind, Rewind",New Line,65,57,Comedy,Comedy,808,5013,11.18,19.4,30.58,20,152.88,4.05,,,,2008
+Doomsday,Relativity Media,48,47,Quest,Action,1936,2544,11.01,11.2,22.21,33,67.30,4.9,,,,2008
+Stop-Loss,Paramount,65,27,Tragedy,Drama,1291,3528,10.92,0.29,11.21,25,44.82,4.56,,,http://www.the-numbers.com/movies/2008/STOPL.php,2008
+Penelope,Summit,52,74,love,Comedy,,,10.01,11.14,21.16,15,141.03,3.8,,,,2008
+The Express,Independent,62,73,Maturation,Biopic,2808,1625,9.79,0.01,9.81,37.5,26.15,4.56,,,http://www.the-numbers.com/movies/2008/EXPRS.php,2008
+Smart People,Independent,50,41,Transformation,Comedy,1106,3700,9.51,2.33,11.84,7,169.19,4.09,,,http://www.the-numbers.com/movies/2008/SMPEP.php,2008
+The Visitor,Independent,92,83,Transformation,Drama,,,9.43,8.65,18.08,4,451.95,0.09,,,http://www.the-numbers.com/movies/2008/VISTR.php,2008
+The Boy in the Striped Pyjamas,Independent,63,84,Tragedy,Drama,,,9.05,31.37,40.42,12.5,323.33,1.03,,,,2008
+Sex Drive,Summit,46,61,Journey and Return,Adventure,2421,1490,8.4,10.35,18.76,19,98.71,3.61,,,http://boxofficemojo.com/movies/?id=sexdrive.htm,2008
+Cadillac Records,Sony,67,64,Rags to Riches,Biography,687,5015,8.2,0.68,8.88,12,73.99,3.4,,,,2008
+Punisher: War Zone,Lionsgate,27,47,Revenge,Action,2508,1703,8.05,2.05,10.1,35,28.85,4.3,,,http://boxofficemojo.com/movies/?id=punisher2.htm,2008
+Miracle at St. Anna,Disney,34,68,quest,Action,1185,2935,7.92,1.4,9.32,45,20.72,3.5,,,http://www.the-numbers.com/movies/2008/MSANA.php,2008
+City of Ember,Independent,52,48,escape,Adventure,2022,1548,7.87,10.06,17.93,38,47.18,3.13,,,http://www.the-numbers.com/movies/2008/CEMBR.php,2008
+In Bruges,Focus,81,85,Fish Out of Water,Crime,,,7.8,25.59,33.39,15,222.62,0.46,,,http://www.the-numbers.com/movies/2008/BRUGE.php,2008
+Expelled: No Intelligence Allowed,,10,42,comedy,Documentary,1052,2824,7.72,,7.72,3.5,220.57,2.97,,,,2008
+Over Her Dead Body,New Line,15,47,Love,Comedy,,,7.56,13.89,21.46,10,214.57,4.03,,,,2008
+Spider-Man 3,Sony,61,54,Metamorphosis,Action,4252,35540,336.53,554.34,890.87,258,345.30,151.1,,,,2007
+Shrek the Third,Paramount,42,57,Quest,Animation,4122,29507,322.72,476.24,798.96,160,499.35,121.6,,,,2007
+Transformers,Paramount,57,89,Monster Force,Action,4011,17577,319.25,390.46,709.71,150,473.14,70.5,,,,2007
+Pirates of the Caribbean: At World's End,Disney,45,74,Rescue,Action,4362,26302,309.42,654,963.42,300,321.14,114.7,,,,2007
+Harry Potter and the Order of the Phoenix,Warner Bros.,78,82,Quest,Adventure,4285,17998,292,647.88,939.89,150,626.59,77.1,,,,2007
+I Am Legend,Warner Bros.,69,69,Quest,Thriller,3606,21411,256.39,328.96,585.35,150,390.23,77.2,,,,2007
+The Bourne Ultimatum,Universal,93,91,Pursuit,Thriller,3660,18929,227.47,215.35,442.82,110,402.57,69.3,,,,2007
+National Treasure: Book of Secrets,Disney,31,72,The Riddle,Thriller,3832,11686,219.96,237.4,457.36,130,351.82,44.8,,,,2007
+Alvin and the Chipmunks,Fox,26,73,Comedy,Animation,3475,12750,217.33,144.01,361.34,70,516.19,44.3,,,,2007
+300,Warner Bros.,60,90,Sacrifice,Action,3103,22844,210.61,245.45,456.07,65,701.64,70.9,,,,2007
+Ratatouille,Disney,97,84,Transformation,Animation,3940,11935,206.45,417.28,623.72,150,415.81,47,Animated,Animated,,2007
+The Simpsons Movie,Fox,90,78,Maturation,Comedy,3922,18877,183.14,343.94,527.07,75,702.76,74,,,,2007
+Wild Hogs,Disney,14,72,Transformation,Comedy,3287,12077,168.27,85.35,253.62,90,281.80,39.7,,,,2007
+Knocked Up,Universal,91,83,Love,Comedy,2871,10690,148.77,70.31,219.08,33,663.86,30.7,,,,2007
+Juno,Fox,94,89,Maturation,Comedy,1019,10436,143.5,87.92,231.41,7.5,3085.48,10.6,Original Screenplay,Original Screenplay,,2007
+Rush Hour 3,Warner Bros.,20,68,Rescue,Action,3778,12996,140.13,117.9,258.02,140,184.30,49.1,,,,2007
+Live Free or Die Hard,Fox,79,86,Rescue,Action,3408,9791,134.53,249,383.53,110,348.66,33.4,,,,2007
+Fantastic Four: Rise of the Silver Surfer,Fox,35,55,Monster Force,Action,3959,14663,131.92,157.13,289.05,130,222.34,58,,,,2007
+American Gangster,Universal,79,87,pursuit,Thriller,3054,14264,130.16,136.3,266.46,100,266.46,43.6,,,,2007
+Enchanted,Disney,93,80,Love,Comedy,3730,9233,127.81,212.68,340.49,85,400.57,34.4,,,,2007
+Bee Movie,Paramount,52,57,Journey and Return,Animation,3928,9679,126.63,160.96,287.59,150,191.73,38,,,,2007
+Superbad,Sony,88,87,Comedy,Comedy,2948,11211,121.46,48.41,169.87,20,849.36,33,,,,2007
+I Now Pronounce You Chuck and Larry,Universal,13,73,Comedy,Comedy,3495,9795,120.06,66.01,186.07,85,218.91,34.2,,,,2007
+Hairspray,Warner Bros.,92,84,Underdog,Musical,3121,8803,118.87,83.68,202.55,75,270.06,27.5,,,,2007
+Blades of Glory,Paramount,69,66,Rivalry,Comedy,3372,9790,118.59,27.11,145.71,61,238.87,33,,,,2007
+Ocean's 13,Warner Bros.,70,74,Revenge,Thriller,3565,10135,117.15,194.16,311.31,85,366.25,36.1,,,,2007
+Ghost Rider,Sony,28,56,Monster Force,Action,3619,12541,115.8,112.94,228.74,110,207.94,45.3,,,,2007
+Evan Almighty,Universal,23,56,Comedy,Comedy,3604,8654,100.46,72.96,173.42,175,99.10,31.2,,,,2007
+Meet the Robinsons,Disney,66,75,Quest,Animation,3413,7361,97.82,71.51,169.33,100,169.33,25.1,,,,2007
+Norbit,Paramount,9,56,Comedy,Comedy,3136,10904,95.67,63.64,159.31,60,265.52,34.2,,,,2007
+The Bucket List,Warner Bros.,41,81,discovery,Drama,2911,6661,93.47,81.91,175.37,45,389.72,19.4,,,,2007
+The Game Plan,Disney,27,75,Discovery,Comedy,3103,7396,90.65,57.23,147.88,22,672.18,22.9,,,,2007
+Beowulf,Paramount,71,52,Journey and Return,Action,3153,8726,82.28,114.11,196.39,150,130.93,27.5,,,,2007
+Disturbia,Paramount,67,75,Pursuit,Thriller,2925,7598,80.21,37.55,117.76,20,588.79,22.2,,,,2007
+No Country for Old Men,Paramount,95,84,Pursuit,Drama,860,9042,74.28,97.34,171.63,25,686.50,7.8,"Best Picture, Director, Supporting Actor, Adapted Screenplay","Supporting Actor, Director",,2007
+The Golden Compass,Warner Bros.,42,55,Rescue,Action,3528,7308,70.11,302.13,372.23,180,206.80,25.7,,,,2007
+Charlie Wilson's War,Universal,82,73,Discovery,Biography,2575,3750,66.66,52.34,119,75,158.67,9.6,,,,2007
+Saw IV,Independent,18,70,Escape,Horror,3183,9976,63.3,76.05,139.35,10,1393.52,31.7,,,,2007
+Stomp the Yard,Independent,27,83,Maturation,Musical,2051,10645,61.36,14.15,75.51,14,539.36,21.9,,,,2007
+Surf's Up,Sony,78,64,Discovery,Animation,3528,5000,58.87,90.18,149.04,85,175.34,17.6,,,,2007
+Halloween,The Weinstein Company,26,64,Pursuit,Horror,3472,7592,58.27,21.98,80.25,20,401.27,26.4,,,,2007
+Tyler Perry's Why Did I get Married,Independent,46,47,Love,Romance,2011,10618,55.2,0.66,55.86,15,372.41,21.4,,,,2007
+TMNT,,33,63,Monster Force,Action,3110,7799,54.15,41.46,95.61,35,273.17,24.3,,,,2007
+P.S. I Love You,Independent,21,82,Love,Romance,2454,2641,53.7,103.14,156.83,30,522.78,6.5,,,,2007
+3:10 to Yuma,Lionsgate,88,85,sacrifice,Western,2652,5292,53.61,16.41,70.02,48,145.86,14,,,,2007
+Sweeney Todd: The Demon Barber of Fleet Street,Warner Bros.,86,81,Revenge,Musical,1249,7446,52.9,99.63,152.52,50,305.05,9.3,,,,2007
+Music and Lyrics,Warner Bros.,63,70,Love,Romance,,,50.57,95.32,145.9,40,364.74,13.6,,,,2007
+Michael Clayton,Independent,90,72,Transformation,Thriller,2511,4131,49.03,43.96,92.99,25,371.96,10.4,Supporting Actress,Supporting Actress,,2007
+Premonition,Sony,8,55,The Riddle,Drama,2831,6202,47.85,36.29,84.15,20,420.73,17.6,,,,2007
+The Kingdom,,52,78,Quest,Action,2793,6135,47.54,39.12,86.66,80,108.32,17.1,,,,2007
+Shooter,Paramount,47,82,Pursuit,Action,2806,5175,47,48.69,95.7,61,156.88,14.5,,,,2007
+License to Wed,Warner Bros.,8,55,Love,Comedy,2604,4002,43.8,25.51,69.31,35,198.02,10.4,,,,2007
+No Reservations,,39,64,Love,Comedy,2425,4826,43.11,49.49,92.6,28,330.71,11.7,,,,2007
+Alien vs. Predator -- Requiem,Fox,14,37,Monster Force,Horror,2611,3853,41.8,87.09,128.88,40,322.21,10,,,,2007
+There Will Be Blood,Paramount,91,84,Wretched Excess,Drama,885,5502,40.22,35.96,76.18,25,304.72,4.9,Best Actor,Leading Actor,,2007
+Epic Movie,Independent,2,38,Comedy,Comedy,2801,6644,39.74,47.13,86.87,20,434.33,18.6,,,,2007
+Hitman,Fox,15,61,Quest,Action,2458,5362,39.69,60.28,99.97,17.5,571.23,13.2,,,,2007
+30 Days of Night,Independent,50,57,Monster Force,Horror,2855,5587,39.57,35.94,75.5,32,235.95,15.6,,,,2007
+Stardust,Paramount,76,86,Quest,Adventure,2540,3610,38.63,96.93,135.56,70,193.66,9.16,,,,2007
+The Brave One,,43,65,Rivalry,Action,2755,4889,36.79,32.99,69.79,70,99.69,13.5,,,,2007
+The Heartbreak Kid,Paramount,30,41,Love,Comedy,3229,4342,36.79,90.98,127.77,60,212.94,14,,,,2007
+Smokin' Aces,Universal,27,64,Pursuit,Action,2218,6599,35.79,21.32,57.1,17,335.90,14.6,,,,2007
+Good Luck Chuck,Lionsgate,3,61,Love,Comedy,2612,5226,35.02,24.17,59.19,25,236.76,13.7,,,,2007
+Zodiac,Paramount,89,73,Pursuit,Thriller,2362,5671,33.08,51.71,84.79,65,130.44,13.4,,,,2007
+Mr. Magorium's Wonder Emporium,Independent,36,56,Transformation,Fantasy,3164,3043,32.06,37.41,69.47,25,277.90,9.63,,,,2007
+We Own the Night,Sony,55,63,Sacrifice,Drama,2362,4583,28.56,26.36,54.93,21,261.55,10.8,,,,2007
+Mr. Brooks,MGM,56,75,Temptation,Thriller,2453,4083,28.55,19.57,48.12,20,240.61,10,,,,2007
+The Nanny Diaries,The Weinstein Company,33,52,Discovery,Comedy,2629,2845,25.93,21.81,47.74,20,238.69,7.5,,,,2007
+Nancy Drew,Independent,49,61,The Riddle,Thriller,2612,2615,25.61,5.05,30.67,20,153.33,6.9,,,,2007
+The Mist,The Weinstein Company,72,64,Monster Force,Horror,2423,3686,25.59,31.7,57.29,18,318.29,8.9,,,,2007
+The Reaping,,9,53,Quest,Horror,2603,3851,25.13,37.64,62.77,40,156.93,10,,,,2007
+Grindhouse,The Weinstein Company,82,86,pursuit,Action,2624,4419,25.04,0.38,25.42,53,47.96,11.6,,,,2007
+Sicko,The Weinstein Company,93,87,quest,Documentary,702,5128,24.54,11.55,36.09,9,400.98,3.6,,,,2007
+Across the Universe,Independent,54,84,Love,Romance,954,4009,24.34,5.02,29.37,45,65.26,3.8,,,,2007
+The Hills Have Eyes 2,Independent,11,50,Monster Force,Horror,2447,3958,20.8,16.66,37.47,15,249.77,9.7,,,,2007
+Vacancy,Sony,55,46,Pursuit,Comedy,2551,2980,19.36,15.94,35.3,19,185.79,7.6,,,,2007
+Waitress,Independent,89,67,Love,Romance,605,3327,19.07,3.1,22.18,2,1108.90,2,,,,2007
+Into the Wild,Paramount,82,90,quest,Drama,658,3249,18.35,37.9,56.25,15,375.03,2.1,,,,2007
+Walk Hard: The Dewey Cox Story,Sony,75,55,Comedy,Comedy,2650,1575,18.32,2.26,20.58,35,58.79,4.1,,,,2007
+Next,Paramount,29,59,Pursuit,Thriller,2725,2617,18.21,57.86,76.07,70,108.67,7.1,,,,2007
+Hostel: Part II,Lionsgate,44,45,Escape,Horror,2350,3490,17.61,18.01,35.62,10,356.19,8.2,,,,2007
+The Kite Runner,Paramount,66,85,Maturation,Drama,715,2243,15.8,57.48,73.28,20,366.38,1.6,,,,2007
+Happily N'Ever After,Lionsgate,4,43,Maturation,Animation,2381,2775,15.59,22.5,38.09,47,81.03,6.6,,,,2007
+The Invasion,Warner Bros.,19,43,Monster Force,Sci-Fi,2776,2143,15.07,25.1,40.17,80,50.21,5.6,,,,2007
+Lions for Lambs,Independent,27,48,Quest,Drama,2215,3025,15,48.21,63.22,35,180.61,6.7,,,,2007
+Daddy Day Camp,Sony,1,63,Comedy,Comedy,2332,1459,13.24,4.96,18.2,6,303.28,3.4,,,,2007
+Shoot 'Em Up,Warner Bros.,67,66,Pursuit,Action,2108,2711,12.81,14.01,26.82,39,68.77,5.7,,,,2007
+The Darjeeling Limited,Fox,67,79,Journey and Return,Drama,698,2523,11.9,23.18,35.08,17.5,200.45,1.8,,,,2007
+In the Land of Women,Warner Bros.,43,72,Transformation,Comedy,2155,2186,11.05,6.51,17.56,10,175.61,4.7,,,,2007
+Dragon Wars (aka D-War),Mediaplex,27,44,Monster Force,Action,2277,2213,10.98,64.13,75.11,75,100.14,5,,,,2007
+Pathfinder: Legend of the Ghost Warrior,,11,41,Rescue,Action,1720,2907,10.23,20.59,30.82,26,118.55,5,,,,2007
