@@ -323,7 +323,7 @@ var genres = $('input:checkbox:checked').map(function() {
 
 
 //update graph
-d3.csv("movies2011.csv",
+d3.csv("movieData.csv",
         function(d) {
           return {
             title: d.Film,
@@ -465,12 +465,12 @@ d3.csv("movies2011.csv",
                             //   .attr("text-anchor", "middle")                          
                             //   .text("Hi");
 
-                            // path1.append("g")                                     
-                            //   .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
-                            //   .append("text")
-                            //   .style("fill", "White")
-                            //   .attr("text-anchor", "middle")                          
-                            //   .text(function(d) { return "Hi"; });
+                            path1.append("g")                                     
+                              .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
+                              .append("svg:text")
+                              //.style("fill", "White")
+                              //.attr("text-anchor", "middle")                          
+                              .text(function(d) { return "Hi"; });
 
                            
 
