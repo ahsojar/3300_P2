@@ -16,7 +16,7 @@
   <h1 >Hollywood Movie Budgets</h1>
   <div>
    <!--  <p class="subtitle">Dollars spent, Rating, Profitibility,  </p> -->
-  <div id="scatterplot"></div>
+  <div id="scatterplot"><div class="error">There are no movies that fit these ranges.</div></div>
   <div id="piecharts">
     <h4 id="pieheader">Select a movie to see profit details</h4>
     <div id = "piechart1"></div>
@@ -33,7 +33,7 @@
 <div class="slider" id="budget-range"></div>
 
 <p>
-  <label for="profit">Profit range:</label>
+  <label for="profit">Profitibility:</label>
   <input class="text-label"  type="text" id="profit" readonly >
 </p>
 
@@ -61,11 +61,13 @@
 </p>
 
 
-<p class="checkbox-list">
+<p class="checkbox-list years">
   <label for="rating">Year</label><br>
- <input checked type="checkbox" name="year" value="2011" >2011<br>
- <input checked type="checkbox" name="year" value="2012" >2012<br>
- <input checked type="checkbox" name="year" value="2013" >2013<br>
+  <input  type="checkbox" name="year" value="2007" >2007<br>
+  <input  type="checkbox" name="year" value="2008" >2008<br>
+  <input  type="checkbox" name="year" value="2009" >2009<br>
+  <input  type="checkbox" name="year" value="2010" >2010<br>
+  <input checked type="checkbox" name="year" value="2011" >2011<br>
 
 </p>
 
@@ -83,7 +85,7 @@
 var budget_vals=[0,300];
 var profit_vals=[0,10000];
 var rating_vals=[0,300];
-var years=[];
+var years=[2011];
 var genres = ["Action", "Animation", "Comedy", "Drama", "Fantasy", "Horror", "Romance", "Thriller"];
 
 
@@ -307,16 +309,22 @@ svg3.append("g")
   updateGraph();          
 
 $("input:checkbox").change(function() {
+  console.log("checkbox called")
    updateGraph();
 });
 
 function updateGraph(){
 
+$('.error').hide(0);
   //get updated values from sliders and checkboxes
 var budget_vals = $( "#budget-range" ).slider( "values" );
 var profit_vals = $( "#profit-range" ).slider( "values" );
 var rating_vals = $( "#rating-range" ).slider( "values" );
-var genres = $('input:checkbox:checked').map(function() {
+var genres = $('input[name="genre"]:checkbox:checked').map(function() {
+    return this.value;
+}).get();
+
+var years = $('input[name="year"]:checkbox:checked').map(function() {
     return this.value;
 }).get();
 
@@ -325,8 +333,10 @@ var genres = $('input:checkbox:checked').map(function() {
 //update graph
 d3.csv("movieData.csv",
         function(d) {
+       
           return {
             title: d.Film,
+            year: d.Year,
             rating: +d.Rotten_Tomatoes,
             genre: d.Genre,
             budget: +d.Budget,
@@ -338,16 +348,23 @@ d3.csv("movieData.csv",
           };
         },
         function(error, data) {
-
+      
           //filter data
           var newdata = data.filter(function(d){
             if (d.budget > budget_vals[0] && d.budget < budget_vals[1]
               && d.rating > rating_vals[0] && d.rating < rating_vals[1]
-              && d.profitability > profit_vals[0] && d.profitability < profit_vals[1] && genres.indexOf(d.genre)!=-1){
+              && d.profitability > profit_vals[0] && d.profitability < profit_vals[1] && genres.indexOf(d.genre)!=-1 && years.indexOf(d.year)!=-1 ) {
        
             return d;
           }
+
+
           })
+
+          if (newdata.length==0){$('.error').fadeIn(1000);}
+
+
+
           // don't want dots overlapping axis, so add in buffer to data domain
             xScale.domain([d3.min(newdata, function(d) {return d.budget}), d3.max(newdata, function(d) { return d.budget})]);
             yScale.domain([d3.min(newdata, function(d) {return d.rating}), d3.max(newdata, function(d) {return d.rating})]);
@@ -393,7 +410,7 @@ d3.csv("movieData.csv",
                           tooltip.transition()
                             .duration(500)
                             .style("opacity", .9);
-                          tooltip.html("<div><div class='title'><strong>"+d.title+"</strong></div><div class='genre'>Genre:<span class='label'> "+d.genre+"</span></div><div class='rating'>Rating: <span class='label'>"+d.rating+"% </span></div><div class='budget'>Budget: <span class='label'>$"+d.budget+"M</div><div class='profit'>Profitibility: <span class='label'> "+d.profitability+"%</span></div></div>")
+                          tooltip.html("<div><div class='title'><strong>"+d.title+"</strong></div><div class='genre'>Genre:<span class='label'> "+d.genre+"</span></div><div class='year'>Year:<span class='label'> "+d.year+"</span></div><div class='rating'>Rating: <span class='label'>"+d.rating+"% </span></div><div class='budget'>Budget: <span class='label'>$"+d.budget+"M</div><div class='profit'>Profitibility: <span class='label'> "+d.profitability+"%</span></div></div>")
                             .style("left", (d3.event.pageX + 5) + "px")
                             .style("top", (d3.event.pageY - 28) + "px");
                       })
@@ -418,7 +435,7 @@ d3.csv("movieData.csv",
                     tooltip.transition()
                          .duration(500)
                          .style("opacity", .9);
-                    tooltip.html("<div><div class='title'><strong>"+d.title+"</strong></div><div class='genre'>Genre:<span class='label'> "+d.genre+"</span></div><div class='rating'>Rating: <span class='label'>"+d.rating+"% </span></div><div class='budget'>Budget: <span class='label'>$"+d.budget+"M</div><div class='profit'>Profitibility: <span class='label'> "+d.profitability+"%</span></div></div>")
+                  tooltip.html("<div><div class='title'><strong>"+d.title+"</strong></div><div class='genre'>Genre:<span class='label'> "+d.genre+"</span></div><div class='year'>Year:<span class='label'> "+d.year+"</span></div><div class='rating'>Rating: <span class='label'>"+d.rating+"% </span></div><div class='budget'>Budget: <span class='label'>$"+d.budget+"M</div><div class='profit'>Profitibility: <span class='label'> "+d.profitability+"%</span></div></div>")
                          .style("left", (d3.event.pageX + 5) + "px")
                          .style("top", (d3.event.pageY - 28) + "px");
                 })

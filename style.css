@@ -22,7 +22,7 @@ margin-bottom: 10px;
 
 .container{
     margin:0 auto;
-    width:auto;
+    width:1200px;
     
 }
 
@@ -89,11 +89,14 @@ font-weight: 700
   text-align: left;
 }
 
+.years{line-height:32px;}
+
 input[type='checkbox']{
   height:18px;
   width:18px;
 }
 
+circle{cursor: pointer;}
 .text-label{
   border:none;
   background-color: #EEE;
@@ -103,16 +106,24 @@ input[type='checkbox']{
 }
 
 .ui-slider-horizontal {
-  height: .4em;
+  height: .2em;
 }
 
 .ui-widget-header {
-background: #68BDBD;
+background: #7570b3;
+opacity: .6;
 }
 
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
   
-    background: #008080;  
+    background: #7570b3;  
+
+}
+
+.error{text-align:center;
+  position: relative;
+  top:250px;
+  display:none;
 }
 
 
