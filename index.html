@@ -34,7 +34,7 @@
 <div class="slider" id="budget-range"></div>
 
 <p>
-  <label for="profit">Profitibility:</label>
+  <label for="profit">Profitability:</label>
   <input class="text-label"  type="text" id="profit" readonly >
 </p>
 
@@ -267,7 +267,7 @@ svg3.append("g")
       .style("text-anchor", "beginning")
       .text(function(d) { return d; });
 
-
+      //initialized pie charts
       var dataset1 = [
                               { label: 'Domestic', num: 100 }, 
                               { label: 'Foreign', num: 0 },
@@ -318,6 +318,7 @@ $("input:checkbox").change(function() {
    updateGraph();
 });
 
+//filter data based on inputs and update graph
 function updateGraph(){
 
 $('.error').hide(0);
@@ -338,7 +339,7 @@ var years = $('input[name="year"]:checkbox:checked').map(function() {
 //update graph
 d3.csv("movieData.csv",
         function(d) {
-       
+          //define data fields
           return {
             title: d.Film,
             year: d.Year,
@@ -346,8 +347,8 @@ d3.csv("movieData.csv",
             genre: d.Genre,
             budget: +d.Budget,
             profitability: +d.Profitability,
-            domestic: +d.Domestic_Gross,
-            foreign: +d.Foreign_Gross,
+            domestic: +(d.Domestic_Gross.replace(',', '')),
+            foreign: +(d.Foreign_Gross.replace(',', '')),
             world: +(d.Worldwide_Gross.replace(',', '')),
             opening: +d.Opening_Weekend
           };
@@ -367,8 +368,6 @@ d3.csv("movieData.csv",
           })
 
           if (newdata.length==0){$('.error').fadeIn(1000);}
-
-
 
           // don't want dots overlapping axis, so add in buffer to data domain
             xScale.domain([d3.min(newdata, function(d) {return d.budget}), d3.max(newdata, function(d) { return d.budget})]);
@@ -451,7 +450,7 @@ d3.csv("movieData.csv",
                          .style("opacity", 0);
                 })
                 .on("click", function(d) {
-
+                  //update pie charts
                    document.getElementById("pieheader").innerHTML = d.title;
                     var dataset1 = [
                               { label: 'Domestic', num: d.domestic }, 
@@ -487,14 +486,12 @@ d3.csv("movieData.csv",
                             //   .attr("text-anchor", "middle")                          
                             //   .text("Hi");
 
-                            path1.append("g")                                     
-                              .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
-                              .append("svg:text")
-                              //.style("fill", "White")
-                              //.attr("text-anchor", "middle")                          
-                              .text(function(d) { return "Hi"; });
-
-                           
+                            // path1.append("g")                                     
+                            //   .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
+                            //   .append("svg:text")
+                            //   //.style("fill", "White")
+                            //   //.attr("text-anchor", "middle")                          
+                            //   .text(function(d) { return "Hi"; });
 
                             var path2 = svg3.selectAll('path')
                             .data(pie(dataset2));
