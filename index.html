@@ -89,7 +89,7 @@
 <script>
 
 var budget_vals=[0,300];
-var profit_vals=[0,10000];
+var profit_vals=[0,6700];
 var rating_vals=[0,300];
 var years=[2011];
 var genres = ["Action", "Animation", "Comedy", "Drama", "Fantasy", "Horror", "Romance", "Thriller"];
@@ -116,8 +116,8 @@ function makeSlider(slider_div, text_div, values, max, unit){
 }
 
 
-makeSlider("#budget-range", "#budget",budget_vals, 400, 'M');
-makeSlider("#profit-range", "#profit",profit_vals, 8000, '%');
+makeSlider("#budget-range", "#budget",budget_vals, 305, 'M');
+makeSlider("#profit-range", "#profit",profit_vals, 6700, '%');
 makeSlider("#rating-range", "#rating",rating_vals, 100, '%');
 
 //set up margins
@@ -295,7 +295,11 @@ svg3.append("g")
                             .each(function(d) { this._current = d; })
                             .attr('fill', function(d, i) { 
                               return color(d.data.label);
+                            })
+                            .attr('opacity', function(d, i) { 
+                              return .7;
                             });
+
 
                            
 
@@ -310,6 +314,8 @@ svg3.append("g")
                             .each(function(d) { this._current = d; })
                             .attr('fill', function(d, i) { 
                               return color(d.data.label);
+                            }).attr('opacity', function(d, i) { 
+                              return .7;
                             });
 
   updateGraph();          
