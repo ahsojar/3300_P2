@@ -8,11 +8,20 @@ background-color: #eee
 
 h1{
   /*margin-left:50px;*/
-text-transform: uppercase;
+text-transform: ;
 width:100%;
 text-align: center;
-margin-bottom: 0px
+margin-bottom: 10px
 }
+
+.description{
+  width:745px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
 h4{
   text-align: center;
 }
